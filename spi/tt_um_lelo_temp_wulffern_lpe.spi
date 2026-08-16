@@ -1,0 +1,1676 @@
+* NGSPICE file created from tt_um_lelo_temp_wulffern.ext - technology: sky130A
+
+* Replacing the lpe port list (../tech/scripts/fixlpe)
+.subckt tt_um_lelo_temp_wulffern uio_oe<7> uio_oe<6> uio_oe<5> uio_oe<4> uio_oe<3> uio_oe<2> uio_oe<1> uio_oe<0> VDPWR VGND
++ ui_in<7> ui_in<6> ui_in<5> ui_in<4> ui_in<3> ui_in<2> ui_in<1> ui_in<0> uio_in<7> uio_in<6> uio_in<5> uio_in<4> uio_in<3> uio_in<2> uio_in<1> uio_in<0> ena rst_n clk
++ uo_out<7> uo_out<6> uo_out<5> uo_out<4> uo_out<3> uo_out<2> uo_out<1> uo_out<0> uio_out<7> uio_out<6> uio_out<5> uio_out<4> uio_out<3> uio_out<2> uio_out<1> uio_out<0>
+*.subckt tt_um_lelo_temp_wulffern uio_oe<7> uio_oe<6> uio_oe<5> uio_oe<4> uio_oe<3>
+*+ uio_oe<2> uio_oe<1> uio_oe<0> VDPWR VGND ui_in<7> ui_in<6> ui_in<5> ui_in<4> ui_in<3>
+*+ ui_in<2> ui_in<1> ui_in<0> uio_in<7> uio_in<6> uio_in<5> uio_in<4> uio_in<3> uio_in<2>
+*+ uio_in<1> uio_in<0> ena rst_n clk uo_out<7> uo_out<6> uo_out<5> uo_out<4> uo_out<3>
+*+ uo_out<2> uo_out<1> uo_out<0> uio_out<7> uio_out<6> uio_out<5> uio_out<4> uio_out<3>
+*+ uio_out<2> uio_out<1> uio_out<0>
+X0 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xn_load_b.VD2 LELO_TEMP_0.xbias.x1_ibp.xr_lad.VR1 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xp_in_a.VS VDPWR sky130_fd_pr__pfet_01v8_lvt ad=1.2672 pd=4.5 as=2.0352 ps=8.74 w=3.84 l=0.94
+X1 LELO_TEMP_0.xccmp.x3_ccmp.xcmp.x1_cmp.xn_mirr_bias.VBP2 LELO_TEMP_0.xbias.IBP_1U<1> VGND VGND sky130_fd_pr__nfet_01v8 ad=0.3168 pd=1.62 as=0.5088 ps=2.98 w=0.96 l=0.94
+X2 LELO_TEMP_0.xbias.x1_ibp.xp_src.VBD1 LELO_TEMP_0.xbias.x1_ibp.xp_cas.VCP LELO_TEMP_0.xbias.VC VDPWR sky130_fd_pr__pfet_01v8 ad=0.784 pd=4.18 as=0.464 ps=2.18 w=1.6 l=0.22
+X3 VGND LELO_TEMP_0.xbias.IBP_1U<0> sky130_fd_pr__cap_mim_m3_1 l=5 w=5
+X4 LELO_TEMP_0.xbias.x1_ibp.xp_cas.VCP LELO_TEMP_0.xbias.PWRUP_B_1V8 VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=1.2672 pd=4.5 as=2.0352 ps=8.74 w=3.84 l=0.94
+X5 LELO_TEMP_0.xccmp.x2_ccmp.xcmp.x1_cmp.xn_mirr_bias.VBP2 LELO_TEMP_0.xbias.IBP_1U<3> VGND VGND sky130_fd_pr__nfet_01v8 ad=0.3168 pd=1.62 as=0.5088 ps=2.98 w=0.96 l=0.94
+X6 VDPWR VDPWR VDPWR VDPWR sky130_fd_pr__pfet_01v8_lvt ad=2.0352 pd=8.74 as=173.8768 ps=825.47998 w=3.84 l=0.94
+X7 VDPWR VDPWR VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0.848 pd=4.26 as=0 ps=0 w=1.6 l=0.94
+X8 VDPWR LELO_TEMP_0.xccmp.x3_ccmp.xcmp.x1_cmp.xn_mirr_bias.VBP2 LELO_TEMP_0.xant_cmpo_b.A VDPWR sky130_fd_pr__pfet_01v8 ad=0.5088 pd=2.98 as=0.3168 ps=1.62 w=0.96 l=0.94
+X9 VGND LELO_TEMP_0.xbias.IBP_1U<0> sky130_fd_pr__cap_mim_m3_1 l=5 w=5
+X10 LELO_TEMP_0.xdig.x4.B LELO_TEMP_0.xdig.x1.MN0.S VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0.468 pd=2.84 as=0.288 ps=1.54 w=0.9 l=0.16
+X11 VDPWR LELO_TEMP_0.xbias.x1_ibp.LPI LELO_TEMP_0.xbias.x1_ibp.xp_src.IBD<2> VDPWR sky130_fd_pr__pfet_01v8 ad=0.848 pd=4.26 as=0.528 ps=2.26 w=1.6 l=0.94
+X12 VDPWR VDPWR VDPWR VDPWR sky130_fd_pr__pfet_01v8_lvt ad=0.9504 pd=3.54 as=0 ps=0 w=2.88 l=0.94
+X13 VGND LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xn_load_a.VD1 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xn_load_a.VD1 VGND sky130_fd_pr__nfet_01v8 ad=0.848 pd=4.26 as=0.528 ps=2.26 w=1.6 l=0.94
+X14 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xr_deg.xd2<1>.P a_18692_9510# VGND sky130_fd_pr__res_high_po w=0.4 l=8.16
+X15 VDPWR LELO_TEMP_0.xccmp.x2_ccmp.xcmp.x1_cmp.xn_mirr_bias.VBP2 LELO_TEMP_0.xccmp.x2_ccmp.xcmp.x1_cmp.xp_diff.VS VDPWR sky130_fd_pr__pfet_01v8 ad=0.5088 pd=2.98 as=0.3168 ps=1.62 w=0.96 l=0.94
+X16 VDPWR VDPWR VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0.848 pd=4.26 as=0 ps=0 w=1.6 l=0.94
+X17 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xp_in_a.VS LELO_TEMP_0.xbias.x1_ibp.xr_lad.VR1 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xn_load_b.VD2 VDPWR sky130_fd_pr__pfet_01v8_lvt ad=2.0352 pd=8.74 as=1.2672 ps=4.5 w=3.84 l=0.94
+X18 VDPWR LELO_TEMP_0.xbias.x1_ibp.LPI LELO_TEMP_0.xbias.x1_ibp.xp_src.VBD1 VDPWR sky130_fd_pr__pfet_01v8 ad=0.848 pd=4.26 as=0.528 ps=2.26 w=1.6 l=0.94
+X19 VGND LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xn_load_b.VD2 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xn_load_b.VD2 VGND sky130_fd_pr__nfet_01v8 ad=0.848 pd=4.26 as=0.528 ps=2.26 w=1.6 l=0.94
+X20 VDPWR LELO_TEMP_0.xbias.PWRUP_B_1V8 LELO_TEMP_0.xbias.x1_ibp.xp_cas.VCP VDPWR sky130_fd_pr__pfet_01v8 ad=2.0352 pd=8.74 as=1.2672 ps=4.5 w=3.84 l=0.94
+X21 VGND LELO_TEMP_0.xbias.PWRUP_N_1V8 LELO_TEMP_0.xant_cmpo_b.A VGND sky130_fd_pr__nfet_01v8 ad=0.5088 pd=2.98 as=0.3168 ps=1.62 w=0.96 l=0.94
+X22 VDPWR VDPWR VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0.848 pd=4.26 as=0 ps=0 w=1.6 l=0.94
+X23 VGND LELO_TEMP_0.xbias.IBP_1U<3> LELO_TEMP_0.xccmp.x2_ccmp.xcmp.x1_cmp.xn_mirr_bias.VBP2 VGND sky130_fd_pr__nfet_01v8 ad=0.5088 pd=2.98 as=0.3168 ps=1.62 w=0.96 l=0.94
+X24 VDPWR VDPWR VDPWR VDPWR sky130_fd_pr__pfet_01v8_lvt ad=0.9504 pd=3.54 as=0 ps=0 w=2.88 l=0.94
+R0 uio_oe<5> VGND sky130_fd_pr__res_generic_m4 w=0.3 l=0.3
+X25 VDPWR VDPWR VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0.528 pd=2.26 as=0 ps=0 w=1.6 l=0.94
+X26 VDPWR VDPWR VDPWR VDPWR sky130_fd_pr__pfet_01v8_lvt ad=1.5264 pd=6.82 as=0 ps=0 w=2.88 l=0.94
+X27 LELO_TEMP_0.xbias.VC LELO_TEMP_0.xbias.x1_ibp.xp_cas.VCP LELO_TEMP_0.xbias.x1_ibp.xp_src.VBD1 VDPWR sky130_fd_pr__pfet_01v8 ad=0.464 pd=2.18 as=0.784 ps=4.18 w=1.6 l=0.22
+X28 LELO_TEMP_0.xbias.x1_ibp.xp_src.VBD1 LELO_TEMP_0.xbias.x1_ibp.LPI VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0.528 pd=2.26 as=0.848 ps=4.26 w=1.6 l=0.94
+X29 VGND VGND VGND VGND sky130_fd_pr__nfet_01v8 ad=0.5088 pd=2.98 as=126.0984 ps=694.40002 w=0.96 l=0.94
+X30 VGND LELO_TEMP_0.xbias.PWRUP_N_1V8 LELO_TEMP_0.xccmp.x2_ccmp.xcmp.x1_cmp.xn_mirr_load.VBN1 VGND sky130_fd_pr__nfet_01v8 ad=0.5088 pd=2.98 as=0.3168 ps=1.62 w=0.96 l=0.94
+X31 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xn_mirr.VD3 LELO_TEMP_0.xbias.VC LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xp_in_a.VS VDPWR sky130_fd_pr__pfet_01v8_lvt ad=1.2672 pd=4.5 as=2.0352 ps=8.74 w=3.84 l=0.94
+X32 VDPWR VDPWR VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0.5088 pd=2.98 as=0 ps=0 w=0.96 l=0.94
+X33 VDPWR VDPWR VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0.3168 pd=1.62 as=0 ps=0 w=0.96 l=0.94
+X34 LELO_TEMP_0.xbias.x1_ibp.xp_cas.VCP LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xn_mirr.VD3 VGND VGND sky130_fd_pr__nfet_01v8 ad=0.528 pd=2.26 as=0.848 ps=4.26 w=1.6 l=0.94
+X35 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xn_load_a.VD1 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xn_load_a.VD1 VGND VGND sky130_fd_pr__nfet_01v8 ad=0.528 pd=2.26 as=0.848 ps=4.26 w=1.6 l=0.94
+X36 LELO_TEMP_0.xbias.PWRUP_B_1V8 LELO_TEMP_0.xbias.PWRUP_N_1V8 VGND VGND sky130_fd_pr__nfet_01v8 ad=0.468 pd=2.84 as=0.468 ps=2.84 w=0.9 l=0.16
+X37 LELO_TEMP_0.xbias.x1_ibp.xr_lad.VR1 a_9070_5450# VGND sky130_fd_pr__res_high_po w=0.4 l=8.16
+X38 VDPWR LELO_TEMP_0.xbias.x1_ibp.LPI sky130_fd_pr__cap_mim_m3_1 l=5 w=4.8
+X39 LELO_TEMP_0.xdig.x4.MP1.S LELO_TEMP_0.xccmp.RST_B VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0.288 pd=1.54 as=0.468 ps=2.84 w=0.9 l=0.16
+X40 VDPWR VDPWR VDPWR VDPWR sky130_fd_pr__pfet_01v8_lvt ad=1.5264 pd=6.82 as=0 ps=0 w=2.88 l=0.94
+X41 VGND VGND LELO_TEMP_0.xbias.x1_ibp.xr_lad.VD2 sky130_fd_pr__pnp_05v5_W3p40L3p40
+**devattr s=462400,2720
+X42 LELO_TEMP_0.xbias.x1_ibp.xp_su.xsu2.S LELO_TEMP_0.xbias.VC LELO_TEMP_0.xbias.VC VDPWR sky130_fd_pr__pfet_01v8 ad=0.5088 pd=2.98 as=0.3168 ps=1.62 w=0.96 l=0.94
+X43 LELO_TEMP_0.xbias.x1_ibp.xp_src.VBD1 LELO_TEMP_0.xbias.x1_ibp.xp_cas.VCP LELO_TEMP_0.xbias.VC VDPWR sky130_fd_pr__pfet_01v8 ad=0.784 pd=4.18 as=0.464 ps=2.18 w=1.6 l=0.22
+X44 LELO_TEMP_0.xccmp.x2_ccmp.xcmp.x1_cmp.xn_mirr_bias.VBP2 LELO_TEMP_0.xbias.IBP_1U<3> VGND VGND sky130_fd_pr__nfet_01v8 ad=0.3168 pd=1.62 as=0.5088 ps=2.98 w=0.96 l=0.94
+X45 VDPWR LELO_TEMP_0.xbias.x1_ibp.LPI sky130_fd_pr__cap_mim_m3_1 l=5 w=4.8
+X46 VDPWR LELO_TEMP_0.xbias.x1_ibp.LPI sky130_fd_pr__cap_mim_m3_1 l=5 w=4.8
+X47 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xp_in_a.VS LELO_TEMP_0.xbias.VC LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xn_load_a.VD1 VDPWR sky130_fd_pr__pfet_01v8_lvt ad=2.0352 pd=8.74 as=1.2672 ps=4.5 w=3.84 l=0.94
+X48 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xp_sw.xbs7.S LELO_TEMP_0.xbias.x1_ibp.xp_cas.VCP LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xp_sw.xbs4.S VDPWR sky130_fd_pr__pfet_01v8 ad=0.464 pd=2.18 as=0.784 ps=4.18 w=1.6 l=0.22
+X49 LELO_TEMP_0.xbias.IBP_1U<1> LELO_TEMP_0.xbias.PWRUP_N_1V8 VGND VGND sky130_fd_pr__nfet_01v8 ad=0.3168 pd=1.62 as=0.5088 ps=2.98 w=0.96 l=0.94
+X50 VGND LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xn_load_a.VD1 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xn_load_a.VBP VGND sky130_fd_pr__nfet_01v8 ad=0.848 pd=4.26 as=0.528 ps=2.26 w=1.6 l=0.94
+X51 uo_out<0> LELO_TEMP_0.xdig.x5.MN0.S VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0.468 pd=2.84 as=0.288 ps=1.54 w=0.9 l=0.16
+X52 LELO_TEMP_0.xccmp.x2_ccmp.xcmp.x1_cmp.xn_mirr_bias.VBP2 LELO_TEMP_0.xccmp.x2_ccmp.xcmp.x1_cmp.xn_mirr_bias.VBP2 VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0.3168 pd=1.62 as=0.5088 ps=2.98 w=0.96 l=0.94
+X53 LELO_TEMP_0.xbias.x1_ibp.xr_lad.VD2 LELO_TEMP_0.xbias.x1_ibp.xr_lad.VR1 LELO_TEMP_0.xbias.x1_ibp.xr_lad.VR1 VGND sky130_fd_pr__nfet_01v8 ad=0.848 pd=4.26 as=0.528 ps=2.26 w=1.6 l=0.94
+X54 VDPWR VDPWR VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0.3168 pd=1.62 as=0 ps=0 w=0.96 l=0.94
+X55 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xp_bias.VDS LELO_TEMP_0.xbias.PWRUP_N_1V8 VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=1.2672 pd=4.5 as=2.0352 ps=8.74 w=3.84 l=0.94
+X56 LELO_TEMP_0.xbias.IBP_1U<0> LELO_TEMP_0.xbias.PWRUP_N_1V8 VGND VGND sky130_fd_pr__nfet_01v8 ad=0.3168 pd=1.62 as=0.5088 ps=2.98 w=0.96 l=0.94
+X57 LELO_TEMP_0.xbias.IBP_1U<2> LELO_TEMP_0.xccmp.RST_B VGND VGND sky130_fd_pr__nfet_01v8 ad=0.3168 pd=1.62 as=0.5088 ps=2.98 w=0.96 l=0.94
+X58 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xn_load_b.VD2 LELO_TEMP_0.xbias.x1_ibp.xr_lad.VR1 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xp_in_a.VS VDPWR sky130_fd_pr__pfet_01v8_lvt ad=1.2672 pd=4.5 as=2.0352 ps=8.74 w=3.84 l=0.94
+X59 LELO_TEMP_0.xbias.x1_ibp.xp_src.VBD2 LELO_TEMP_0.xbias.x1_ibp.LPI VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0.528 pd=2.26 as=0.848 ps=4.26 w=1.6 l=0.94
+X60 VDPWR LELO_TEMP_0.xbias.PWRUP_B_1V8 LELO_TEMP_0.xccmp.x3_ccmp.xcmp.x1_cmp.xn_mirr_bias.VBP2 VDPWR sky130_fd_pr__pfet_01v8 ad=0.5088 pd=2.98 as=0.3168 ps=1.62 w=0.96 l=0.94
+X61 VGND LELO_TEMP_0.xbias.IBP_1U<3> LELO_TEMP_0.xccmp.x2_ccmp.xcmp.x1_cmp.xn_mirr_bias.VBP2 VGND sky130_fd_pr__nfet_01v8 ad=0.5088 pd=2.98 as=0.3168 ps=1.62 w=0.96 l=0.94
+X62 VDPWR LELO_TEMP_0.xbias.x1_ibp.LPI sky130_fd_pr__cap_mim_m3_1 l=5 w=4.8
+X63 VGND LELO_TEMP_0.xbias.IBP_1U<1> LELO_TEMP_0.xbias.IBP_1U<1> VGND sky130_fd_pr__nfet_01v8 ad=0.5088 pd=2.98 as=0.3168 ps=1.62 w=0.96 l=0.94
+X64 VDPWR LELO_TEMP_0.xbias.x1_ibp.LPI LELO_TEMP_0.xbias.x1_ibp.xp_src.VBD1 VDPWR sky130_fd_pr__pfet_01v8 ad=0.848 pd=4.26 as=0.528 ps=2.26 w=1.6 l=0.94
+X65 VDPWR VDPWR VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0.848 pd=4.26 as=0 ps=0 w=1.6 l=0.94
+X66 LELO_TEMP_0.xbias.x1_ibp.xr_lad.VR1 LELO_TEMP_0.xbias.x1_ibp.xp_cas.VCP LELO_TEMP_0.xbias.x1_ibp.xp_src.VBD2 VDPWR sky130_fd_pr__pfet_01v8 ad=0.464 pd=2.18 as=0.784 ps=4.18 w=1.6 l=0.22
+X67 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xn_load_b.VD2 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xn_load_b.VD2 VGND VGND sky130_fd_pr__nfet_01v8 ad=0.528 pd=2.26 as=0.848 ps=4.26 w=1.6 l=0.94
+X68 VGND LELO_TEMP_0.xbias.PWRUP_N_1V8 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xn_load_b.VD2 VGND sky130_fd_pr__nfet_01v8 ad=0.848 pd=4.26 as=0.528 ps=2.26 w=1.6 l=0.94
+X69 VDPWR LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xn_load_a.VBP LELO_TEMP_0.xbias.x1_ibp.LPI VDPWR sky130_fd_pr__pfet_01v8 ad=2.0352 pd=8.74 as=1.2672 ps=4.5 w=3.84 l=0.94
+X70 VGND LELO_TEMP_0.xccmp.RST_A LELO_TEMP_0.xbias.IBP_1U<0> VGND sky130_fd_pr__nfet_01v8 ad=0.5088 pd=2.98 as=0.3168 ps=1.62 w=0.96 l=0.94
+X71 LELO_TEMP_0.xccmp.x3_ccmp.xcmp.x1_cmp.xn_mirr_load.VBN1 LELO_TEMP_0.xbias.VC LELO_TEMP_0.xccmp.x3_ccmp.xcmp.x1_cmp.xp_diff.VS VDPWR sky130_fd_pr__pfet_01v8_lvt ad=0.9504 pd=3.54 as=1.5264 ps=6.82 w=2.88 l=0.94
+X72 VGND LELO_TEMP_0.xbias.PWRUP_N_1V8 LELO_TEMP_0.xbias.IBP_1U<2> VGND sky130_fd_pr__nfet_01v8 ad=0.5088 pd=2.98 as=0.3168 ps=1.62 w=0.96 l=0.94
+X73 VDPWR LELO_TEMP_0.xbias.PWRUP_B_1V8 LELO_TEMP_0.xccmp.x2_ccmp.xcmp.x1_cmp.xn_mirr_bias.VBP2 VDPWR sky130_fd_pr__pfet_01v8 ad=0.5088 pd=2.98 as=0.3168 ps=1.62 w=0.96 l=0.94
+X74 VDPWR VDPWR VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0.848 pd=4.26 as=0 ps=0 w=1.6 l=0.94
+X75 VGND LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xn_mirr.VD3 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xn_mirr.VD3 VGND sky130_fd_pr__nfet_01v8 ad=0.848 pd=4.26 as=0.528 ps=2.26 w=1.6 l=0.94
+X76 VDPWR LELO_TEMP_0.xbias.x1_ibp.LPI LELO_TEMP_0.xbias.x1_ibp.xp_src.VBD1 VDPWR sky130_fd_pr__pfet_01v8 ad=0.848 pd=4.26 as=0.528 ps=2.26 w=1.6 l=0.94
+X77 VGND LELO_TEMP_0.xccmp.RST_A LELO_TEMP_0.xccmp.RST_B VGND sky130_fd_pr__nfet_01v8 ad=0.468 pd=2.84 as=0.288 ps=1.54 w=0.9 l=0.16
+X78 LELO_TEMP_0.xbias.x1_ibp.xr_lad.xd3<0>.N a_9070_2250# VGND sky130_fd_pr__res_high_po w=0.4 l=8.16
+X79 VGND VGND LELO_TEMP_0.xbias.x1_ibp.xr_lad.VD2 sky130_fd_pr__pnp_05v5_W3p40L3p40
+**devattr s=462400,2720
+X80 LELO_TEMP_0.xbias.IBP_1U<3> LELO_TEMP_0.xbias.x1_ibp.xp_cas.VCP LELO_TEMP_0.xbias.x1_ibp.xp_src.IBD<3> VDPWR sky130_fd_pr__pfet_01v8 ad=0.464 pd=2.18 as=0.784 ps=4.18 w=1.6 l=0.22
+X81 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xn_load_a.VD1 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xn_load_a.VD1 VGND VGND sky130_fd_pr__nfet_01v8 ad=0.528 pd=2.26 as=0.848 ps=4.26 w=1.6 l=0.94
+X82 LELO_TEMP_0.xccmp.x3_ccmp.xcmp.x1_cmp.xn_mirr_bias.VBP2 LELO_TEMP_0.xccmp.x3_ccmp.xcmp.x1_cmp.xn_mirr_bias.VBP2 VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0.3168 pd=1.62 as=0.5088 ps=2.98 w=0.96 l=0.94
+X83 LELO_TEMP_0.xbias.x1_ibp.xp_src.VBD1 LELO_TEMP_0.xbias.x1_ibp.LPI VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0.528 pd=2.26 as=0.848 ps=4.26 w=1.6 l=0.94
+X84 VDPWR VDPWR VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0.528 pd=2.26 as=0 ps=0 w=1.6 l=0.94
+X85 LELO_TEMP_0.xccmp.x3_ccmp.xcmp.x1_cmp.xp_diff.VS LELO_TEMP_0.xbias.IBP_1U<0> LELO_TEMP_0.xccmp.x3_ccmp.xcmp.x1_cmp.xn_mirr_load.VO1 VDPWR sky130_fd_pr__pfet_01v8_lvt ad=1.5264 pd=6.82 as=0.9504 ps=3.54 w=2.88 l=0.94
+X86 LELO_TEMP_0.xccmp.x2_ccmp.xcmp.x1_cmp.xp_diff.VS LELO_TEMP_0.xbias.IBP_1U<2> LELO_TEMP_0.xccmp.x2_ccmp.xcmp.x1_cmp.xn_mirr_load.VO1 VDPWR sky130_fd_pr__pfet_01v8_lvt ad=1.5264 pd=6.82 as=0.9504 ps=3.54 w=2.88 l=0.94
+X87 LELO_TEMP_0.xbias.x1_ibp.xr_lad.xd3<0>.N a_9070_1450# VGND sky130_fd_pr__res_high_po w=0.4 l=8.16
+X88 LELO_TEMP_0.xbias.VC LELO_TEMP_0.xbias.x1_ibp.xp_cas.VCP LELO_TEMP_0.xbias.x1_ibp.xp_src.VBD1 VDPWR sky130_fd_pr__pfet_01v8 ad=0.464 pd=2.18 as=0.784 ps=4.18 w=1.6 l=0.22
+X89 LELO_TEMP_0.xdig.x7.XA2.A LELO_TEMP_0.xbias.PWRUP_N_1V8 LELO_TEMP_0.xdig.x7.XA1.MP1.S VDPWR sky130_fd_pr__pfet_01v8 ad=0.468 pd=2.84 as=0.288 ps=1.54 w=0.9 l=0.16
+X90 VDPWR VDPWR VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0.5088 pd=2.98 as=0 ps=0 w=0.96 l=0.94
+X91 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xn_load_a.VD1 LELO_TEMP_0.xbias.VC LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xp_in_a.VS VDPWR sky130_fd_pr__pfet_01v8_lvt ad=1.2672 pd=4.5 as=2.0352 ps=8.74 w=3.84 l=0.94
+X92 LELO_TEMP_0.xbias.x1_ibp.xp_src.IBD<2> LELO_TEMP_0.xbias.x1_ibp.xp_cas.VCP LELO_TEMP_0.xbias.IBP_1U<2> VDPWR sky130_fd_pr__pfet_01v8 ad=0.784 pd=4.18 as=0.464 ps=2.18 w=1.6 l=0.22
+X93 LELO_TEMP_0.xbias.x1_ibp.xp_su.xsu2.S LELO_TEMP_0.xbias.x1_ibp.xp_su.xsu2.S VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0.3168 pd=1.62 as=0.5088 ps=2.98 w=0.96 l=0.94
+X94 LELO_TEMP_0.xbias.x1_ibp.xp_src.VBD1 LELO_TEMP_0.xbias.x1_ibp.xp_cas.VCP LELO_TEMP_0.xbias.VC VDPWR sky130_fd_pr__pfet_01v8 ad=0.784 pd=4.18 as=0.464 ps=2.18 w=1.6 l=0.22
+X95 VDPWR LELO_TEMP_0.xccmp.x3_ccmp.xcmp.x1_cmp.xn_mirr_bias.VBP2 LELO_TEMP_0.xccmp.x3_ccmp.xcmp.x1_cmp.xp_diff.VS VDPWR sky130_fd_pr__pfet_01v8 ad=0.5088 pd=2.98 as=0.3168 ps=1.62 w=0.96 l=0.94
+X96 LELO_TEMP_0.xbias.x1_ibp.xp_src.IBD<1> LELO_TEMP_0.xbias.x1_ibp.LPI VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0.528 pd=2.26 as=0.848 ps=4.26 w=1.6 l=0.94
+X97 LELO_TEMP_0.xbias.IBP_1U<3> LELO_TEMP_0.xbias.IBP_1U<3> VGND VGND sky130_fd_pr__nfet_01v8 ad=0.3168 pd=1.62 as=0.5088 ps=2.98 w=0.96 l=0.94
+X98 VDPWR LELO_TEMP_0.xbias.x1_ibp.xp_cas.VCP LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xp_sw.xbs1.S VDPWR sky130_fd_pr__pfet_01v8 ad=0.784 pd=4.18 as=0.464 ps=2.18 w=1.6 l=0.22
+X99 VDPWR VDPWR VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0.3168 pd=1.62 as=0 ps=0 w=0.96 l=0.94
+X100 LELO_TEMP_0.xbias.IBP_1U<1> LELO_TEMP_0.xbias.x1_ibp.xp_cas.VCP LELO_TEMP_0.xbias.x1_ibp.xp_src.IBD<1> VDPWR sky130_fd_pr__pfet_01v8 ad=0.464 pd=2.18 as=0.784 ps=4.18 w=1.6 l=0.22
+X101 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xr_deg.xd2<1>.P a_18692_8710# VGND sky130_fd_pr__res_high_po w=0.4 l=8.16
+X102 VGND LELO_TEMP_0.xbias.IBP_1U<2> sky130_fd_pr__cap_mim_m3_1 l=5 w=5
+X103 LELO_TEMP_0.xant_cmpo_a.A LELO_TEMP_0.xbias.PWRUP_N_1V8 VGND VGND sky130_fd_pr__nfet_01v8 ad=0.3168 pd=1.62 as=0.5088 ps=2.98 w=0.96 l=0.94
+X104 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xp_in_a.VS LELO_TEMP_0.xbias.VC LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xn_load_a.VD1 VDPWR sky130_fd_pr__pfet_01v8_lvt ad=2.0352 pd=8.74 as=1.2672 ps=4.5 w=3.84 l=0.94
+X105 LELO_TEMP_0.xccmp.x3_ccmp.xcmp.x1_cmp.xn_mirr_bias.VBP2 LELO_TEMP_0.xbias.IBP_1U<1> VGND VGND sky130_fd_pr__nfet_01v8 ad=0.3168 pd=1.62 as=0.5088 ps=2.98 w=0.96 l=0.94
+X106 VGND LELO_TEMP_0.xbias.IBP_1U<2> sky130_fd_pr__cap_mim_m3_1 l=5 w=5
+X107 LELO_TEMP_0.xbias.PWRUP_N_1V8 ui_in<0> VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0.468 pd=2.84 as=0.468 ps=2.84 w=0.9 l=0.16
+X108 VGND LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xn_load_a.VD1 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xn_load_a.VD1 VGND sky130_fd_pr__nfet_01v8 ad=0.848 pd=4.26 as=0.528 ps=2.26 w=1.6 l=0.94
+X109 LELO_TEMP_0.xccmp.x2_ccmp.xcmp.x1_cmp.xn_mirr_load.VBN1 LELO_TEMP_0.xbias.VC LELO_TEMP_0.xccmp.x2_ccmp.xcmp.x1_cmp.xp_diff.VS VDPWR sky130_fd_pr__pfet_01v8_lvt ad=0.9504 pd=3.54 as=1.5264 ps=6.82 w=2.88 l=0.94
+X110 LELO_TEMP_0.xbias.x1_ibp.LPI LELO_TEMP_0.xbias.PWRUP_B_1V8 VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=1.2672 pd=4.5 as=2.0352 ps=8.74 w=3.84 l=0.94
+X111 LELO_TEMP_0.xccmp.x3_ccmp.xcmp.x1_cmp.xn_mirr_load.VBN1 LELO_TEMP_0.xbias.PWRUP_N_1V8 VGND VGND sky130_fd_pr__nfet_01v8 ad=0.3168 pd=1.62 as=0.5088 ps=2.98 w=0.96 l=0.94
+X112 VGND VGND VGND VGND sky130_fd_pr__nfet_01v8 ad=0.3168 pd=1.62 as=0 ps=0 w=0.96 l=0.94
+X113 VGND VGND VGND VGND sky130_fd_pr__nfet_01v8 ad=0.468 pd=2.84 as=0 ps=0 w=0.9 l=0.16
+X114 VGND LELO_TEMP_0.xbias.PWRUP_N_1V8 LELO_TEMP_0.xbias.IBP_1U<3> VGND sky130_fd_pr__nfet_01v8 ad=0.5088 pd=2.98 as=0.3168 ps=1.62 w=0.96 l=0.94
+X115 LELO_TEMP_0.xbias.x1_ibp.xr_lad.xd3<2>.N a_9070_3850# VGND sky130_fd_pr__res_high_po w=0.4 l=8.16
+X116 VGND LELO_TEMP_0.xdig.x4.B LELO_TEMP_0.xccmp.RST_A VGND sky130_fd_pr__nfet_01v8 ad=0.468 pd=2.84 as=0.288 ps=1.54 w=0.9 l=0.16
+X117 VGND LELO_TEMP_0.xccmp.x2_ccmp.xcmp.x1_cmp.xn_mirr_load.VO1 LELO_TEMP_0.xant_cmpo_a.A VGND sky130_fd_pr__nfet_01v8 ad=0.4704 pd=2.9 as=0.2784 ps=1.54 w=0.96 l=0.22
+X118 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xn_mirr.VD3 LELO_TEMP_0.xbias.PWRUP_N_1V8 VGND VGND sky130_fd_pr__nfet_01v8 ad=0.528 pd=2.26 as=0.848 ps=4.26 w=1.6 l=0.94
+X119 VDPWR LELO_TEMP_0.xccmp.x2_ccmp.xcmp.x1_cmp.xn_mirr_bias.VBP2 LELO_TEMP_0.xant_cmpo_a.A VDPWR sky130_fd_pr__pfet_01v8 ad=0.5088 pd=2.98 as=0.3168 ps=1.62 w=0.96 l=0.94
+X120 VDPWR VDPWR VDPWR VDPWR sky130_fd_pr__pfet_01v8_lvt ad=2.0352 pd=8.74 as=0 ps=0 w=3.84 l=0.94
+X121 VGND LELO_TEMP_0.xbias.IBP_1U<1> LELO_TEMP_0.xccmp.x3_ccmp.xcmp.x1_cmp.xn_mirr_bias.VBP2 VGND sky130_fd_pr__nfet_01v8 ad=0.5088 pd=2.98 as=0.3168 ps=1.62 w=0.96 l=0.94
+X122 VDPWR VDPWR VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0.848 pd=4.26 as=0 ps=0 w=1.6 l=0.94
+X123 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xn_load_a.VD1 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xn_load_a.VD1 VGND VGND sky130_fd_pr__nfet_01v8 ad=0.528 pd=2.26 as=0.848 ps=4.26 w=1.6 l=0.94
+X124 VDPWR VDPWR VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0.528 pd=2.26 as=0 ps=0 w=1.6 l=0.94
+X125 VDPWR LELO_TEMP_0.xbias.x1_ibp.LPI LELO_TEMP_0.xbias.x1_ibp.xp_src.VBD1 VDPWR sky130_fd_pr__pfet_01v8 ad=0.848 pd=4.26 as=0.528 ps=2.26 w=1.6 l=0.94
+X126 LELO_TEMP_0.xbias.x1_ibp.LPI LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xn_load_b.VD2 VGND VGND sky130_fd_pr__nfet_01v8 ad=0.528 pd=2.26 as=0.848 ps=4.26 w=1.6 l=0.94
+R1 uio_oe<4> VGND sky130_fd_pr__res_generic_m4 w=0.3 l=0.3
+X127 LELO_TEMP_0.xbias.x1_ibp.xp_src.VBD1 LELO_TEMP_0.xbias.x1_ibp.LPI VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0.528 pd=2.26 as=0.848 ps=4.26 w=1.6 l=0.94
+X128 VDPWR LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xn_load_a.VBP LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xn_load_a.VBP VDPWR sky130_fd_pr__pfet_01v8 ad=2.0352 pd=8.74 as=1.2672 ps=4.5 w=3.84 l=0.94
+X129 VGND LELO_TEMP_0.xccmp.x3_ccmp.xcmp.x1_cmp.xn_mirr_load.VBN1 LELO_TEMP_0.xccmp.x3_ccmp.xcmp.x1_cmp.xn_mirr_load.VBN1 VGND sky130_fd_pr__nfet_01v8 ad=0.5088 pd=2.98 as=0.3168 ps=1.62 w=0.96 l=0.94
+X130 VGND LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xn_mirr.VD3 LELO_TEMP_0.xbias.x1_ibp.xp_cas.VCP VGND sky130_fd_pr__nfet_01v8 ad=0.848 pd=4.26 as=0.528 ps=2.26 w=1.6 l=0.94
+X131 LELO_TEMP_0.xccmp.RST_B LELO_TEMP_0.xdig.x7.Y VGND VGND sky130_fd_pr__nfet_01v8 ad=0.288 pd=1.54 as=0.468 ps=2.84 w=0.9 l=0.16
+X132 VGND VGND LELO_TEMP_0.xbias.x1_ibp.xr_lad.VD2 sky130_fd_pr__pnp_05v5_W3p40L3p40
+**devattr s=462400,2720
+X133 VDPWR VDPWR VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0.5088 pd=2.98 as=0 ps=0 w=0.96 l=0.94
+X134 VDPWR VDPWR VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0.528 pd=2.26 as=0 ps=0 w=1.6 l=0.94
+X135 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xn_load_a.VD1 LELO_TEMP_0.xbias.VC LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xp_in_a.VS VDPWR sky130_fd_pr__pfet_01v8_lvt ad=1.2672 pd=4.5 as=2.0352 ps=8.74 w=3.84 l=0.94
+X136 VDPWR VDPWR VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0.5088 pd=2.98 as=0 ps=0 w=0.96 l=0.94
+X137 LELO_TEMP_0.xbias.x1_ibp.xp_src.IBD<0> LELO_TEMP_0.xbias.x1_ibp.xp_cas.VCP LELO_TEMP_0.xbias.IBP_1U<0> VDPWR sky130_fd_pr__pfet_01v8 ad=0.784 pd=4.18 as=0.464 ps=2.18 w=1.6 l=0.22
+X138 VDPWR VDPWR VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0.528 pd=2.26 as=0 ps=0 w=1.6 l=0.94
+X139 VDPWR VDPWR VDPWR VDPWR sky130_fd_pr__pfet_01v8_lvt ad=1.5264 pd=6.82 as=0 ps=0 w=2.88 l=0.94
+X140 LELO_TEMP_0.xbias.VC LELO_TEMP_0.xbias.x1_ibp.xp_cas.VCP LELO_TEMP_0.xbias.x1_ibp.xp_src.VBD1 VDPWR sky130_fd_pr__pfet_01v8 ad=0.464 pd=2.18 as=0.784 ps=4.18 w=1.6 l=0.22
+X141 LELO_TEMP_0.xbias.x1_ibp.xp_src.IBD<3> LELO_TEMP_0.xbias.x1_ibp.LPI VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0.528 pd=2.26 as=0.848 ps=4.26 w=1.6 l=0.94
+X142 VDPWR LELO_TEMP_0.xbias.x1_ibp.LPI LELO_TEMP_0.xbias.x1_ibp.xp_src.VBD2 VDPWR sky130_fd_pr__pfet_01v8 ad=0.848 pd=4.26 as=0.528 ps=2.26 w=1.6 l=0.94
+X143 LELO_TEMP_0.xccmp.x3_ccmp.xcmp.x1_cmp.xp_diff.VS LELO_TEMP_0.xccmp.x3_ccmp.xcmp.x1_cmp.xn_mirr_bias.VBP2 VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0.3168 pd=1.62 as=0.5088 ps=2.98 w=0.96 l=0.94
+X144 LELO_TEMP_0.xdig.x7.XA1.MP1.S LELO_TEMP_0.xant_cmpo_b.A VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0.288 pd=1.54 as=0.468 ps=2.84 w=0.9 l=0.16
+X145 LELO_TEMP_0.xdig.x4.B LELO_TEMP_0.xdig.x1.MN0.S VGND VGND sky130_fd_pr__nfet_01v8 ad=0.468 pd=2.84 as=0.288 ps=1.54 w=0.9 l=0.16
+X146 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xp_sw.xbs2.S LELO_TEMP_0.xbias.x1_ibp.xp_cas.VCP LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xp_sw.xbs4.S VDPWR sky130_fd_pr__pfet_01v8 ad=0.784 pd=4.18 as=0.464 ps=2.18 w=1.6 l=0.22
+X147 VDPWR VDPWR VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0.3168 pd=1.62 as=0 ps=0 w=0.96 l=0.94
+X148 VDPWR VDPWR VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0.5088 pd=2.98 as=0 ps=0 w=0.96 l=0.94
+X149 LELO_TEMP_0.xbias.x1_ibp.xr_lad.xd3<2>.N a_9070_3050# VGND sky130_fd_pr__res_high_po w=0.4 l=8.16
+X150 VGND LELO_TEMP_0.xbias.IBP_1U<2> sky130_fd_pr__cap_mim_m3_1 l=5 w=5
+X151 VGND LELO_TEMP_0.xant_cmpo_b.A sky130_fd_pr__diode_pw2nd_05v5 perim=1.8e+06 area=2.025e+11
+X152 LELO_TEMP_0.xccmp.x2_ccmp.xcmp.x1_cmp.xp_diff.VS LELO_TEMP_0.xccmp.x2_ccmp.xcmp.x1_cmp.xn_mirr_bias.VBP2 VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0.3168 pd=1.62 as=0.5088 ps=2.98 w=0.96 l=0.94
+X153 VDPWR VDPWR VDPWR VDPWR sky130_fd_pr__pfet_01v8_lvt ad=1.5264 pd=6.82 as=0 ps=0 w=2.88 l=0.94
+X154 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xn_mirr.VD3 LELO_TEMP_0.xbias.x1_ibp.xr_lad.VR1 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xp_in_a.VS VDPWR sky130_fd_pr__pfet_01v8_lvt ad=1.2672 pd=4.5 as=2.0352 ps=8.74 w=3.84 l=0.94
+X155 VDPWR LELO_TEMP_0.xant_cmpo_a.A LELO_TEMP_0.xdig.x1.MN0.S VDPWR sky130_fd_pr__pfet_01v8 ad=0.288 pd=1.54 as=0.468 ps=2.84 w=0.9 l=0.16
+X156 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xp_in_a.VS LELO_TEMP_0.xbias.VC LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xn_load_a.VD1 VDPWR sky130_fd_pr__pfet_01v8_lvt ad=2.0352 pd=8.74 as=1.2672 ps=4.5 w=3.84 l=0.94
+X157 LELO_TEMP_0.xbias.x1_ibp.xp_src.VBD1 LELO_TEMP_0.xbias.x1_ibp.xp_cas.VCP LELO_TEMP_0.xbias.VC VDPWR sky130_fd_pr__pfet_01v8 ad=0.784 pd=4.18 as=0.464 ps=2.18 w=1.6 l=0.22
+X158 VDPWR LELO_TEMP_0.xbias.x1_ibp.LPI sky130_fd_pr__cap_mim_m3_1 l=5 w=4.8
+X159 LELO_TEMP_0.xccmp.x3_ccmp.xcmp.x1_cmp.xn_mirr_load.VO1 LELO_TEMP_0.xccmp.x3_ccmp.xcmp.x1_cmp.xn_mirr_load.VBN1 VGND VGND sky130_fd_pr__nfet_01v8 ad=0.3168 pd=1.62 as=0.5088 ps=2.98 w=0.96 l=0.94
+X160 LELO_TEMP_0.xbias.x1_ibp.xp_src.VBD1 LELO_TEMP_0.xbias.x1_ibp.xp_cas.VCP LELO_TEMP_0.xbias.VC VDPWR sky130_fd_pr__pfet_01v8 ad=0.784 pd=4.18 as=0.464 ps=2.18 w=1.6 l=0.22
+X161 VDPWR LELO_TEMP_0.xccmp.x3_ccmp.xcmp.x1_cmp.xn_mirr_bias.VBP2 LELO_TEMP_0.xccmp.x3_ccmp.xcmp.x1_cmp.xp_diff.VS VDPWR sky130_fd_pr__pfet_01v8 ad=0.5088 pd=2.98 as=0.3168 ps=1.62 w=0.96 l=0.94
+X162 VDPWR LELO_TEMP_0.xbias.x1_ibp.xp_cas.VCP sky130_fd_pr__cap_mim_m3_1 l=5 w=4.8
+X163 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xp_sw.xbs1.S LELO_TEMP_0.xbias.x1_ibp.xp_cas.VCP VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0.464 pd=2.18 as=0.784 ps=4.18 w=1.6 l=0.22
+X164 VGND LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xn_load_a.VD1 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xn_load_a.VD1 VGND sky130_fd_pr__nfet_01v8 ad=0.848 pd=4.26 as=0.528 ps=2.26 w=1.6 l=0.94
+X165 VDPWR VDPWR VDPWR VDPWR sky130_fd_pr__pfet_01v8_lvt ad=0.9504 pd=3.54 as=0 ps=0 w=2.88 l=0.94
+X166 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xp_in_a.VS a_18692_8710# VGND sky130_fd_pr__res_high_po w=0.4 l=8.16
+X167 VDPWR VDPWR VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0.848 pd=4.26 as=0 ps=0 w=1.6 l=0.94
+X168 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xp_in_a.VS LELO_TEMP_0.xbias.x1_ibp.xr_lad.VR1 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xn_load_b.VD2 VDPWR sky130_fd_pr__pfet_01v8_lvt ad=2.0352 pd=8.74 as=1.2672 ps=4.5 w=3.84 l=0.94
+X169 VGND LELO_TEMP_0.xccmp.x3_ccmp.xcmp.x1_cmp.xn_mirr_load.VO1 LELO_TEMP_0.xant_cmpo_b.A VGND sky130_fd_pr__nfet_01v8 ad=0.4704 pd=2.9 as=0.2784 ps=1.54 w=0.96 l=0.22
+X170 VGND LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xn_load_b.VD2 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xn_load_b.VD2 VGND sky130_fd_pr__nfet_01v8 ad=0.848 pd=4.26 as=0.528 ps=2.26 w=1.6 l=0.94
+X171 LELO_TEMP_0.xccmp.x2_ccmp.xcmp.x1_cmp.xn_mirr_load.VO1 LELO_TEMP_0.xccmp.x2_ccmp.xcmp.x1_cmp.xn_mirr_load.VBN1 VGND VGND sky130_fd_pr__nfet_01v8 ad=0.3168 pd=1.62 as=0.5088 ps=2.98 w=0.96 l=0.94
+X172 VDPWR LELO_TEMP_0.xbias.x1_ibp.LPI LELO_TEMP_0.xbias.x1_ibp.xp_src.VBD1 VDPWR sky130_fd_pr__pfet_01v8 ad=0.848 pd=4.26 as=0.528 ps=2.26 w=1.6 l=0.94
+X173 LELO_TEMP_0.xccmp.x3_ccmp.xcmp.x1_cmp.xn_mirr_bias.VBP2 LELO_TEMP_0.xbias.IBP_1U<1> VGND VGND sky130_fd_pr__nfet_01v8 ad=0.3168 pd=1.62 as=0.5088 ps=2.98 w=0.96 l=0.94
+X174 VGND LELO_TEMP_0.xbias.IBP_1U<3> LELO_TEMP_0.xccmp.x2_ccmp.xcmp.x1_cmp.xn_mirr_bias.VBP2 VGND sky130_fd_pr__nfet_01v8 ad=0.5088 pd=2.98 as=0.3168 ps=1.62 w=0.96 l=0.94
+X175 VGND VGND VGND VGND sky130_fd_pr__nfet_01v8 ad=0.468 pd=2.84 as=0 ps=0 w=0.9 l=0.16
+X176 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xn_load_a.VBP LELO_TEMP_0.xbias.PWRUP_B_1V8 VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=1.2672 pd=4.5 as=2.0352 ps=8.74 w=3.84 l=0.94
+X177 VDPWR VDPWR VDPWR VDPWR sky130_fd_pr__pfet_01v8_lvt ad=0.9504 pd=3.54 as=0 ps=0 w=2.88 l=0.94
+X178 LELO_TEMP_0.xccmp.RST_A LELO_TEMP_0.xccmp.RST_B VGND VGND sky130_fd_pr__nfet_01v8 ad=0.288 pd=1.54 as=0.468 ps=2.84 w=0.9 l=0.16
+X179 VDPWR LELO_TEMP_0.xccmp.RST_B LELO_TEMP_0.xdig.x5.MN0.S VDPWR sky130_fd_pr__pfet_01v8 ad=0.288 pd=1.54 as=0.468 ps=2.84 w=0.9 l=0.16
+X180 VDPWR VDPWR VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0.528 pd=2.26 as=0 ps=0 w=1.6 l=0.94
+X181 VDPWR LELO_TEMP_0.xbias.x1_ibp.LPI LELO_TEMP_0.xbias.x1_ibp.xp_src.IBD<1> VDPWR sky130_fd_pr__pfet_01v8 ad=0.848 pd=4.26 as=0.528 ps=2.26 w=1.6 l=0.94
+X182 VDPWR VDPWR VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0.848 pd=4.26 as=0 ps=0 w=1.6 l=0.94
+X183 VDPWR VDPWR VDPWR VDPWR sky130_fd_pr__pfet_01v8_lvt ad=1.5264 pd=6.82 as=0 ps=0 w=2.88 l=0.94
+X184 LELO_TEMP_0.xbias.x1_ibp.xr_lad.xd3<4>.N a_9070_5450# VGND sky130_fd_pr__res_high_po w=0.4 l=8.16
+X185 LELO_TEMP_0.xbias.VC LELO_TEMP_0.xbias.x1_ibp.xp_cas.VCP LELO_TEMP_0.xbias.x1_ibp.xp_src.VBD1 VDPWR sky130_fd_pr__pfet_01v8 ad=0.464 pd=2.18 as=0.784 ps=4.18 w=1.6 l=0.22
+X186 LELO_TEMP_0.xbias.x1_ibp.xp_src.VBD1 LELO_TEMP_0.xbias.x1_ibp.LPI VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0.528 pd=2.26 as=0.848 ps=4.26 w=1.6 l=0.94
+X187 VGND LELO_TEMP_0.xccmp.x2_ccmp.xcmp.x1_cmp.xn_mirr_load.VBN1 LELO_TEMP_0.xccmp.x2_ccmp.xcmp.x1_cmp.xn_mirr_load.VBN1 VGND sky130_fd_pr__nfet_01v8 ad=0.5088 pd=2.98 as=0.3168 ps=1.62 w=0.96 l=0.94
+X188 VDPWR LELO_TEMP_0.xccmp.x2_ccmp.xcmp.x1_cmp.xn_mirr_bias.VBP2 LELO_TEMP_0.xccmp.x2_ccmp.xcmp.x1_cmp.xp_diff.VS VDPWR sky130_fd_pr__pfet_01v8 ad=0.5088 pd=2.98 as=0.3168 ps=1.62 w=0.96 l=0.94
+X189 VGND VGND LELO_TEMP_0.xbias.x1_ibp.xr_lad.VD2 sky130_fd_pr__pnp_05v5_W3p40L3p40
+**devattr s=462400,2720
+X190 VGND LELO_TEMP_0.xbias.IBP_1U<1> LELO_TEMP_0.xccmp.x3_ccmp.xcmp.x1_cmp.xn_mirr_bias.VBP2 VGND sky130_fd_pr__nfet_01v8 ad=0.5088 pd=2.98 as=0.3168 ps=1.62 w=0.96 l=0.94
+X191 LELO_TEMP_0.xant_cmpo_b.A LELO_TEMP_0.xccmp.x3_ccmp.xcmp.x1_cmp.xn_mirr_bias.VBP2 VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0.3168 pd=1.62 as=0.5088 ps=2.98 w=0.96 l=0.94
+X192 LELO_TEMP_0.xbias.x1_ibp.xp_cas.VCP LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xn_mirr.VD3 VGND VGND sky130_fd_pr__nfet_01v8 ad=0.528 pd=2.26 as=0.848 ps=4.26 w=1.6 l=0.94
+X193 VDPWR VDPWR VDPWR VDPWR sky130_fd_pr__pfet_01v8_lvt ad=1.2672 pd=4.5 as=0 ps=0 w=3.84 l=0.94
+X194 VDPWR VDPWR VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0.5088 pd=2.98 as=0 ps=0 w=0.96 l=0.94
+X195 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xn_load_a.VD1 LELO_TEMP_0.xbias.PWRUP_N_1V8 VGND VGND sky130_fd_pr__nfet_01v8 ad=0.528 pd=2.26 as=0.848 ps=4.26 w=1.6 l=0.94
+X196 VDPWR VDPWR VDPWR VDPWR sky130_fd_pr__pfet_01v8_lvt ad=1.5264 pd=6.82 as=0 ps=0 w=2.88 l=0.94
+X197 LELO_TEMP_0.xbias.x1_ibp.xr_lad.xd3<4>.N a_9070_4650# VGND sky130_fd_pr__res_high_po w=0.4 l=8.16
+X198 VDPWR LELO_TEMP_0.xbias.x1_ibp.xp_cas.VCP sky130_fd_pr__cap_mim_m3_1 l=5 w=4.8
+X199 LELO_TEMP_0.xdig.x7.Y LELO_TEMP_0.xdig.x7.XA2.A VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0.468 pd=2.84 as=0.468 ps=2.84 w=0.9 l=0.16
+X200 uo_out<0> LELO_TEMP_0.xdig.x5.MN0.S VGND VGND sky130_fd_pr__nfet_01v8 ad=0.468 pd=2.84 as=0.288 ps=1.54 w=0.9 l=0.16
+X201 VDPWR LELO_TEMP_0.xbias.x1_ibp.xp_su.xsu2.S LELO_TEMP_0.xbias.x1_ibp.xp_su.xsu2.S VDPWR sky130_fd_pr__pfet_01v8 ad=0.5088 pd=2.98 as=0.3168 ps=1.62 w=0.96 l=0.94
+X202 LELO_TEMP_0.xccmp.x2_ccmp.xcmp.x1_cmp.xn_mirr_bias.VBP2 LELO_TEMP_0.xbias.IBP_1U<3> VGND VGND sky130_fd_pr__nfet_01v8 ad=0.3168 pd=1.62 as=0.5088 ps=2.98 w=0.96 l=0.94
+X203 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xn_load_b.VD2 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xn_load_b.VD2 VGND VGND sky130_fd_pr__nfet_01v8 ad=0.528 pd=2.26 as=0.848 ps=4.26 w=1.6 l=0.94
+X204 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xp_in_a.VS LELO_TEMP_0.xbias.VC LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xn_mirr.VD3 VDPWR sky130_fd_pr__pfet_01v8_lvt ad=2.0352 pd=8.74 as=1.2672 ps=4.5 w=3.84 l=0.94
+X205 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xp_sw.xbs4.S LELO_TEMP_0.xbias.x1_ibp.xp_cas.VCP LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xp_sw.xbs2.S VDPWR sky130_fd_pr__pfet_01v8 ad=0.464 pd=2.18 as=0.784 ps=4.18 w=1.6 l=0.22
+X206 VGND LELO_TEMP_0.xbias.PWRUP_N_1V8 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xn_mirr.VD3 VGND sky130_fd_pr__nfet_01v8 ad=0.848 pd=4.26 as=0.528 ps=2.26 w=1.6 l=0.94
+X207 VDPWR VDPWR VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0.3168 pd=1.62 as=0 ps=0 w=0.96 l=0.94
+R2 uio_oe<2> VGND sky130_fd_pr__res_generic_m4 w=0.3 l=0.3
+X208 VGND ui_in<0> sky130_fd_pr__diode_pw2nd_05v5 perim=1.8e+06 area=2.025e+11
+X209 VGND VGND LELO_TEMP_0.xbias.x1_ibp.xr_lad.VD2 sky130_fd_pr__pnp_05v5_W3p40L3p40
+**devattr s=462400,2720
+X210 VDPWR VDPWR VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0.3168 pd=1.62 as=0 ps=0 w=0.96 l=0.94
+X211 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xp_sw.xbs7.S LELO_TEMP_0.xbias.x1_ibp.xp_cas.VCP LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xp_sw.xbs8.S VDPWR sky130_fd_pr__pfet_01v8 ad=0.784 pd=4.18 as=0.464 ps=2.18 w=1.6 l=0.22
+X212 VGND VGND VGND VGND sky130_fd_pr__nfet_01v8 ad=0.3168 pd=1.62 as=0 ps=0 w=0.96 l=0.94
+X213 LELO_TEMP_0.xccmp.x2_ccmp.xcmp.x1_cmp.xn_mirr_load.VBN1 LELO_TEMP_0.xbias.PWRUP_N_1V8 VGND VGND sky130_fd_pr__nfet_01v8 ad=0.3168 pd=1.62 as=0.5088 ps=2.98 w=0.96 l=0.94
+X214 LELO_TEMP_0.xccmp.x2_ccmp.xcmp.x1_cmp.xp_diff.VS LELO_TEMP_0.xccmp.x2_ccmp.xcmp.x1_cmp.xn_mirr_bias.VBP2 VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0.3168 pd=1.62 as=0.5088 ps=2.98 w=0.96 l=0.94
+X215 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xn_load_b.VD2 LELO_TEMP_0.xbias.x1_ibp.xr_lad.VR1 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xp_in_a.VS VDPWR sky130_fd_pr__pfet_01v8_lvt ad=1.2672 pd=4.5 as=2.0352 ps=8.74 w=3.84 l=0.94
+X216 VGND LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xn_load_b.VD2 LELO_TEMP_0.xbias.x1_ibp.LPI VGND sky130_fd_pr__nfet_01v8 ad=0.848 pd=4.26 as=0.528 ps=2.26 w=1.6 l=0.94
+X217 LELO_TEMP_0.xbias.x1_ibp.xp_src.VBD1 LELO_TEMP_0.xbias.x1_ibp.xp_cas.VCP LELO_TEMP_0.xbias.VC VDPWR sky130_fd_pr__pfet_01v8 ad=0.784 pd=4.18 as=0.464 ps=2.18 w=1.6 l=0.22
+X218 LELO_TEMP_0.xant_cmpo_b.A LELO_TEMP_0.xbias.PWRUP_N_1V8 VGND VGND sky130_fd_pr__nfet_01v8 ad=0.3168 pd=1.62 as=0.5088 ps=2.98 w=0.96 l=0.94
+X219 VDPWR VDPWR VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0.848 pd=4.26 as=0 ps=0 w=1.6 l=0.94
+X220 VDPWR LELO_TEMP_0.xbias.x1_ibp.LPI sky130_fd_pr__cap_mim_m3_1 l=5 w=4.8
+X221 VDPWR LELO_TEMP_0.xbias.x1_ibp.LPI LELO_TEMP_0.xbias.x1_ibp.xp_src.IBD<3> VDPWR sky130_fd_pr__pfet_01v8 ad=0.848 pd=4.26 as=0.528 ps=2.26 w=1.6 l=0.94
+X222 VGND LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xn_load_a.VD1 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xn_load_a.VD1 VGND sky130_fd_pr__nfet_01v8 ad=0.848 pd=4.26 as=0.528 ps=2.26 w=1.6 l=0.94
+X223 VDPWR LELO_TEMP_0.xccmp.x2_ccmp.xcmp.x1_cmp.xn_mirr_bias.VBP2 LELO_TEMP_0.xccmp.x2_ccmp.xcmp.x1_cmp.xn_mirr_bias.VBP2 VDPWR sky130_fd_pr__pfet_01v8 ad=0.5088 pd=2.98 as=0.3168 ps=1.62 w=0.96 l=0.94
+X224 VGND LELO_TEMP_0.xbias.PWRUP_N_1V8 LELO_TEMP_0.xbias.IBP_1U<0> VGND sky130_fd_pr__nfet_01v8 ad=0.5088 pd=2.98 as=0.3168 ps=1.62 w=0.96 l=0.94
+X225 VDPWR VDPWR VDPWR VDPWR sky130_fd_pr__pfet_01v8_lvt ad=0.9504 pd=3.54 as=0 ps=0 w=2.88 l=0.94
+X226 VGND LELO_TEMP_0.xccmp.RST_B LELO_TEMP_0.xbias.IBP_1U<2> VGND sky130_fd_pr__nfet_01v8 ad=0.5088 pd=2.98 as=0.3168 ps=1.62 w=0.96 l=0.94
+R3 uio_oe<3> VGND sky130_fd_pr__res_generic_m4 w=0.3 l=0.3
+X227 VGND VGND LELO_TEMP_0.xbias.x1_ibp.xr_lad.VD2 sky130_fd_pr__pnp_05v5_W3p40L3p40
+**devattr s=462400,2720
+X228 VDPWR VDPWR VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0.848 pd=4.26 as=0 ps=0 w=1.6 l=0.94
+X229 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xp_in_a.VS LELO_TEMP_0.xbias.x1_ibp.xr_lad.VR1 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xn_load_b.VD2 VDPWR sky130_fd_pr__pfet_01v8_lvt ad=2.0352 pd=8.74 as=1.2672 ps=4.5 w=3.84 l=0.94
+X230 VGND LELO_TEMP_0.xbias.PWRUP_N_1V8 LELO_TEMP_0.xdig.x7.XA2.A VGND sky130_fd_pr__nfet_01v8 ad=0.468 pd=2.84 as=0.288 ps=1.54 w=0.9 l=0.16
+X231 VDPWR LELO_TEMP_0.xbias.x1_ibp.LPI LELO_TEMP_0.xbias.x1_ibp.xp_src.VBD1 VDPWR sky130_fd_pr__pfet_01v8 ad=0.848 pd=4.26 as=0.528 ps=2.26 w=1.6 l=0.94
+X232 VDPWR VDPWR VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0.848 pd=4.26 as=0 ps=0 w=1.6 l=0.94
+X233 VGND LELO_TEMP_0.xbias.IBP_1U<3> LELO_TEMP_0.xccmp.x2_ccmp.xcmp.x1_cmp.xn_mirr_bias.VBP2 VGND sky130_fd_pr__nfet_01v8 ad=0.5088 pd=2.98 as=0.3168 ps=1.62 w=0.96 l=0.94
+X234 VDPWR LELO_TEMP_0.xbias.x1_ibp.LPI sky130_fd_pr__cap_mim_m3_1 l=5 w=4.8
+X235 VDPWR LELO_TEMP_0.xbias.x1_ibp.LPI sky130_fd_pr__cap_mim_m3_1 l=5 w=4.8
+X236 LELO_TEMP_0.xbias.x1_ibp.xr_lad.VD2 a_9070_1450# VGND sky130_fd_pr__res_high_po w=0.4 l=8.16
+X237 VGND LELO_TEMP_0.xbias.IBP_1U<0> sky130_fd_pr__cap_mim_m3_1 l=5 w=5
+X238 VDPWR VDPWR VDPWR VDPWR sky130_fd_pr__pfet_01v8_lvt ad=0.9504 pd=3.54 as=0 ps=0 w=2.88 l=0.94
+X239 VGND LELO_TEMP_0.xbias.PWRUP_N_1V8 LELO_TEMP_0.xbias.IBP_1U<1> VGND sky130_fd_pr__nfet_01v8 ad=0.5088 pd=2.98 as=0.3168 ps=1.62 w=0.96 l=0.94
+X240 LELO_TEMP_0.xbias.IBP_1U<2> LELO_TEMP_0.xbias.x1_ibp.xp_cas.VCP LELO_TEMP_0.xbias.x1_ibp.xp_src.IBD<2> VDPWR sky130_fd_pr__pfet_01v8 ad=0.464 pd=2.18 as=0.784 ps=4.18 w=1.6 l=0.22
+X241 VDPWR VDPWR VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0.528 pd=2.26 as=0 ps=0 w=1.6 l=0.94
+X242 LELO_TEMP_0.xccmp.x3_ccmp.xcmp.x1_cmp.xp_diff.VS LELO_TEMP_0.xbias.VC LELO_TEMP_0.xccmp.x3_ccmp.xcmp.x1_cmp.xn_mirr_load.VBN1 VDPWR sky130_fd_pr__pfet_01v8_lvt ad=1.5264 pd=6.82 as=0.9504 ps=3.54 w=2.88 l=0.94
+X243 LELO_TEMP_0.xccmp.x3_ccmp.xcmp.x1_cmp.xn_mirr_bias.VBP2 LELO_TEMP_0.xbias.PWRUP_B_1V8 VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0.3168 pd=1.62 as=0.5088 ps=2.98 w=0.96 l=0.94
+X244 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xn_load_b.VD2 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xn_load_b.VD2 VGND VGND sky130_fd_pr__nfet_01v8 ad=0.528 pd=2.26 as=0.848 ps=4.26 w=1.6 l=0.94
+X245 LELO_TEMP_0.xbias.VC LELO_TEMP_0.xbias.x1_ibp.xp_cas.VCP LELO_TEMP_0.xbias.x1_ibp.xp_src.VBD1 VDPWR sky130_fd_pr__pfet_01v8 ad=0.464 pd=2.18 as=0.784 ps=4.18 w=1.6 l=0.22
+X246 LELO_TEMP_0.xbias.x1_ibp.xp_src.VBD1 LELO_TEMP_0.xbias.x1_ibp.LPI VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0.528 pd=2.26 as=0.848 ps=4.26 w=1.6 l=0.94
+X247 VDPWR LELO_TEMP_0.xbias.PWRUP_N_1V8 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xp_bias.VDS VDPWR sky130_fd_pr__pfet_01v8 ad=2.0352 pd=8.74 as=1.2672 ps=4.5 w=3.84 l=0.94
+X248 VDPWR VDPWR VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0.3168 pd=1.62 as=0 ps=0 w=0.96 l=0.94
+X249 LELO_TEMP_0.xbias.x1_ibp.xp_cas.VCP LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xn_mirr.VD3 VGND VGND sky130_fd_pr__nfet_01v8 ad=0.528 pd=2.26 as=0.848 ps=4.26 w=1.6 l=0.94
+X250 VDPWR LELO_TEMP_0.xbias.x1_ibp.LPI sky130_fd_pr__cap_mim_m3_1 l=5 w=4.8
+X251 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xn_load_a.VD1 LELO_TEMP_0.xbias.VC LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xp_in_a.VS VDPWR sky130_fd_pr__pfet_01v8_lvt ad=1.2672 pd=4.5 as=2.0352 ps=8.74 w=3.84 l=0.94
+X252 VDPWR VDPWR VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0.5088 pd=2.98 as=0 ps=0 w=0.96 l=0.94
+X253 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xp_sw.xbs8.S LELO_TEMP_0.xbias.x1_ibp.xp_cas.VCP LELO_TEMP_0.xbias.x1_ibp.xp_cas.VCP VDPWR sky130_fd_pr__pfet_01v8 ad=0.784 pd=4.18 as=0.464 ps=2.18 w=1.6 l=0.22
+X254 LELO_TEMP_0.xbias.x1_ibp.xr_lad.VR1 LELO_TEMP_0.xbias.x1_ibp.xr_lad.VR1 LELO_TEMP_0.xbias.x1_ibp.xr_lad.VD2 VGND sky130_fd_pr__nfet_01v8 ad=0.528 pd=2.26 as=0.848 ps=4.26 w=1.6 l=0.94
+X255 LELO_TEMP_0.xbias.x1_ibp.xp_src.VBD1 LELO_TEMP_0.xbias.x1_ibp.xp_cas.VCP LELO_TEMP_0.xbias.VC VDPWR sky130_fd_pr__pfet_01v8 ad=0.784 pd=4.18 as=0.464 ps=2.18 w=1.6 l=0.22
+X256 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xn_load_b.VD2 LELO_TEMP_0.xbias.x1_ibp.xr_lad.VR1 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xp_in_a.VS VDPWR sky130_fd_pr__pfet_01v8_lvt ad=1.2672 pd=4.5 as=2.0352 ps=8.74 w=3.84 l=0.94
+X257 LELO_TEMP_0.xbias.x1_ibp.xp_src.IBD<0> LELO_TEMP_0.xbias.x1_ibp.LPI VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0.528 pd=2.26 as=0.848 ps=4.26 w=1.6 l=0.94
+X258 VDPWR LELO_TEMP_0.xccmp.x3_ccmp.xcmp.x1_cmp.xn_mirr_bias.VBP2 LELO_TEMP_0.xccmp.x3_ccmp.xcmp.x1_cmp.xn_mirr_bias.VBP2 VDPWR sky130_fd_pr__pfet_01v8 ad=0.5088 pd=2.98 as=0.3168 ps=1.62 w=0.96 l=0.94
+X259 LELO_TEMP_0.xccmp.x2_ccmp.xcmp.x1_cmp.xn_mirr_bias.VBP2 LELO_TEMP_0.xbias.IBP_1U<3> VGND VGND sky130_fd_pr__nfet_01v8 ad=0.3168 pd=1.62 as=0.5088 ps=2.98 w=0.96 l=0.94
+X260 VGND LELO_TEMP_0.xant_cmpo_a.A sky130_fd_pr__diode_pw2nd_05v5 perim=1.8e+06 area=2.025e+11
+X261 VDPWR VDPWR VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0.3168 pd=1.62 as=0 ps=0 w=0.96 l=0.94
+X262 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xp_in_a.VS LELO_TEMP_0.xbias.VC LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xn_load_a.VD1 VDPWR sky130_fd_pr__pfet_01v8_lvt ad=2.0352 pd=8.74 as=1.2672 ps=4.5 w=3.84 l=0.94
+X263 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xp_sw.xbs8.S LELO_TEMP_0.xbias.x1_ibp.xp_cas.VCP LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xp_sw.xbs7.S VDPWR sky130_fd_pr__pfet_01v8 ad=0.464 pd=2.18 as=0.784 ps=4.18 w=1.6 l=0.22
+X264 LELO_TEMP_0.xbias.PWRUP_B_1V8 LELO_TEMP_0.xbias.PWRUP_N_1V8 VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0.468 pd=2.84 as=0.468 ps=2.84 w=0.9 l=0.16
+X265 LELO_TEMP_0.xant_cmpo_a.A LELO_TEMP_0.xccmp.x2_ccmp.xcmp.x1_cmp.xn_mirr_load.VO1 VGND VGND sky130_fd_pr__nfet_01v8 ad=0.2784 pd=1.54 as=0.4704 ps=2.9 w=0.96 l=0.22
+X266 LELO_TEMP_0.xbias.IBP_1U<1> LELO_TEMP_0.xbias.IBP_1U<1> VGND VGND sky130_fd_pr__nfet_01v8 ad=0.3168 pd=1.62 as=0.5088 ps=2.98 w=0.96 l=0.94
+X267 LELO_TEMP_0.xbias.x1_ibp.xp_src.IBD<1> LELO_TEMP_0.xbias.x1_ibp.xp_cas.VCP LELO_TEMP_0.xbias.IBP_1U<1> VDPWR sky130_fd_pr__pfet_01v8 ad=0.784 pd=4.18 as=0.464 ps=2.18 w=1.6 l=0.22
+X268 LELO_TEMP_0.xccmp.x3_ccmp.xcmp.x1_cmp.xn_mirr_load.VO1 LELO_TEMP_0.xbias.IBP_1U<0> LELO_TEMP_0.xccmp.x3_ccmp.xcmp.x1_cmp.xp_diff.VS VDPWR sky130_fd_pr__pfet_01v8_lvt ad=0.9504 pd=3.54 as=1.5264 ps=6.82 w=2.88 l=0.94
+X269 VGND LELO_TEMP_0.xbias.IBP_1U<0> sky130_fd_pr__cap_mim_m3_1 l=5 w=5
+X270 VDPWR VDPWR VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0.3168 pd=1.62 as=0 ps=0 w=0.96 l=0.94
+X271 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xp_in_a.VS LELO_TEMP_0.xbias.x1_ibp.xr_lad.VR1 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xn_load_b.VD2 VDPWR sky130_fd_pr__pfet_01v8_lvt ad=2.0352 pd=8.74 as=1.2672 ps=4.5 w=3.84 l=0.94
+X272 LELO_TEMP_0.xbias.x1_ibp.LPI LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xn_load_a.VBP VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=1.2672 pd=4.5 as=2.0352 ps=8.74 w=3.84 l=0.94
+X273 LELO_TEMP_0.xbias.IBP_1U<0> LELO_TEMP_0.xccmp.RST_A VGND VGND sky130_fd_pr__nfet_01v8 ad=0.3168 pd=1.62 as=0.5088 ps=2.98 w=0.96 l=0.94
+X274 VGND LELO_TEMP_0.xbias.PWRUP_N_1V8 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xn_load_a.VD1 VGND sky130_fd_pr__nfet_01v8 ad=0.848 pd=4.26 as=0.528 ps=2.26 w=1.6 l=0.94
+X275 LELO_TEMP_0.xbias.IBP_1U<2> LELO_TEMP_0.xbias.PWRUP_N_1V8 VGND VGND sky130_fd_pr__nfet_01v8 ad=0.3168 pd=1.62 as=0.5088 ps=2.98 w=0.96 l=0.94
+X276 VGND LELO_TEMP_0.xbias.IBP_1U<2> sky130_fd_pr__cap_mim_m3_1 l=5 w=5
+X277 LELO_TEMP_0.xccmp.x2_ccmp.xcmp.x1_cmp.xn_mirr_bias.VBP2 LELO_TEMP_0.xbias.PWRUP_B_1V8 VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0.3168 pd=1.62 as=0.5088 ps=2.98 w=0.96 l=0.94
+X278 VGND LELO_TEMP_0.xbias.IBP_1U<3> LELO_TEMP_0.xbias.IBP_1U<3> VGND sky130_fd_pr__nfet_01v8 ad=0.5088 pd=2.98 as=0.3168 ps=1.62 w=0.96 l=0.94
+X279 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xn_load_a.VD1 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xn_load_a.VD1 VGND VGND sky130_fd_pr__nfet_01v8 ad=0.528 pd=2.26 as=0.848 ps=4.26 w=1.6 l=0.94
+X280 VGND VGND VGND VGND sky130_fd_pr__nfet_01v8 ad=0.528 pd=2.26 as=0 ps=0 w=1.6 l=0.94
+X281 VGND LELO_TEMP_0.xbias.PWRUP_N_1V8 LELO_TEMP_0.xant_cmpo_a.A VGND sky130_fd_pr__nfet_01v8 ad=0.5088 pd=2.98 as=0.3168 ps=1.62 w=0.96 l=0.94
+X282 VDPWR VDPWR VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0.848 pd=4.26 as=0 ps=0 w=1.6 l=0.94
+X283 VGND LELO_TEMP_0.xbias.IBP_1U<1> LELO_TEMP_0.xccmp.x3_ccmp.xcmp.x1_cmp.xn_mirr_bias.VBP2 VGND sky130_fd_pr__nfet_01v8 ad=0.5088 pd=2.98 as=0.3168 ps=1.62 w=0.96 l=0.94
+X284 LELO_TEMP_0.xbias.IBP_1U<0> LELO_TEMP_0.xbias.x1_ibp.xp_cas.VCP LELO_TEMP_0.xbias.x1_ibp.xp_src.IBD<0> VDPWR sky130_fd_pr__pfet_01v8 ad=0.464 pd=2.18 as=0.784 ps=4.18 w=1.6 l=0.22
+X285 VGND LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xn_load_b.VD2 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xn_load_b.VD2 VGND sky130_fd_pr__nfet_01v8 ad=0.848 pd=4.26 as=0.528 ps=2.26 w=1.6 l=0.94
+X286 VDPWR LELO_TEMP_0.xbias.x1_ibp.LPI LELO_TEMP_0.xbias.x1_ibp.xp_src.VBD1 VDPWR sky130_fd_pr__pfet_01v8 ad=0.848 pd=4.26 as=0.528 ps=2.26 w=1.6 l=0.94
+X287 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xn_load_b.VD2 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xn_load_b.VD2 VGND VGND sky130_fd_pr__nfet_01v8 ad=0.528 pd=2.26 as=0.848 ps=4.26 w=1.6 l=0.94
+R4 uio_oe<0> VGND sky130_fd_pr__res_generic_m4 w=0.3 l=0.3
+X288 LELO_TEMP_0.xbias.VC LELO_TEMP_0.xbias.x1_ibp.xp_cas.VCP LELO_TEMP_0.xbias.x1_ibp.xp_src.VBD1 VDPWR sky130_fd_pr__pfet_01v8 ad=0.464 pd=2.18 as=0.784 ps=4.18 w=1.6 l=0.22
+X289 VDPWR LELO_TEMP_0.xbias.PWRUP_B_1V8 LELO_TEMP_0.xbias.x1_ibp.LPI VDPWR sky130_fd_pr__pfet_01v8 ad=2.0352 pd=8.74 as=1.2672 ps=4.5 w=3.84 l=0.94
+X290 VGND LELO_TEMP_0.xbias.PWRUP_N_1V8 LELO_TEMP_0.xccmp.x3_ccmp.xcmp.x1_cmp.xn_mirr_load.VBN1 VGND sky130_fd_pr__nfet_01v8 ad=0.5088 pd=2.98 as=0.3168 ps=1.62 w=0.96 l=0.94
+X291 VDPWR VDPWR VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0.5088 pd=2.98 as=0 ps=0 w=0.96 l=0.94
+X292 VGND LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xn_mirr.VD3 LELO_TEMP_0.xbias.x1_ibp.xp_cas.VCP VGND sky130_fd_pr__nfet_01v8 ad=0.848 pd=4.26 as=0.528 ps=2.26 w=1.6 l=0.94
+X293 VGND VGND VGND VGND sky130_fd_pr__nfet_01v8 ad=0.5088 pd=2.98 as=0 ps=0 w=0.96 l=0.94
+X294 LELO_TEMP_0.xdig.x7.XA2.A LELO_TEMP_0.xant_cmpo_b.A VGND VGND sky130_fd_pr__nfet_01v8 ad=0.288 pd=1.54 as=0.468 ps=2.84 w=0.9 l=0.16
+X295 LELO_TEMP_0.xccmp.x2_ccmp.xcmp.x1_cmp.xn_mirr_load.VO1 LELO_TEMP_0.xbias.IBP_1U<2> LELO_TEMP_0.xccmp.x2_ccmp.xcmp.x1_cmp.xp_diff.VS VDPWR sky130_fd_pr__pfet_01v8_lvt ad=0.9504 pd=3.54 as=1.5264 ps=6.82 w=2.88 l=0.94
+X296 VDPWR VDPWR VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0.5088 pd=2.98 as=0 ps=0 w=0.96 l=0.94
+X297 VGND LELO_TEMP_0.xant_cmpo_a.A LELO_TEMP_0.xdig.x1.MN0.S VGND sky130_fd_pr__nfet_01v8 ad=0.288 pd=1.54 as=0.468 ps=2.84 w=0.9 l=0.16
+X298 VDPWR VDPWR VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0.528 pd=2.26 as=0 ps=0 w=1.6 l=0.94
+X299 LELO_TEMP_0.xbias.x1_ibp.xp_src.VBD2 LELO_TEMP_0.xbias.x1_ibp.xp_cas.VCP LELO_TEMP_0.xbias.x1_ibp.xr_lad.VR1 VDPWR sky130_fd_pr__pfet_01v8 ad=0.784 pd=4.18 as=0.464 ps=2.18 w=1.6 l=0.22
+X300 LELO_TEMP_0.xbias.x1_ibp.xr_lad.xd3<1>.N a_9070_3050# VGND sky130_fd_pr__res_high_po w=0.4 l=8.16
+X301 LELO_TEMP_0.xbias.x1_ibp.xp_src.IBD<2> LELO_TEMP_0.xbias.x1_ibp.LPI VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0.528 pd=2.26 as=0.848 ps=4.26 w=1.6 l=0.94
+R5 uio_oe<6> VGND sky130_fd_pr__res_generic_m4 w=0.3 l=0.3
+X302 LELO_TEMP_0.xbias.VC LELO_TEMP_0.xbias.x1_ibp.xp_cas.VCP LELO_TEMP_0.xbias.x1_ibp.xp_src.VBD1 VDPWR sky130_fd_pr__pfet_01v8 ad=0.464 pd=2.18 as=0.784 ps=4.18 w=1.6 l=0.22
+X303 LELO_TEMP_0.xccmp.x3_ccmp.xcmp.x1_cmp.xp_diff.VS LELO_TEMP_0.xccmp.x3_ccmp.xcmp.x1_cmp.xn_mirr_bias.VBP2 VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0.3168 pd=1.62 as=0.5088 ps=2.98 w=0.96 l=0.94
+X304 VDPWR VDPWR VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0.528 pd=2.26 as=0 ps=0 w=1.6 l=0.94
+X305 VGND VGND LELO_TEMP_0.xbias.VC sky130_fd_pr__pnp_05v5_W3p40L3p40
+**devattr s=462400,2720
+X306 LELO_TEMP_0.xbias.x1_ibp.xp_src.VBD1 LELO_TEMP_0.xbias.x1_ibp.LPI VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0.528 pd=2.26 as=0.848 ps=4.26 w=1.6 l=0.94
+X307 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xp_sw.xbs1.S LELO_TEMP_0.xbias.x1_ibp.xp_cas.VCP LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xp_sw.xbs2.S VDPWR sky130_fd_pr__pfet_01v8 ad=0.784 pd=4.18 as=0.464 ps=2.18 w=1.6 l=0.22
+X308 VDPWR VDPWR VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0.528 pd=2.26 as=0 ps=0 w=1.6 l=0.94
+X309 LELO_TEMP_0.xbias.x1_ibp.xr_lad.xd3<1>.N a_9070_2250# VGND sky130_fd_pr__res_high_po w=0.4 l=8.16
+R6 uio_oe<1> VGND sky130_fd_pr__res_generic_m4 w=0.3 l=0.3
+X310 LELO_TEMP_0.xccmp.RST_B LELO_TEMP_0.xccmp.RST_A LELO_TEMP_0.xdig.x3.MP1.S VDPWR sky130_fd_pr__pfet_01v8 ad=0.468 pd=2.84 as=0.288 ps=1.54 w=0.9 l=0.16
+X311 LELO_TEMP_0.xccmp.x2_ccmp.xcmp.x1_cmp.xp_diff.VS LELO_TEMP_0.xbias.VC LELO_TEMP_0.xccmp.x2_ccmp.xcmp.x1_cmp.xn_mirr_load.VBN1 VDPWR sky130_fd_pr__pfet_01v8_lvt ad=1.5264 pd=6.82 as=0.9504 ps=3.54 w=2.88 l=0.94
+X312 LELO_TEMP_0.xbias.x1_ibp.xp_cas.VCP LELO_TEMP_0.xbias.x1_ibp.xp_cas.VCP LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xp_sw.xbs8.S VDPWR sky130_fd_pr__pfet_01v8 ad=0.464 pd=2.18 as=0.784 ps=4.18 w=1.6 l=0.22
+X313 VDPWR VDPWR VDPWR VDPWR sky130_fd_pr__pfet_01v8_lvt ad=1.2672 pd=4.5 as=0 ps=0 w=3.84 l=0.94
+X314 LELO_TEMP_0.xbias.x1_ibp.xp_src.IBD<3> LELO_TEMP_0.xbias.x1_ibp.xp_cas.VCP LELO_TEMP_0.xbias.IBP_1U<3> VDPWR sky130_fd_pr__pfet_01v8 ad=0.784 pd=4.18 as=0.464 ps=2.18 w=1.6 l=0.22
+X315 VGND LELO_TEMP_0.xbias.IBP_1U<2> sky130_fd_pr__cap_mim_m3_1 l=5 w=5
+X316 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xn_load_a.VD1 LELO_TEMP_0.xbias.VC LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xp_in_a.VS VDPWR sky130_fd_pr__pfet_01v8_lvt ad=1.2672 pd=4.5 as=2.0352 ps=8.74 w=3.84 l=0.94
+X317 VDPWR VDPWR VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0.468 pd=2.84 as=0 ps=0 w=0.9 l=0.16
+X318 LELO_TEMP_0.xbias.VC LELO_TEMP_0.xbias.VC LELO_TEMP_0.xbias.x1_ibp.xp_su.xsu2.S VDPWR sky130_fd_pr__pfet_01v8 ad=0.3168 pd=1.62 as=0.5088 ps=2.98 w=0.96 l=0.94
+X319 LELO_TEMP_0.xant_cmpo_b.A LELO_TEMP_0.xccmp.x3_ccmp.xcmp.x1_cmp.xn_mirr_load.VO1 VGND VGND sky130_fd_pr__nfet_01v8 ad=0.2784 pd=1.54 as=0.4704 ps=2.9 w=0.96 l=0.22
+X320 LELO_TEMP_0.xbias.x1_ibp.xp_src.VBD1 LELO_TEMP_0.xbias.x1_ibp.xp_cas.VCP LELO_TEMP_0.xbias.VC VDPWR sky130_fd_pr__pfet_01v8 ad=0.784 pd=4.18 as=0.464 ps=2.18 w=1.6 l=0.22
+X321 VDPWR LELO_TEMP_0.xccmp.x3_ccmp.xcmp.x1_cmp.xn_mirr_bias.VBP2 LELO_TEMP_0.xccmp.x3_ccmp.xcmp.x1_cmp.xp_diff.VS VDPWR sky130_fd_pr__pfet_01v8 ad=0.5088 pd=2.98 as=0.3168 ps=1.62 w=0.96 l=0.94
+R7 uio_oe<7> VGND sky130_fd_pr__res_generic_m4 w=0.3 l=0.3
+X322 VGND LELO_TEMP_0.xccmp.RST_B LELO_TEMP_0.xdig.x5.MN0.S VGND sky130_fd_pr__nfet_01v8 ad=0.288 pd=1.54 as=0.468 ps=2.84 w=0.9 l=0.16
+X323 LELO_TEMP_0.xbias.IBP_1U<3> LELO_TEMP_0.xbias.PWRUP_N_1V8 VGND VGND sky130_fd_pr__nfet_01v8 ad=0.3168 pd=1.62 as=0.5088 ps=2.98 w=0.96 l=0.94
+X324 VDPWR VDPWR VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0.848 pd=4.26 as=0 ps=0 w=1.6 l=0.94
+X325 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xp_in_a.VS LELO_TEMP_0.xbias.x1_ibp.xr_lad.VR1 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xn_mirr.VD3 VDPWR sky130_fd_pr__pfet_01v8_lvt ad=2.0352 pd=8.74 as=1.2672 ps=4.5 w=3.84 l=0.94
+X326 VDPWR VDPWR VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0.3168 pd=1.62 as=0 ps=0 w=0.96 l=0.94
+X327 VDPWR VDPWR VDPWR VDPWR sky130_fd_pr__pfet_01v8_lvt ad=0.9504 pd=3.54 as=0 ps=0 w=2.88 l=0.94
+X328 LELO_TEMP_0.xant_cmpo_a.A LELO_TEMP_0.xccmp.x2_ccmp.xcmp.x1_cmp.xn_mirr_bias.VBP2 VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0.3168 pd=1.62 as=0.5088 ps=2.98 w=0.96 l=0.94
+X329 VDPWR LELO_TEMP_0.xbias.x1_ibp.LPI LELO_TEMP_0.xbias.x1_ibp.xp_src.VBD1 VDPWR sky130_fd_pr__pfet_01v8 ad=0.848 pd=4.26 as=0.528 ps=2.26 w=1.6 l=0.94
+X330 LELO_TEMP_0.xccmp.x3_ccmp.xcmp.x1_cmp.xn_mirr_bias.VBP2 LELO_TEMP_0.xbias.IBP_1U<1> VGND VGND sky130_fd_pr__nfet_01v8 ad=0.3168 pd=1.62 as=0.5088 ps=2.98 w=0.96 l=0.94
+X331 VGND LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xn_load_b.VD2 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xn_load_b.VD2 VGND sky130_fd_pr__nfet_01v8 ad=0.848 pd=4.26 as=0.528 ps=2.26 w=1.6 l=0.94
+X332 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xp_bias.VDS a_18692_9510# VGND sky130_fd_pr__res_high_po w=0.4 l=8.16
+X333 VGND LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xn_mirr.VD3 LELO_TEMP_0.xbias.x1_ibp.xp_cas.VCP VGND sky130_fd_pr__nfet_01v8 ad=0.848 pd=4.26 as=0.528 ps=2.26 w=1.6 l=0.94
+X334 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xn_load_a.VBP LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xn_load_a.VBP VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=1.2672 pd=4.5 as=2.0352 ps=8.74 w=3.84 l=0.94
+X335 LELO_TEMP_0.xccmp.x3_ccmp.xcmp.x1_cmp.xn_mirr_load.VBN1 LELO_TEMP_0.xccmp.x3_ccmp.xcmp.x1_cmp.xn_mirr_load.VBN1 VGND VGND sky130_fd_pr__nfet_01v8 ad=0.3168 pd=1.62 as=0.5088 ps=2.98 w=0.96 l=0.94
+X336 LELO_TEMP_0.xdig.x7.Y LELO_TEMP_0.xdig.x7.XA2.A VGND VGND sky130_fd_pr__nfet_01v8 ad=0.468 pd=2.84 as=0.468 ps=2.84 w=0.9 l=0.16
+X337 VDPWR VDPWR VDPWR VDPWR sky130_fd_pr__pfet_01v8_lvt ad=0.9504 pd=3.54 as=0 ps=0 w=2.88 l=0.94
+X338 VDPWR VDPWR VDPWR VDPWR sky130_fd_pr__pfet_01v8_lvt ad=1.5264 pd=6.82 as=0 ps=0 w=2.88 l=0.94
+X339 LELO_TEMP_0.xbias.x1_ibp.xr_lad.xd3<3>.N a_9070_4650# VGND sky130_fd_pr__res_high_po w=0.4 l=8.16
+X340 VDPWR LELO_TEMP_0.xccmp.x2_ccmp.xcmp.x1_cmp.xn_mirr_bias.VBP2 LELO_TEMP_0.xccmp.x2_ccmp.xcmp.x1_cmp.xp_diff.VS VDPWR sky130_fd_pr__pfet_01v8 ad=0.5088 pd=2.98 as=0.3168 ps=1.62 w=0.96 l=0.94
+X341 VGND VGND LELO_TEMP_0.xbias.x1_ibp.xr_lad.VD2 sky130_fd_pr__pnp_05v5_W3p40L3p40
+**devattr s=462400,2720
+X342 LELO_TEMP_0.xbias.VC LELO_TEMP_0.xbias.x1_ibp.xp_cas.VCP LELO_TEMP_0.xbias.x1_ibp.xp_src.VBD1 VDPWR sky130_fd_pr__pfet_01v8 ad=0.464 pd=2.18 as=0.784 ps=4.18 w=1.6 l=0.22
+X343 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xn_load_a.VBP LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xn_load_a.VD1 VGND VGND sky130_fd_pr__nfet_01v8 ad=0.528 pd=2.26 as=0.848 ps=4.26 w=1.6 l=0.94
+X344 VGND LELO_TEMP_0.xccmp.x2_ccmp.xcmp.x1_cmp.xn_mirr_load.VBN1 LELO_TEMP_0.xccmp.x2_ccmp.xcmp.x1_cmp.xn_mirr_load.VO1 VGND sky130_fd_pr__nfet_01v8 ad=0.5088 pd=2.98 as=0.3168 ps=1.62 w=0.96 l=0.94
+X345 VDPWR LELO_TEMP_0.xbias.x1_ibp.LPI sky130_fd_pr__cap_mim_m3_1 l=5 w=4.8
+X346 VGND LELO_TEMP_0.xbias.IBP_1U<1> LELO_TEMP_0.xccmp.x3_ccmp.xcmp.x1_cmp.xn_mirr_bias.VBP2 VGND sky130_fd_pr__nfet_01v8 ad=0.5088 pd=2.98 as=0.3168 ps=1.62 w=0.96 l=0.94
+X347 LELO_TEMP_0.xbias.PWRUP_N_1V8 ui_in<0> VGND VGND sky130_fd_pr__nfet_01v8 ad=0.468 pd=2.84 as=0.468 ps=2.84 w=0.9 l=0.16
+X348 LELO_TEMP_0.xbias.x1_ibp.xp_src.VBD1 LELO_TEMP_0.xbias.x1_ibp.LPI VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0.528 pd=2.26 as=0.848 ps=4.26 w=1.6 l=0.94
+X349 VDPWR VDPWR VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0.528 pd=2.26 as=0 ps=0 w=1.6 l=0.94
+X350 VDPWR LELO_TEMP_0.xbias.PWRUP_B_1V8 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xn_load_a.VBP VDPWR sky130_fd_pr__pfet_01v8 ad=2.0352 pd=8.74 as=1.2672 ps=4.5 w=3.84 l=0.94
+X351 VGND LELO_TEMP_0.xccmp.x3_ccmp.xcmp.x1_cmp.xn_mirr_load.VBN1 LELO_TEMP_0.xccmp.x3_ccmp.xcmp.x1_cmp.xn_mirr_load.VO1 VGND sky130_fd_pr__nfet_01v8 ad=0.5088 pd=2.98 as=0.3168 ps=1.62 w=0.96 l=0.94
+X352 VDPWR VDPWR VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0.5088 pd=2.98 as=0 ps=0 w=0.96 l=0.94
+X353 VDPWR LELO_TEMP_0.xbias.x1_ibp.xp_cas.VCP sky130_fd_pr__cap_mim_m3_1 l=5 w=4.8
+X354 VGND LELO_TEMP_0.xbias.IBP_1U<0> sky130_fd_pr__cap_mim_m3_1 l=5 w=5
+X355 VDPWR VDPWR VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0.468 pd=2.84 as=0 ps=0 w=0.9 l=0.16
+X356 VDPWR VDPWR VDPWR VDPWR sky130_fd_pr__pfet_01v8_lvt ad=1.5264 pd=6.82 as=0 ps=0 w=2.88 l=0.94
+X357 VGND VGND LELO_TEMP_0.xbias.x1_ibp.xr_lad.VD2 sky130_fd_pr__pnp_05v5_W3p40L3p40
+**devattr s=462400,2720
+X358 VDPWR VDPWR VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0.528 pd=2.26 as=0 ps=0 w=1.6 l=0.94
+X359 VDPWR VDPWR VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0.5088 pd=2.98 as=0 ps=0 w=0.96 l=0.94
+X360 LELO_TEMP_0.xccmp.RST_A LELO_TEMP_0.xdig.x4.B LELO_TEMP_0.xdig.x4.MP1.S VDPWR sky130_fd_pr__pfet_01v8 ad=0.468 pd=2.84 as=0.288 ps=1.54 w=0.9 l=0.16
+X361 VDPWR VDPWR VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0.528 pd=2.26 as=0 ps=0 w=1.6 l=0.94
+X362 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xn_load_b.VD2 LELO_TEMP_0.xbias.PWRUP_N_1V8 VGND VGND sky130_fd_pr__nfet_01v8 ad=0.528 pd=2.26 as=0.848 ps=4.26 w=1.6 l=0.94
+X363 LELO_TEMP_0.xbias.x1_ibp.xp_src.VBD1 LELO_TEMP_0.xbias.x1_ibp.LPI VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0.528 pd=2.26 as=0.848 ps=4.26 w=1.6 l=0.94
+X364 VDPWR LELO_TEMP_0.xbias.x1_ibp.LPI LELO_TEMP_0.xbias.x1_ibp.xp_src.IBD<0> VDPWR sky130_fd_pr__pfet_01v8 ad=0.848 pd=4.26 as=0.528 ps=2.26 w=1.6 l=0.94
+X365 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xp_sw.xbs2.S LELO_TEMP_0.xbias.x1_ibp.xp_cas.VCP LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xp_sw.xbs1.S VDPWR sky130_fd_pr__pfet_01v8 ad=0.464 pd=2.18 as=0.784 ps=4.18 w=1.6 l=0.22
+X366 LELO_TEMP_0.xccmp.x3_ccmp.xcmp.x1_cmp.xp_diff.VS LELO_TEMP_0.xccmp.x3_ccmp.xcmp.x1_cmp.xn_mirr_bias.VBP2 VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0.3168 pd=1.62 as=0.5088 ps=2.98 w=0.96 l=0.94
+X367 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xn_mirr.VD3 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xn_mirr.VD3 VGND VGND sky130_fd_pr__nfet_01v8 ad=0.528 pd=2.26 as=0.848 ps=4.26 w=1.6 l=0.94
+X368 VGND VGND VGND VGND sky130_fd_pr__nfet_01v8 ad=0.848 pd=4.26 as=0 ps=0 w=1.6 l=0.94
+X369 LELO_TEMP_0.xdig.x3.MP1.S LELO_TEMP_0.xdig.x7.Y VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0.288 pd=1.54 as=0.468 ps=2.84 w=0.9 l=0.16
+X370 LELO_TEMP_0.xccmp.x2_ccmp.xcmp.x1_cmp.xp_diff.VS LELO_TEMP_0.xccmp.x2_ccmp.xcmp.x1_cmp.xn_mirr_bias.VBP2 VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0.3168 pd=1.62 as=0.5088 ps=2.98 w=0.96 l=0.94
+X371 VDPWR VDPWR VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0.3168 pd=1.62 as=0 ps=0 w=0.96 l=0.94
+X372 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xp_sw.xbs4.S LELO_TEMP_0.xbias.x1_ibp.xp_cas.VCP LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xp_sw.xbs7.S VDPWR sky130_fd_pr__pfet_01v8 ad=0.784 pd=4.18 as=0.464 ps=2.18 w=1.6 l=0.22
+X373 LELO_TEMP_0.xbias.x1_ibp.xr_lad.xd3<3>.N a_9070_3850# VGND sky130_fd_pr__res_high_po w=0.4 l=8.16
+X374 LELO_TEMP_0.xccmp.x2_ccmp.xcmp.x1_cmp.xn_mirr_load.VBN1 LELO_TEMP_0.xccmp.x2_ccmp.xcmp.x1_cmp.xn_mirr_load.VBN1 VGND VGND sky130_fd_pr__nfet_01v8 ad=0.3168 pd=1.62 as=0.5088 ps=2.98 w=0.96 l=0.94
+C0 LELO_TEMP_0.xant_cmpo_b.A LELO_TEMP_0.xant_cmpo_a.A 0.99472f
+C1 LELO_TEMP_0.xbias.IBP_1U<2> LELO_TEMP_0.xant_cmpo_a.A 0.01969f
+C2 LELO_TEMP_0.xbias.PWRUP_B_1V8 LELO_TEMP_0.xant_cmpo_a.A 0.1154f
+C3 LELO_TEMP_0.xbias.PWRUP_N_1V8 LELO_TEMP_0.xant_cmpo_a.A 0.76096f
+C4 LELO_TEMP_0.xccmp.RST_A LELO_TEMP_0.xant_cmpo_a.A 0.18412f
+C5 LELO_TEMP_0.xccmp.RST_B LELO_TEMP_0.xant_cmpo_a.A 0.96783f
+C6 LELO_TEMP_0.xccmp.x2_ccmp.xcmp.x1_cmp.xn_mirr_bias.VBP2 LELO_TEMP_0.xant_cmpo_a.A 0.23594f
+C7 LELO_TEMP_0.xccmp.x2_ccmp.xcmp.x1_cmp.xn_mirr_load.VO1 LELO_TEMP_0.xant_cmpo_a.A 0.16939f
+C8 LELO_TEMP_0.xant_cmpo_a.A LELO_TEMP_0.xdig.x1.MN0.S 0.39607f
+C9 LELO_TEMP_0.xant_cmpo_a.A LELO_TEMP_0.xdig.x4.B 0.38346f
+C10 LELO_TEMP_0.xant_cmpo_a.A VDPWR 3.79013f
+C11 LELO_TEMP_0.xant_cmpo_a.A VGND 6.73763f
+C12 LELO_TEMP_0.xant_cmpo_a.A a_22700_1368# 0.03479f
+C13 LELO_TEMP_0.xant_cmpo_a.A a_22700_2168# 0.0388f
+C14 LELO_TEMP_0.xant_cmpo_a.A a_22700_2328# 0.03756f
+C15 LELO_TEMP_0.xant_cmpo_a.A a_26300_2968# 0.02337f
+C16 LELO_TEMP_0.xant_cmpo_a.A a_29258_3334# 0.06557f
+C17 LELO_TEMP_0.xant_cmpo_a.A a_30098_3334# 0.06129f
+C18 LELO_TEMP_0.xant_cmpo_b.A LELO_TEMP_0.xbias.IBP_1U<0> 0.01969f
+C19 LELO_TEMP_0.xbias.PWRUP_B_1V8 LELO_TEMP_0.xant_cmpo_b.A 0.35644f
+C20 LELO_TEMP_0.xbias.PWRUP_N_1V8 LELO_TEMP_0.xant_cmpo_b.A 3.40009f
+C21 LELO_TEMP_0.xant_cmpo_b.A LELO_TEMP_0.xccmp.RST_A 5.84452f
+C22 LELO_TEMP_0.xant_cmpo_b.A LELO_TEMP_0.xccmp.x3_ccmp.xcmp.x1_cmp.xn_mirr_bias.VBP2 0.23571f
+C23 LELO_TEMP_0.xant_cmpo_b.A LELO_TEMP_0.xccmp.x3_ccmp.xcmp.x1_cmp.xn_mirr_load.VO1 0.16939f
+C24 LELO_TEMP_0.xant_cmpo_b.A LELO_TEMP_0.xdig.x7.XA2.A 0.03099f
+C25 LELO_TEMP_0.xant_cmpo_b.A VDPWR 4.99782f
+C26 LELO_TEMP_0.xant_cmpo_b.A VGND 7.74889f
+C27 LELO_TEMP_0.xant_cmpo_b.A a_22700_19088# 0.03756f
+C28 LELO_TEMP_0.xant_cmpo_b.A a_22700_19248# 0.0388f
+C29 a_22700_20048# LELO_TEMP_0.xant_cmpo_b.A 0.03494f
+C30 LELO_TEMP_0.xant_cmpo_b.A a_26300_18448# 0.02338f
+C31 LELO_TEMP_0.xant_cmpo_b.A a_29258_1574# 0.06626f
+C32 LELO_TEMP_0.xant_cmpo_b.A a_30098_1574# 0.06129f
+C33 LELO_TEMP_0.xant_cmpo_b.A uo_out<0> 0.02345f
+C34 LELO_TEMP_0.xbias.IBP_1U<1> LELO_TEMP_0.xbias.IBP_1U<0> 9.19816f
+C35 LELO_TEMP_0.xbias.IBP_1U<0> LELO_TEMP_0.xbias.IBP_1U<2> 1.65076f
+C36 LELO_TEMP_0.xbias.IBP_1U<0> LELO_TEMP_0.xbias.IBP_1U<3> 0.12778f
+C37 LELO_TEMP_0.xbias.PWRUP_B_1V8 LELO_TEMP_0.xbias.IBP_1U<0> 0.75746f
+C38 LELO_TEMP_0.xbias.PWRUP_N_1V8 LELO_TEMP_0.xbias.IBP_1U<0> 1.91148f
+C39 LELO_TEMP_0.xbias.VC LELO_TEMP_0.xbias.IBP_1U<0> 0.63348f
+C40 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xn_load_a.VD1 LELO_TEMP_0.xbias.IBP_1U<0> 0.03423f
+C41 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xn_load_b.VD2 LELO_TEMP_0.xbias.IBP_1U<0> 0.03423f
+C42 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xp_in_a.VS LELO_TEMP_0.xbias.IBP_1U<0> 0.08099f
+C43 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xp_sw.xbs8.S LELO_TEMP_0.xbias.IBP_1U<0> 0.02582f
+C44 LELO_TEMP_0.xbias.x1_ibp.xp_cas.VCP LELO_TEMP_0.xbias.IBP_1U<0> 0.38189f
+C45 LELO_TEMP_0.xbias.IBP_1U<0> LELO_TEMP_0.xbias.x1_ibp.xp_src.IBD<0> 0.26254f
+C46 LELO_TEMP_0.xbias.IBP_1U<0> LELO_TEMP_0.xbias.x1_ibp.xp_src.IBD<1> 0.01057f
+C47 LELO_TEMP_0.xbias.x1_ibp.xp_src.VBD1 LELO_TEMP_0.xbias.IBP_1U<0> 0.04138f
+C48 LELO_TEMP_0.xbias.x1_ibp.xp_su.xsu2.S LELO_TEMP_0.xbias.IBP_1U<0> 0.01983f
+C49 LELO_TEMP_0.xbias.x1_ibp.xr_lad.VR1 LELO_TEMP_0.xbias.IBP_1U<0> 0.10882f
+C50 LELO_TEMP_0.xccmp.RST_A LELO_TEMP_0.xbias.IBP_1U<0> 0.7164f
+C51 LELO_TEMP_0.xccmp.x3_ccmp.xcmp.x1_cmp.xn_mirr_bias.VBP2 LELO_TEMP_0.xbias.IBP_1U<0> 0.14584f
+C52 LELO_TEMP_0.xccmp.x3_ccmp.xcmp.x1_cmp.xn_mirr_load.VBN1 LELO_TEMP_0.xbias.IBP_1U<0> 0.30812f
+C53 LELO_TEMP_0.xccmp.x3_ccmp.xcmp.x1_cmp.xn_mirr_load.VO1 LELO_TEMP_0.xbias.IBP_1U<0> 1.02046f
+C54 LELO_TEMP_0.xbias.IBP_1U<0> LELO_TEMP_0.xccmp.x3_ccmp.xcmp.x1_cmp.xp_diff.VS 0.55242f
+C55 LELO_TEMP_0.xbias.IBP_1U<0> VDPWR 7.79387f
+C56 LELO_TEMP_0.xbias.IBP_1U<0> VGND 29.2555f
+C57 a_11652_20488# LELO_TEMP_0.xbias.IBP_1U<0> 0.01286f
+C58 a_13252_20488# LELO_TEMP_0.xbias.IBP_1U<0> 0.01286f
+C59 a_14852_20488# LELO_TEMP_0.xbias.IBP_1U<0> 0.01286f
+C60 LELO_TEMP_0.xbias.IBP_1U<0> a_2148_8988# 0.01392f
+C61 LELO_TEMP_0.xbias.IBP_1U<0> a_2148_9468# 0.01552f
+C62 LELO_TEMP_0.xbias.IBP_1U<0> a_22700_14448# 0.01018f
+C63 LELO_TEMP_0.xbias.IBP_1U<0> a_22700_15248# 0.04254f
+C64 a_22700_16048# LELO_TEMP_0.xbias.IBP_1U<0> 0.01163f
+C65 LELO_TEMP_0.xbias.IBP_1U<0> a_24508_17648# 0.07122f
+C66 LELO_TEMP_0.xbias.IBP_1U<0> a_24508_18448# 0.08485f
+C67 LELO_TEMP_0.xbias.IBP_1U<1> LELO_TEMP_0.xbias.IBP_1U<2> 8.52851f
+C68 LELO_TEMP_0.xbias.IBP_1U<1> LELO_TEMP_0.xbias.IBP_1U<3> 0.14695f
+C69 LELO_TEMP_0.xbias.PWRUP_B_1V8 LELO_TEMP_0.xbias.IBP_1U<1> 0.3607f
+C70 LELO_TEMP_0.xbias.PWRUP_N_1V8 LELO_TEMP_0.xbias.IBP_1U<1> 0.87112f
+C71 LELO_TEMP_0.xbias.VC LELO_TEMP_0.xbias.IBP_1U<1> 0.24514f
+C72 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xn_load_a.VD1 LELO_TEMP_0.xbias.IBP_1U<1> 0.04335f
+C73 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xn_load_b.VD2 LELO_TEMP_0.xbias.IBP_1U<1> 0.04335f
+C74 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xp_in_a.VS LELO_TEMP_0.xbias.IBP_1U<1> 0.05723f
+C75 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xp_sw.xbs8.S LELO_TEMP_0.xbias.IBP_1U<1> 0.02941f
+C76 LELO_TEMP_0.xbias.x1_ibp.xp_cas.VCP LELO_TEMP_0.xbias.IBP_1U<1> 0.32759f
+C77 LELO_TEMP_0.xbias.IBP_1U<1> LELO_TEMP_0.xbias.x1_ibp.xp_src.IBD<1> 0.25907f
+C78 LELO_TEMP_0.xbias.x1_ibp.xp_su.xsu2.S LELO_TEMP_0.xbias.IBP_1U<1> 0.04367f
+C79 LELO_TEMP_0.xbias.x1_ibp.xr_lad.VR1 LELO_TEMP_0.xbias.IBP_1U<1> 0.09955f
+C80 LELO_TEMP_0.xbias.IBP_1U<1> LELO_TEMP_0.xccmp.x3_ccmp.xcmp.x1_cmp.xn_mirr_bias.VBP2 2.09105f
+C81 LELO_TEMP_0.xbias.IBP_1U<1> LELO_TEMP_0.xccmp.x3_ccmp.xcmp.x1_cmp.xn_mirr_load.VBN1 0.01824f
+C82 LELO_TEMP_0.xbias.IBP_1U<1> VDPWR 3.26732f
+C83 LELO_TEMP_0.xbias.IBP_1U<1> VGND 14.8512f
+C84 LELO_TEMP_0.xbias.IBP_1U<1> a_21100_14448# 0.11555f
+C85 LELO_TEMP_0.xbias.IBP_1U<1> a_21100_15248# 0.16154f
+C86 LELO_TEMP_0.xbias.IBP_1U<1> a_21100_16048# 0.15272f
+C87 LELO_TEMP_0.xbias.IBP_1U<1> a_21100_16848# 0.15236f
+C88 LELO_TEMP_0.xbias.IBP_1U<1> a_21100_17648# 0.15236f
+C89 a_21100_18448# LELO_TEMP_0.xbias.IBP_1U<1> 0.06821f
+C90 LELO_TEMP_0.xbias.IBP_1U<1> a_2148_10268# 0.01392f
+C91 LELO_TEMP_0.xbias.IBP_1U<1> a_2148_9788# 0.01392f
+C92 LELO_TEMP_0.xbias.IBP_1U<3> LELO_TEMP_0.xbias.IBP_1U<2> 10.8221f
+C93 LELO_TEMP_0.xbias.PWRUP_B_1V8 LELO_TEMP_0.xbias.IBP_1U<2> 0.76194f
+C94 LELO_TEMP_0.xbias.PWRUP_N_1V8 LELO_TEMP_0.xbias.IBP_1U<2> 1.99559f
+C95 LELO_TEMP_0.xbias.VC LELO_TEMP_0.xbias.IBP_1U<2> 0.84591f
+C96 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xn_load_a.VD1 LELO_TEMP_0.xbias.IBP_1U<2> 0.01021f
+C97 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xn_load_b.VD2 LELO_TEMP_0.xbias.IBP_1U<2> 0.01021f
+C98 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xp_in_a.VS LELO_TEMP_0.xbias.IBP_1U<2> 0.13754f
+C99 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xp_sw.xbs8.S LELO_TEMP_0.xbias.IBP_1U<2> 0.02409f
+C100 LELO_TEMP_0.xbias.x1_ibp.xp_cas.VCP LELO_TEMP_0.xbias.IBP_1U<2> 0.23634f
+C101 LELO_TEMP_0.xbias.x1_ibp.xp_src.IBD<2> LELO_TEMP_0.xbias.IBP_1U<2> 0.25902f
+C102 LELO_TEMP_0.xbias.x1_ibp.xp_su.xsu2.S LELO_TEMP_0.xbias.IBP_1U<2> 0.03178f
+C103 LELO_TEMP_0.xbias.x1_ibp.xr_lad.VR1 LELO_TEMP_0.xbias.IBP_1U<2> 0.05628f
+C104 LELO_TEMP_0.xccmp.RST_A LELO_TEMP_0.xbias.IBP_1U<2> 0.22834f
+C105 LELO_TEMP_0.xbias.IBP_1U<2> LELO_TEMP_0.xccmp.RST_B 0.48805f
+C106 LELO_TEMP_0.xbias.IBP_1U<2> LELO_TEMP_0.xccmp.x2_ccmp.xcmp.x1_cmp.xn_mirr_bias.VBP2 0.12508f
+C107 LELO_TEMP_0.xbias.IBP_1U<2> LELO_TEMP_0.xccmp.x2_ccmp.xcmp.x1_cmp.xn_mirr_load.VBN1 0.30812f
+C108 LELO_TEMP_0.xbias.IBP_1U<2> LELO_TEMP_0.xccmp.x2_ccmp.xcmp.x1_cmp.xn_mirr_load.VO1 1.02046f
+C109 LELO_TEMP_0.xbias.IBP_1U<2> LELO_TEMP_0.xccmp.x2_ccmp.xcmp.x1_cmp.xp_diff.VS 0.55242f
+C110 LELO_TEMP_0.xbias.IBP_1U<2> VDPWR 5.59259f
+C111 LELO_TEMP_0.xbias.IBP_1U<2> VGND 25.3318f
+C112 a_11652_19688# LELO_TEMP_0.xbias.IBP_1U<2> 0.01204f
+C113 a_13252_19688# LELO_TEMP_0.xbias.IBP_1U<2> 0.01204f
+C114 a_14852_19688# LELO_TEMP_0.xbias.IBP_1U<2> 0.01239f
+C115 LELO_TEMP_0.xbias.IBP_1U<2> a_2148_10588# 0.01392f
+C116 a_2148_11068# LELO_TEMP_0.xbias.IBP_1U<2> 0.0139f
+C117 LELO_TEMP_0.xbias.IBP_1U<2> a_22700_5368# 0.01163f
+C118 LELO_TEMP_0.xbias.IBP_1U<2> a_22700_6168# 0.04254f
+C119 LELO_TEMP_0.xbias.IBP_1U<2> a_22700_6968# 0.01016f
+C120 LELO_TEMP_0.xbias.IBP_1U<2> a_24508_2968# 0.08485f
+C121 LELO_TEMP_0.xbias.IBP_1U<2> a_24508_3768# 0.07122f
+C122 LELO_TEMP_0.xbias.PWRUP_B_1V8 LELO_TEMP_0.xbias.IBP_1U<3> 0.2525f
+C123 LELO_TEMP_0.xbias.PWRUP_N_1V8 LELO_TEMP_0.xbias.IBP_1U<3> 2.38286f
+C124 LELO_TEMP_0.xbias.VC LELO_TEMP_0.xbias.IBP_1U<3> 0.71645f
+C125 LELO_TEMP_0.xbias.x1_ibp.LPI LELO_TEMP_0.xbias.IBP_1U<3> 0.02124f
+C126 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xn_load_a.VBP LELO_TEMP_0.xbias.IBP_1U<3> 0.16213f
+C127 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xn_load_a.VD1 LELO_TEMP_0.xbias.IBP_1U<3> 0.0562f
+C128 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xn_load_b.VD2 LELO_TEMP_0.xbias.IBP_1U<3> 0.0562f
+C129 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xp_in_a.VS LELO_TEMP_0.xbias.IBP_1U<3> 0.15609f
+C130 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xp_sw.xbs7.S LELO_TEMP_0.xbias.IBP_1U<3> 0.03645f
+C131 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xp_sw.xbs8.S LELO_TEMP_0.xbias.IBP_1U<3> 0.02412f
+C132 LELO_TEMP_0.xbias.x1_ibp.xp_cas.VCP LELO_TEMP_0.xbias.IBP_1U<3> 0.28047f
+C133 LELO_TEMP_0.xbias.x1_ibp.xp_src.IBD<3> LELO_TEMP_0.xbias.IBP_1U<3> 0.25901f
+C134 LELO_TEMP_0.xbias.x1_ibp.xp_su.xsu2.S LELO_TEMP_0.xbias.IBP_1U<3> 0.01779f
+C135 LELO_TEMP_0.xbias.x1_ibp.xr_lad.VR1 LELO_TEMP_0.xbias.IBP_1U<3> 0.19994f
+C136 LELO_TEMP_0.xbias.IBP_1U<3> LELO_TEMP_0.xccmp.x2_ccmp.xcmp.x1_cmp.xn_mirr_bias.VBP2 2.04866f
+C137 LELO_TEMP_0.xbias.IBP_1U<3> LELO_TEMP_0.xccmp.x2_ccmp.xcmp.x1_cmp.xn_mirr_load.VBN1 0.01828f
+C138 LELO_TEMP_0.xbias.IBP_1U<3> VDPWR 4.99424f
+C139 LELO_TEMP_0.xbias.IBP_1U<3> VGND 18.8259f
+C140 a_11652_19688# LELO_TEMP_0.xbias.IBP_1U<3> 0.01217f
+C141 a_13252_19688# LELO_TEMP_0.xbias.IBP_1U<3> 0.01217f
+C142 a_14852_19688# LELO_TEMP_0.xbias.IBP_1U<3> 0.01272f
+C143 a_16644_19528# LELO_TEMP_0.xbias.IBP_1U<3> 0.01249f
+C144 LELO_TEMP_0.xbias.IBP_1U<3> a_21100_2968# 0.06717f
+C145 LELO_TEMP_0.xbias.IBP_1U<3> a_21100_3768# 0.15142f
+C146 LELO_TEMP_0.xbias.IBP_1U<3> a_21100_4568# 0.15142f
+C147 LELO_TEMP_0.xbias.IBP_1U<3> a_21100_5368# 0.15178f
+C148 LELO_TEMP_0.xbias.IBP_1U<3> a_21100_6168# 0.1608f
+C149 LELO_TEMP_0.xbias.IBP_1U<3> a_21100_6968# 0.1162f
+C150 LELO_TEMP_0.xbias.IBP_1U<3> a_2148_11388# 0.01392f
+C151 a_2148_11868# LELO_TEMP_0.xbias.IBP_1U<3> 0.0139f
+C152 LELO_TEMP_0.xbias.PWRUP_B_1V8 LELO_TEMP_0.xbias.PWRUP_N_1V8 1.82176f
+C153 LELO_TEMP_0.xbias.VC LELO_TEMP_0.xbias.PWRUP_B_1V8 0.42224f
+C154 LELO_TEMP_0.xbias.x1_ibp.LPI LELO_TEMP_0.xbias.PWRUP_B_1V8 0.45274f
+C155 LELO_TEMP_0.xbias.PWRUP_B_1V8 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xn_load_a.VBP 0.94889f
+C156 LELO_TEMP_0.xbias.PWRUP_B_1V8 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xp_sw.xbs1.S 0.0101f
+C157 LELO_TEMP_0.xbias.PWRUP_B_1V8 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xp_sw.xbs2.S 0.0338f
+C158 LELO_TEMP_0.xbias.PWRUP_B_1V8 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xp_sw.xbs4.S 0.03269f
+C159 LELO_TEMP_0.xbias.PWRUP_B_1V8 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xp_sw.xbs7.S 0.01504f
+C160 LELO_TEMP_0.xbias.x1_ibp.xp_cas.VCP LELO_TEMP_0.xbias.PWRUP_B_1V8 1.67353f
+C161 LELO_TEMP_0.xbias.x1_ibp.xr_lad.VR1 LELO_TEMP_0.xbias.PWRUP_B_1V8 0.07675f
+C162 LELO_TEMP_0.xbias.PWRUP_B_1V8 LELO_TEMP_0.xccmp.RST_A 1.93795f
+C163 LELO_TEMP_0.xbias.PWRUP_B_1V8 LELO_TEMP_0.xccmp.RST_B 0.01274f
+C164 LELO_TEMP_0.xbias.PWRUP_B_1V8 LELO_TEMP_0.xccmp.x2_ccmp.xcmp.x1_cmp.xn_mirr_bias.VBP2 0.79188f
+C165 LELO_TEMP_0.xbias.PWRUP_B_1V8 LELO_TEMP_0.xccmp.x2_ccmp.xcmp.x1_cmp.xp_diff.VS 0.01366f
+C166 LELO_TEMP_0.xbias.PWRUP_B_1V8 LELO_TEMP_0.xccmp.x3_ccmp.xcmp.x1_cmp.xn_mirr_bias.VBP2 0.47918f
+C167 LELO_TEMP_0.xbias.PWRUP_B_1V8 LELO_TEMP_0.xccmp.x3_ccmp.xcmp.x1_cmp.xn_mirr_load.VBN1 0.03022f
+C168 LELO_TEMP_0.xbias.PWRUP_B_1V8 LELO_TEMP_0.xdig.x7.XA2.A 0.01521f
+C169 LELO_TEMP_0.xbias.PWRUP_B_1V8 VDPWR 14.0335f
+C170 LELO_TEMP_0.xbias.PWRUP_B_1V8 VGND 18.0165f
+C171 LELO_TEMP_0.xbias.PWRUP_B_1V8 a_14852_17288# 0.06881f
+C172 LELO_TEMP_0.xbias.PWRUP_B_1V8 a_14852_18088# 0.07635f
+C173 LELO_TEMP_0.xbias.PWRUP_B_1V8 a_14852_18888# 0.07509f
+C174 LELO_TEMP_0.xbias.PWRUP_B_1V8 a_14852_19688# 0.14223f
+C175 a_14852_20488# LELO_TEMP_0.xbias.PWRUP_B_1V8 0.06806f
+C176 LELO_TEMP_0.xbias.PWRUP_B_1V8 a_21100_17648# 0.01056f
+C177 LELO_TEMP_0.xbias.PWRUP_B_1V8 a_26300_13648# 0.07189f
+C178 LELO_TEMP_0.xbias.PWRUP_B_1V8 a_26300_14448# 0.06943f
+C179 LELO_TEMP_0.xbias.PWRUP_B_1V8 a_26300_6968# 0.07523f
+C180 LELO_TEMP_0.xbias.PWRUP_B_1V8 a_26300_7768# 0.07729f
+C181 LELO_TEMP_0.xbias.PWRUP_B_1V8 a_29258_1254# 0.04313f
+C182 LELO_TEMP_0.xbias.PWRUP_B_1V8 a_30098_1254# 0.02052f
+C183 LELO_TEMP_0.xbias.VC LELO_TEMP_0.xbias.PWRUP_N_1V8 0.54585f
+C184 LELO_TEMP_0.xbias.x1_ibp.LPI LELO_TEMP_0.xbias.PWRUP_N_1V8 1.77457f
+C185 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xn_load_a.VBP LELO_TEMP_0.xbias.PWRUP_N_1V8 0.72736f
+C186 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xn_load_a.VD1 LELO_TEMP_0.xbias.PWRUP_N_1V8 1.10885f
+C187 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xn_load_b.VD2 LELO_TEMP_0.xbias.PWRUP_N_1V8 1.19819f
+C188 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xn_mirr.VD3 LELO_TEMP_0.xbias.PWRUP_N_1V8 1.16843f
+C189 LELO_TEMP_0.xbias.PWRUP_N_1V8 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xp_bias.VDS 0.58629f
+C190 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xp_in_a.VS LELO_TEMP_0.xbias.PWRUP_N_1V8 2.71706f
+C191 LELO_TEMP_0.xbias.x1_ibp.xp_cas.VCP LELO_TEMP_0.xbias.PWRUP_N_1V8 1.42564f
+C192 LELO_TEMP_0.xbias.x1_ibp.xr_lad.VR1 LELO_TEMP_0.xbias.PWRUP_N_1V8 0.34518f
+C193 LELO_TEMP_0.xbias.PWRUP_N_1V8 LELO_TEMP_0.xccmp.RST_A 0.62935f
+C194 LELO_TEMP_0.xbias.PWRUP_N_1V8 LELO_TEMP_0.xccmp.RST_B 0.32428f
+C195 LELO_TEMP_0.xbias.PWRUP_N_1V8 LELO_TEMP_0.xccmp.x2_ccmp.xcmp.x1_cmp.xn_mirr_bias.VBP2 0.68556f
+C196 LELO_TEMP_0.xbias.PWRUP_N_1V8 LELO_TEMP_0.xccmp.x2_ccmp.xcmp.x1_cmp.xn_mirr_load.VBN1 0.45338f
+C197 LELO_TEMP_0.xbias.PWRUP_N_1V8 LELO_TEMP_0.xccmp.x2_ccmp.xcmp.x1_cmp.xn_mirr_load.VO1 0.15708f
+C198 LELO_TEMP_0.xbias.PWRUP_N_1V8 LELO_TEMP_0.xccmp.x3_ccmp.xcmp.x1_cmp.xn_mirr_bias.VBP2 0.67538f
+C199 LELO_TEMP_0.xbias.PWRUP_N_1V8 LELO_TEMP_0.xccmp.x3_ccmp.xcmp.x1_cmp.xn_mirr_load.VBN1 0.45338f
+C200 LELO_TEMP_0.xbias.PWRUP_N_1V8 LELO_TEMP_0.xccmp.x3_ccmp.xcmp.x1_cmp.xn_mirr_load.VO1 0.15708f
+C201 LELO_TEMP_0.xbias.PWRUP_N_1V8 LELO_TEMP_0.xdig.x4.B 0.01761f
+C202 LELO_TEMP_0.xbias.PWRUP_N_1V8 LELO_TEMP_0.xdig.x7.XA2.A 0.19059f
+C203 LELO_TEMP_0.xbias.PWRUP_N_1V8 LELO_TEMP_0.xdig.x7.Y 0.13103f
+C204 LELO_TEMP_0.xbias.PWRUP_N_1V8 VDPWR 11.9537f
+C205 LELO_TEMP_0.xbias.PWRUP_N_1V8 VGND 50.3719f
+C206 LELO_TEMP_0.xbias.PWRUP_N_1V8 a_11844_8328# 0.06803f
+C207 LELO_TEMP_0.xbias.PWRUP_N_1V8 a_11844_9128# 0.07552f
+C208 LELO_TEMP_0.xbias.PWRUP_N_1V8 a_13444_8328# 0.06803f
+C209 LELO_TEMP_0.xbias.PWRUP_N_1V8 a_13444_9128# 0.07722f
+C210 LELO_TEMP_0.xbias.PWRUP_N_1V8 a_14852_15688# 0.08263f
+C211 LELO_TEMP_0.xbias.PWRUP_N_1V8 a_14852_16488# 0.06833f
+C212 LELO_TEMP_0.xbias.PWRUP_N_1V8 a_15044_9128# 0.0699f
+C213 LELO_TEMP_0.xbias.PWRUP_N_1V8 a_15044_9928# 0.07722f
+C214 LELO_TEMP_0.xbias.PWRUP_N_1V8 a_21100_13648# 0.07387f
+C215 LELO_TEMP_0.xbias.PWRUP_N_1V8 a_21100_14448# 0.08138f
+C216 LELO_TEMP_0.xbias.PWRUP_N_1V8 a_21100_6968# 0.08375f
+C217 LELO_TEMP_0.xbias.PWRUP_N_1V8 a_21100_7768# 0.07768f
+C218 LELO_TEMP_0.xbias.PWRUP_N_1V8 a_22700_1368# 0.06872f
+C219 LELO_TEMP_0.xbias.PWRUP_N_1V8 a_22700_14448# 0.06809f
+C220 LELO_TEMP_0.xbias.PWRUP_N_1V8 a_22700_15248# 0.07822f
+C221 LELO_TEMP_0.xbias.PWRUP_N_1V8 a_22700_16048# 0.07238f
+C222 LELO_TEMP_0.xbias.PWRUP_N_1V8 a_22700_16848# 0.07213f
+C223 LELO_TEMP_0.xbias.PWRUP_N_1V8 a_22700_19248# 0.07379f
+C224 a_22700_20048# LELO_TEMP_0.xbias.PWRUP_N_1V8 0.06902f
+C225 LELO_TEMP_0.xbias.PWRUP_N_1V8 a_22700_2168# 0.07379f
+C226 LELO_TEMP_0.xbias.PWRUP_N_1V8 a_22700_4568# 0.07213f
+C227 LELO_TEMP_0.xbias.PWRUP_N_1V8 a_22700_5368# 0.07238f
+C228 LELO_TEMP_0.xbias.PWRUP_N_1V8 a_22700_6168# 0.07822f
+C229 LELO_TEMP_0.xbias.PWRUP_N_1V8 a_22700_6968# 0.06878f
+C230 LELO_TEMP_0.xbias.PWRUP_N_1V8 a_29258_1254# 0.06888f
+C231 LELO_TEMP_0.xbias.PWRUP_N_1V8 a_29258_2054# 0.06858f
+C232 LELO_TEMP_0.xbias.PWRUP_N_1V8 a_29258_934# 0.09883f
+C233 LELO_TEMP_0.xbias.PWRUP_N_1V8 a_30098_1254# 0.05921f
+C234 LELO_TEMP_0.xbias.PWRUP_N_1V8 a_30098_2054# 0.05912f
+C235 LELO_TEMP_0.xbias.PWRUP_N_1V8 a_30098_934# 0.07937f
+C236 LELO_TEMP_0.xbias.PWRUP_N_1V8 ui_in<0> 0.47238f
+C237 LELO_TEMP_0.xbias.PWRUP_N_1V8 uo_out<0> 0.08545f
+C238 LELO_TEMP_0.xbias.VC LELO_TEMP_0.xbias.x1_ibp.LPI 1.12066f
+C239 LELO_TEMP_0.xbias.VC LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xn_load_a.VBP 0.06053f
+C240 LELO_TEMP_0.xbias.VC LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xn_load_a.VD1 4.03291f
+C241 LELO_TEMP_0.xbias.VC LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xn_load_b.VD2 0.09038f
+C242 LELO_TEMP_0.xbias.VC LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xn_mirr.VD3 0.68064f
+C243 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xp_in_a.VS LELO_TEMP_0.xbias.VC 2.83723f
+C244 LELO_TEMP_0.xbias.VC LELO_TEMP_0.xbias.x1_ibp.xp_cas.VCP 9.62844f
+C245 LELO_TEMP_0.xbias.VC LELO_TEMP_0.xbias.x1_ibp.xp_src.VBD1 2.33374f
+C246 LELO_TEMP_0.xbias.VC LELO_TEMP_0.xbias.x1_ibp.xp_su.xsu2.S 0.89886f
+C247 LELO_TEMP_0.xbias.VC LELO_TEMP_0.xbias.x1_ibp.xr_lad.VD2 0.73553f
+C248 LELO_TEMP_0.xbias.VC LELO_TEMP_0.xbias.x1_ibp.xr_lad.VR1 5.60031f
+C249 LELO_TEMP_0.xbias.VC LELO_TEMP_0.xccmp.x2_ccmp.xcmp.x1_cmp.xn_mirr_bias.VBP2 0.16993f
+C250 LELO_TEMP_0.xbias.VC LELO_TEMP_0.xccmp.x2_ccmp.xcmp.x1_cmp.xn_mirr_load.VBN1 0.4012f
+C251 LELO_TEMP_0.xbias.VC LELO_TEMP_0.xccmp.x2_ccmp.xcmp.x1_cmp.xn_mirr_load.VO1 0.01591f
+C252 LELO_TEMP_0.xbias.VC LELO_TEMP_0.xccmp.x2_ccmp.xcmp.x1_cmp.xp_diff.VS 0.66488f
+C253 LELO_TEMP_0.xbias.VC LELO_TEMP_0.xccmp.x3_ccmp.xcmp.x1_cmp.xn_mirr_bias.VBP2 0.17079f
+C254 LELO_TEMP_0.xbias.VC LELO_TEMP_0.xccmp.x3_ccmp.xcmp.x1_cmp.xn_mirr_load.VBN1 0.4012f
+C255 LELO_TEMP_0.xbias.VC LELO_TEMP_0.xccmp.x3_ccmp.xcmp.x1_cmp.xn_mirr_load.VO1 0.01591f
+C256 LELO_TEMP_0.xbias.VC LELO_TEMP_0.xccmp.x3_ccmp.xcmp.x1_cmp.xp_diff.VS 0.66488f
+C257 LELO_TEMP_0.xbias.VC VDPWR 27.7594f
+C258 LELO_TEMP_0.xbias.VC VGND 21.6767f
+C259 LELO_TEMP_0.xbias.VC a_11652_16488# 0.07331f
+C260 LELO_TEMP_0.xbias.VC a_11652_17288# 0.15865f
+C261 LELO_TEMP_0.xbias.VC a_11652_18088# 0.15198f
+C262 LELO_TEMP_0.xbias.VC a_11652_18888# 0.15198f
+C263 LELO_TEMP_0.xbias.VC a_11652_19688# 0.15198f
+C264 a_11652_20488# LELO_TEMP_0.xbias.VC 0.06717f
+C265 LELO_TEMP_0.xbias.VC a_2148_12188# 0.01336f
+C266 LELO_TEMP_0.xbias.VC a_2148_12668# 0.04523f
+C267 LELO_TEMP_0.xbias.VC a_2148_12828# 0.03864f
+C268 LELO_TEMP_0.xbias.VC a_2148_12988# 0.04146f
+C269 LELO_TEMP_0.xbias.VC a_2148_13468# 0.0396f
+C270 LELO_TEMP_0.xbias.VC a_2148_13628# 0.03508f
+C271 LELO_TEMP_0.xbias.VC a_2148_13788# 0.03913f
+C272 LELO_TEMP_0.xbias.VC a_2148_14268# 0.03833f
+C273 LELO_TEMP_0.xbias.VC a_2148_14428# 0.03408f
+C274 LELO_TEMP_0.xbias.VC a_2148_14588# 0.03833f
+C275 LELO_TEMP_0.xbias.VC a_2148_15068# 0.03833f
+C276 LELO_TEMP_0.xbias.VC a_2148_15228# 0.03408f
+C277 LELO_TEMP_0.xbias.VC a_2148_15388# 0.03833f
+C278 LELO_TEMP_0.xbias.VC a_2148_15868# 0.03833f
+C279 LELO_TEMP_0.xbias.VC a_2148_16028# 0.03408f
+C280 LELO_TEMP_0.xbias.VC a_2148_16188# 0.03833f
+C281 LELO_TEMP_0.xbias.VC a_2148_16668# 0.03845f
+C282 LELO_TEMP_0.xbias.VC a_2148_16828# 0.03423f
+C283 LELO_TEMP_0.xbias.VC a_2148_16988# 0.03852f
+C284 LELO_TEMP_0.xbias.VC a_2148_17468# 0.03872f
+C285 LELO_TEMP_0.xbias.VC a_2148_17628# 0.03458f
+C286 LELO_TEMP_0.xbias.VC a_2148_17788# 0.03963f
+C287 LELO_TEMP_0.xbias.VC a_24508_16848# 0.07094f
+C288 LELO_TEMP_0.xbias.VC a_24508_17648# 0.06899f
+C289 LELO_TEMP_0.xbias.VC a_24508_3768# 0.06899f
+C290 LELO_TEMP_0.xbias.VC a_24508_4568# 0.07094f
+C291 LELO_TEMP_0.xbias.VC a_3812_10428# 0.01653f
+C292 LELO_TEMP_0.xbias.VC a_3812_11228# 0.01653f
+C293 LELO_TEMP_0.xbias.VC a_3812_12028# 0.01653f
+C294 LELO_TEMP_0.xbias.VC a_3812_12828# 0.01755f
+C295 LELO_TEMP_0.xbias.VC a_3812_13628# 0.01755f
+C296 LELO_TEMP_0.xbias.VC a_3812_14428# 0.01755f
+C297 LELO_TEMP_0.xbias.VC a_3812_15228# 0.01755f
+C298 LELO_TEMP_0.xbias.VC a_3812_16028# 0.01755f
+C299 LELO_TEMP_0.xbias.VC a_3812_16828# 0.02071f
+C300 LELO_TEMP_0.xbias.VC a_3812_17628# 0.08939f
+C301 LELO_TEMP_0.xbias.VC a_3812_18428# 0.07604f
+C302 LELO_TEMP_0.xbias.VC a_3812_8028# 0.01793f
+C303 LELO_TEMP_0.xbias.VC a_3812_8828# 0.01653f
+C304 LELO_TEMP_0.xbias.VC a_3812_9628# 0.01653f
+C305 LELO_TEMP_0.xbias.x1_ibp.LPI LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xn_load_a.VBP 0.91436f
+C306 LELO_TEMP_0.xbias.x1_ibp.LPI LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xn_load_b.VD2 0.55499f
+C307 LELO_TEMP_0.xbias.x1_ibp.LPI LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xn_mirr.VD3 0.46218f
+C308 LELO_TEMP_0.xbias.x1_ibp.LPI LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xp_bias.VDS 0.11005f
+C309 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xp_in_a.VS LELO_TEMP_0.xbias.x1_ibp.LPI 0.25545f
+C310 LELO_TEMP_0.xbias.x1_ibp.LPI LELO_TEMP_0.xbias.x1_ibp.xp_cas.VCP 8.21647f
+C311 LELO_TEMP_0.xbias.x1_ibp.LPI LELO_TEMP_0.xbias.x1_ibp.xp_src.IBD<0> 0.4381f
+C312 LELO_TEMP_0.xbias.x1_ibp.LPI LELO_TEMP_0.xbias.x1_ibp.xp_src.IBD<1> 0.4381f
+C313 LELO_TEMP_0.xbias.x1_ibp.LPI LELO_TEMP_0.xbias.x1_ibp.xp_src.IBD<2> 0.4381f
+C314 LELO_TEMP_0.xbias.x1_ibp.LPI LELO_TEMP_0.xbias.x1_ibp.xp_src.IBD<3> 0.4381f
+C315 LELO_TEMP_0.xbias.x1_ibp.LPI LELO_TEMP_0.xbias.x1_ibp.xp_src.VBD1 4.62806f
+C316 LELO_TEMP_0.xbias.x1_ibp.LPI LELO_TEMP_0.xbias.x1_ibp.xp_src.VBD2 0.41648f
+C317 LELO_TEMP_0.xbias.x1_ibp.LPI LELO_TEMP_0.xbias.x1_ibp.xr_lad.VR1 0.40663f
+C318 LELO_TEMP_0.xbias.x1_ibp.LPI VDPWR 77.61411f
+C319 LELO_TEMP_0.xbias.x1_ibp.LPI VGND 24.5467f
+C320 LELO_TEMP_0.xbias.x1_ibp.LPI a_13444_13128# 0.0253f
+C321 LELO_TEMP_0.xbias.x1_ibp.LPI a_14852_15688# 0.01186f
+C322 LELO_TEMP_0.xbias.x1_ibp.LPI a_14852_16488# 0.01872f
+C323 LELO_TEMP_0.xbias.x1_ibp.LPI a_14852_17288# 0.04372f
+C324 LELO_TEMP_0.xbias.x1_ibp.LPI a_18692_8710# 0.0192f
+C325 LELO_TEMP_0.xbias.x1_ibp.LPI a_18692_9510# 0.0192f
+C326 LELO_TEMP_0.xbias.x1_ibp.LPI a_548_10428# 0.16648f
+C327 LELO_TEMP_0.xbias.x1_ibp.LPI a_548_11228# 0.16648f
+C328 LELO_TEMP_0.xbias.x1_ibp.LPI a_548_12028# 0.16648f
+C329 LELO_TEMP_0.xbias.x1_ibp.LPI a_548_12828# 0.15863f
+C330 LELO_TEMP_0.xbias.x1_ibp.LPI a_548_13628# 0.15863f
+C331 LELO_TEMP_0.xbias.x1_ibp.LPI a_548_14428# 0.15863f
+C332 LELO_TEMP_0.xbias.x1_ibp.LPI a_548_15228# 0.15863f
+C333 LELO_TEMP_0.xbias.x1_ibp.LPI a_548_16028# 0.15863f
+C334 LELO_TEMP_0.xbias.x1_ibp.LPI a_548_16828# 0.15863f
+C335 LELO_TEMP_0.xbias.x1_ibp.LPI a_548_17628# 0.15863f
+C336 a_548_18428# LELO_TEMP_0.xbias.x1_ibp.LPI 0.06882f
+C337 LELO_TEMP_0.xbias.x1_ibp.LPI a_548_8028# 0.08264f
+C338 LELO_TEMP_0.xbias.x1_ibp.LPI a_548_8828# 0.16648f
+C339 LELO_TEMP_0.xbias.x1_ibp.LPI a_548_9628# 0.16648f
+C340 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xn_load_a.VD1 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xn_load_a.VBP 0.48231f
+C341 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xn_load_b.VD2 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xn_load_a.VBP 0.26816f
+C342 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xn_load_a.VBP LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xn_mirr.VD3 0.82039f
+C343 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xn_load_a.VBP LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xp_bias.VDS 0.09495f
+C344 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xp_in_a.VS LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xn_load_a.VBP 1.90373f
+C345 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xn_load_a.VBP LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xp_sw.xbs1.S 0.0175f
+C346 LELO_TEMP_0.xbias.x1_ibp.xp_cas.VCP LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xn_load_a.VBP 1.31771f
+C347 LELO_TEMP_0.xbias.x1_ibp.xr_lad.VR1 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xn_load_a.VBP 0.2034f
+C348 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xn_load_a.VBP VDPWR 5.81606f
+C349 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xn_load_a.VBP VGND 2.30984f
+C350 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xn_load_a.VBP a_11844_13128# 0.02403f
+C351 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xn_load_a.VBP a_14852_16488# 0.08002f
+C352 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xn_load_a.VBP a_14852_17288# 0.08765f
+C353 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xn_load_a.VBP a_14852_18088# 0.08538f
+C354 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xn_load_a.VBP a_14852_18888# 0.12291f
+C355 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xn_load_a.VD1 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xn_load_b.VD2 0.07184f
+C356 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xn_load_a.VD1 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xn_mirr.VD3 0.32654f
+C357 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xp_in_a.VS LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xn_load_a.VD1 1.15303f
+C358 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xn_load_a.VD1 LELO_TEMP_0.xbias.x1_ibp.xp_cas.VCP 0.16687f
+C359 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xn_load_a.VD1 VDPWR 1.02869f
+C360 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xn_load_a.VD1 VGND 12.3582f
+C361 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xn_load_a.VD1 a_11652_15688# 0.01812f
+C362 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xn_load_a.VD1 a_11652_16488# 0.01746f
+C363 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xn_load_a.VD1 a_11652_17288# 0.02203f
+C364 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xn_load_a.VD1 a_11652_18088# 0.0376f
+C365 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xn_load_a.VD1 a_11652_18888# 0.0368f
+C366 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xn_load_a.VD1 a_11652_19688# 0.03668f
+C367 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xn_load_a.VD1 a_11844_10728# 0.18448f
+C368 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xn_load_a.VD1 a_11844_11528# 0.18448f
+C369 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xn_load_a.VD1 a_11844_12328# 0.16057f
+C370 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xn_load_a.VD1 a_11844_13128# 0.08245f
+C371 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xn_load_a.VD1 a_11844_9128# 0.10166f
+C372 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xn_load_a.VD1 a_11844_9928# 0.18448f
+C373 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xn_load_b.VD2 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xn_mirr.VD3 0.51745f
+C374 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xp_in_a.VS LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xn_load_b.VD2 1.14563f
+C375 LELO_TEMP_0.xbias.x1_ibp.xp_cas.VCP LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xn_load_b.VD2 0.02274f
+C376 LELO_TEMP_0.xbias.x1_ibp.xr_lad.VR1 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xn_load_b.VD2 3.96105f
+C377 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xn_load_b.VD2 VDPWR 0.87519f
+C378 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xn_load_b.VD2 VGND 12.1941f
+C379 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xn_load_b.VD2 a_13252_15688# 0.01844f
+C380 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xn_load_b.VD2 a_13252_16488# 0.01746f
+C381 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xn_load_b.VD2 a_13252_17288# 0.02203f
+C382 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xn_load_b.VD2 a_13252_18088# 0.0376f
+C383 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xn_load_b.VD2 a_13252_18888# 0.0368f
+C384 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xn_load_b.VD2 a_13252_19688# 0.03668f
+C385 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xn_load_b.VD2 a_13444_10728# 0.18448f
+C386 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xn_load_b.VD2 a_13444_11528# 0.18448f
+C387 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xn_load_b.VD2 a_13444_12328# 0.16043f
+C388 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xn_load_b.VD2 a_13444_13128# 0.08046f
+C389 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xn_load_b.VD2 a_13444_9128# 0.10166f
+C390 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xn_load_b.VD2 a_13444_9928# 0.18448f
+C391 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xn_mirr.VD3 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xp_bias.VDS 0.30246f
+C392 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xp_in_a.VS LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xn_mirr.VD3 0.86616f
+C393 LELO_TEMP_0.xbias.x1_ibp.xp_cas.VCP LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xn_mirr.VD3 2.04807f
+C394 LELO_TEMP_0.xbias.x1_ibp.xr_lad.VR1 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xn_mirr.VD3 0.52612f
+C395 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xn_mirr.VD3 VDPWR 1.75446f
+C396 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xn_mirr.VD3 VGND 10.7265f
+C397 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xn_mirr.VD3 a_11652_15688# 0.02242f
+C398 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xn_mirr.VD3 a_11652_16488# 0.02675f
+C399 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xn_mirr.VD3 a_13252_15688# 0.02236f
+C400 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xn_mirr.VD3 a_13252_16488# 0.02675f
+C401 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xn_mirr.VD3 a_15044_10728# 0.16035f
+C402 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xn_mirr.VD3 a_15044_11528# 0.15147f
+C403 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xn_mirr.VD3 a_15044_12328# 0.1515f
+C404 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xn_mirr.VD3 a_15044_13128# 0.08253f
+C405 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xn_mirr.VD3 a_15044_9928# 0.10166f
+C406 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xp_in_a.VS LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xp_bias.VDS 0.36251f
+C407 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xp_bias.VDS LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xr_deg.xd2<1>.P 0.25247f
+C408 LELO_TEMP_0.xbias.x1_ibp.xp_cas.VCP LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xp_bias.VDS 1.46066f
+C409 LELO_TEMP_0.xbias.x1_ibp.xr_lad.VR1 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xp_bias.VDS 0.08193f
+C410 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xp_bias.VDS VDPWR 0.63079f
+C411 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xp_bias.VDS VGND 2.48713f
+C412 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xp_bias.VDS a_14852_15688# 0.02764f
+C413 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xp_in_a.VS LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xr_deg.xd2<1>.P 0.29785f
+C414 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xp_in_a.VS LELO_TEMP_0.xbias.x1_ibp.xp_cas.VCP 0.43042f
+C415 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xp_in_a.VS LELO_TEMP_0.xbias.x1_ibp.xr_lad.VR1 2.82715f
+C416 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xp_in_a.VS VDPWR 3.90222f
+C417 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xp_in_a.VS VGND 3.30239f
+C418 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xp_in_a.VS a_11652_15688# 0.01439f
+C419 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xp_in_a.VS a_11652_16488# 0.11688f
+C420 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xp_in_a.VS a_11652_17288# 0.21245f
+C421 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xp_in_a.VS a_11652_18088# 0.21091f
+C422 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xp_in_a.VS a_11652_18888# 0.21034f
+C423 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xp_in_a.VS a_11652_19688# 0.21034f
+C424 a_11652_20488# LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xp_in_a.VS 0.09636f
+C425 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xp_in_a.VS a_13252_15688# 0.01384f
+C426 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xp_in_a.VS a_13252_16488# 0.11663f
+C427 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xp_in_a.VS a_13252_17288# 0.21245f
+C428 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xp_in_a.VS a_13252_18088# 0.21091f
+C429 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xp_in_a.VS a_13252_18888# 0.21034f
+C430 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xp_in_a.VS a_13252_19688# 0.21034f
+C431 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xp_in_a.VS a_13252_20488# 0.09636f
+C432 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xp_sw.xbs2.S LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xp_sw.xbs1.S 0.27327f
+C433 LELO_TEMP_0.xbias.x1_ibp.xp_cas.VCP LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xp_sw.xbs1.S 0.49667f
+C434 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xp_sw.xbs1.S VDPWR 0.55718f
+C435 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xp_sw.xbs1.S a_16644_16328# 0.0364f
+C436 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xp_sw.xbs1.S a_16644_16488# 0.03687f
+C437 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xp_sw.xbs1.S a_16644_16648# 0.08306f
+C438 a_16644_17128# LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xp_sw.xbs1.S 0.04921f
+C439 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xp_sw.xbs4.S LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xp_sw.xbs2.S 0.27327f
+C440 LELO_TEMP_0.xbias.x1_ibp.xp_cas.VCP LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xp_sw.xbs2.S 0.47488f
+C441 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xp_sw.xbs2.S VDPWR 0.29353f
+C442 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xp_sw.xbs2.S a_16644_17128# 0.0364f
+C443 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xp_sw.xbs2.S a_16644_17288# 0.03687f
+C444 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xp_sw.xbs2.S a_16644_17448# 0.08306f
+C445 a_16644_17928# LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xp_sw.xbs2.S 0.04921f
+C446 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xp_sw.xbs7.S LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xp_sw.xbs4.S 0.27327f
+C447 LELO_TEMP_0.xbias.x1_ibp.xp_cas.VCP LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xp_sw.xbs4.S 0.47345f
+C448 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xp_sw.xbs4.S VDPWR 0.29353f
+C449 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xp_sw.xbs4.S a_16644_17928# 0.0364f
+C450 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xp_sw.xbs4.S a_16644_18088# 0.03687f
+C451 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xp_sw.xbs4.S a_16644_18248# 0.08306f
+C452 a_16644_18728# LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xp_sw.xbs4.S 0.04921f
+C453 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xp_sw.xbs8.S LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xp_sw.xbs7.S 0.27327f
+C454 LELO_TEMP_0.xbias.x1_ibp.xp_cas.VCP LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xp_sw.xbs7.S 0.47282f
+C455 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xp_sw.xbs7.S VDPWR 0.29353f
+C456 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xp_sw.xbs7.S a_16644_18728# 0.0364f
+C457 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xp_sw.xbs7.S a_16644_18888# 0.03687f
+C458 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xp_sw.xbs7.S a_16644_19048# 0.08306f
+C459 a_16644_19528# LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xp_sw.xbs7.S 0.04921f
+C460 LELO_TEMP_0.xbias.x1_ibp.xp_cas.VCP LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xp_sw.xbs8.S 0.69465f
+C461 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xp_sw.xbs8.S VDPWR 0.33733f
+C462 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xp_sw.xbs8.S a_16644_19528# 0.0364f
+C463 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xp_sw.xbs8.S a_16644_19688# 0.03687f
+C464 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xp_sw.xbs8.S a_16644_19848# 0.08306f
+C465 a_16644_20328# LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xp_sw.xbs8.S 0.04921f
+C466 LELO_TEMP_0.xbias.x1_ibp.xp_cas.VCP LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xr_deg.xd2<1>.P 0.01501f
+C467 LELO_TEMP_0.xbias.x1_ibp.xota.xad6.xr_deg.xd2<1>.P VGND 0.74818f
+C468 LELO_TEMP_0.xbias.x1_ibp.xp_cas.VCP LELO_TEMP_0.xbias.x1_ibp.xp_src.IBD<0> 0.25281f
+C469 LELO_TEMP_0.xbias.x1_ibp.xp_cas.VCP LELO_TEMP_0.xbias.x1_ibp.xp_src.IBD<1> 0.25281f
+C470 LELO_TEMP_0.xbias.x1_ibp.xp_cas.VCP LELO_TEMP_0.xbias.x1_ibp.xp_src.IBD<2> 0.25281f
+C471 LELO_TEMP_0.xbias.x1_ibp.xp_cas.VCP LELO_TEMP_0.xbias.x1_ibp.xp_src.IBD<3> 0.25281f
+C472 LELO_TEMP_0.xbias.x1_ibp.xp_src.VBD1 LELO_TEMP_0.xbias.x1_ibp.xp_cas.VCP 1.61988f
+C473 LELO_TEMP_0.xbias.x1_ibp.xp_cas.VCP LELO_TEMP_0.xbias.x1_ibp.xp_src.VBD2 0.22849f
+C474 LELO_TEMP_0.xbias.x1_ibp.xp_su.xsu2.S LELO_TEMP_0.xbias.x1_ibp.xp_cas.VCP 0.01036f
+C475 LELO_TEMP_0.xbias.x1_ibp.xp_cas.VCP LELO_TEMP_0.xbias.x1_ibp.xr_lad.VR1 0.58506f
+C476 LELO_TEMP_0.xbias.x1_ibp.xp_cas.VCP VDPWR 35.9935f
+C477 LELO_TEMP_0.xbias.x1_ibp.xp_cas.VCP VGND 13.5607f
+C478 LELO_TEMP_0.xbias.x1_ibp.xp_cas.VCP a_14852_15688# 0.01643f
+C479 LELO_TEMP_0.xbias.x1_ibp.xp_cas.VCP a_14852_16488# 0.01856f
+C480 LELO_TEMP_0.xbias.x1_ibp.xp_cas.VCP a_14852_17288# 0.01237f
+C481 LELO_TEMP_0.xbias.x1_ibp.xp_cas.VCP a_14852_18088# 0.01703f
+C482 LELO_TEMP_0.xbias.x1_ibp.xp_cas.VCP a_14852_18888# 0.01096f
+C483 LELO_TEMP_0.xbias.x1_ibp.xp_cas.VCP a_14852_19688# 0.02208f
+C484 LELO_TEMP_0.xbias.x1_ibp.xp_cas.VCP a_15044_11528# 0.03385f
+C485 LELO_TEMP_0.xbias.x1_ibp.xp_cas.VCP a_15044_12328# 0.03561f
+C486 LELO_TEMP_0.xbias.x1_ibp.xp_cas.VCP a_15044_13128# 0.02408f
+C487 LELO_TEMP_0.xbias.x1_ibp.xp_cas.VCP a_16644_15688# 0.01728f
+C488 LELO_TEMP_0.xbias.x1_ibp.xp_cas.VCP a_16644_15848# 0.08552f
+C489 LELO_TEMP_0.xbias.x1_ibp.xp_cas.VCP a_16644_16328# 0.09124f
+C490 LELO_TEMP_0.xbias.x1_ibp.xp_cas.VCP a_16644_16488# 0.02114f
+C491 LELO_TEMP_0.xbias.x1_ibp.xp_cas.VCP a_16644_16648# 0.09095f
+C492 LELO_TEMP_0.xbias.x1_ibp.xp_cas.VCP a_16644_17128# 0.09085f
+C493 LELO_TEMP_0.xbias.x1_ibp.xp_cas.VCP a_16644_17288# 0.02104f
+C494 LELO_TEMP_0.xbias.x1_ibp.xp_cas.VCP a_16644_17448# 0.09084f
+C495 LELO_TEMP_0.xbias.x1_ibp.xp_cas.VCP a_16644_17928# 0.08973f
+C496 LELO_TEMP_0.xbias.x1_ibp.xp_cas.VCP a_16644_18088# 0.01991f
+C497 LELO_TEMP_0.xbias.x1_ibp.xp_cas.VCP a_16644_18248# 0.08978f
+C498 LELO_TEMP_0.xbias.x1_ibp.xp_cas.VCP a_16644_18728# 0.08974f
+C499 LELO_TEMP_0.xbias.x1_ibp.xp_cas.VCP a_16644_18888# 0.01995f
+C500 LELO_TEMP_0.xbias.x1_ibp.xp_cas.VCP a_16644_19048# 0.08976f
+C501 LELO_TEMP_0.xbias.x1_ibp.xp_cas.VCP a_16644_19528# 0.08992f
+C502 LELO_TEMP_0.xbias.x1_ibp.xp_cas.VCP a_16644_19688# 0.02031f
+C503 LELO_TEMP_0.xbias.x1_ibp.xp_cas.VCP a_16644_19848# 0.09464f
+C504 LELO_TEMP_0.xbias.x1_ibp.xp_cas.VCP a_16644_20328# 0.07963f
+C505 LELO_TEMP_0.xbias.x1_ibp.xp_cas.VCP a_2148_10268# 0.10486f
+C506 LELO_TEMP_0.xbias.x1_ibp.xp_cas.VCP a_2148_10428# 0.03459f
+C507 LELO_TEMP_0.xbias.x1_ibp.xp_cas.VCP a_2148_10588# 0.10435f
+C508 LELO_TEMP_0.xbias.x1_ibp.xp_cas.VCP a_2148_11068# 0.10486f
+C509 LELO_TEMP_0.xbias.x1_ibp.xp_cas.VCP a_2148_11228# 0.03459f
+C510 LELO_TEMP_0.xbias.x1_ibp.xp_cas.VCP a_2148_11388# 0.10435f
+C511 LELO_TEMP_0.xbias.x1_ibp.xp_cas.VCP a_2148_11868# 0.10486f
+C512 LELO_TEMP_0.xbias.x1_ibp.xp_cas.VCP a_2148_12028# 0.03459f
+C513 LELO_TEMP_0.xbias.x1_ibp.xp_cas.VCP a_2148_12188# 0.10435f
+C514 LELO_TEMP_0.xbias.x1_ibp.xp_cas.VCP a_2148_12668# 0.0968f
+C515 LELO_TEMP_0.xbias.x1_ibp.xp_cas.VCP a_2148_12828# 0.02653f
+C516 LELO_TEMP_0.xbias.x1_ibp.xp_cas.VCP a_2148_12988# 0.09629f
+C517 LELO_TEMP_0.xbias.x1_ibp.xp_cas.VCP a_2148_13468# 0.0968f
+C518 LELO_TEMP_0.xbias.x1_ibp.xp_cas.VCP a_2148_13628# 0.02653f
+C519 LELO_TEMP_0.xbias.x1_ibp.xp_cas.VCP a_2148_13788# 0.09629f
+C520 LELO_TEMP_0.xbias.x1_ibp.xp_cas.VCP a_2148_14268# 0.0968f
+C521 LELO_TEMP_0.xbias.x1_ibp.xp_cas.VCP a_2148_14428# 0.02653f
+C522 LELO_TEMP_0.xbias.x1_ibp.xp_cas.VCP a_2148_14588# 0.09629f
+C523 LELO_TEMP_0.xbias.x1_ibp.xp_cas.VCP a_2148_15068# 0.0968f
+C524 LELO_TEMP_0.xbias.x1_ibp.xp_cas.VCP a_2148_15228# 0.02653f
+C525 LELO_TEMP_0.xbias.x1_ibp.xp_cas.VCP a_2148_15388# 0.09629f
+C526 LELO_TEMP_0.xbias.x1_ibp.xp_cas.VCP a_2148_15868# 0.0968f
+C527 LELO_TEMP_0.xbias.x1_ibp.xp_cas.VCP a_2148_16028# 0.02653f
+C528 LELO_TEMP_0.xbias.x1_ibp.xp_cas.VCP a_2148_16188# 0.09629f
+C529 LELO_TEMP_0.xbias.x1_ibp.xp_cas.VCP a_2148_16668# 0.0968f
+C530 LELO_TEMP_0.xbias.x1_ibp.xp_cas.VCP a_2148_16828# 0.02653f
+C531 LELO_TEMP_0.xbias.x1_ibp.xp_cas.VCP a_2148_16988# 0.09629f
+C532 LELO_TEMP_0.xbias.x1_ibp.xp_cas.VCP a_2148_17468# 0.0968f
+C533 LELO_TEMP_0.xbias.x1_ibp.xp_cas.VCP a_2148_17628# 0.02653f
+C534 LELO_TEMP_0.xbias.x1_ibp.xp_cas.VCP a_2148_17788# 0.09629f
+C535 a_2148_18268# LELO_TEMP_0.xbias.x1_ibp.xp_cas.VCP 0.08047f
+C536 LELO_TEMP_0.xbias.x1_ibp.xp_cas.VCP a_2148_8028# 0.01407f
+C537 LELO_TEMP_0.xbias.x1_ibp.xp_cas.VCP a_2148_8188# 0.08457f
+C538 LELO_TEMP_0.xbias.x1_ibp.xp_cas.VCP a_2148_8668# 0.10486f
+C539 LELO_TEMP_0.xbias.x1_ibp.xp_cas.VCP a_2148_8828# 0.03459f
+C540 LELO_TEMP_0.xbias.x1_ibp.xp_cas.VCP a_2148_8988# 0.10435f
+C541 LELO_TEMP_0.xbias.x1_ibp.xp_cas.VCP a_2148_9468# 0.10486f
+C542 LELO_TEMP_0.xbias.x1_ibp.xp_cas.VCP a_2148_9628# 0.03459f
+C543 LELO_TEMP_0.xbias.x1_ibp.xp_cas.VCP a_2148_9788# 0.10435f
+C544 LELO_TEMP_0.xbias.x1_ibp.xp_src.IBD<1> LELO_TEMP_0.xbias.x1_ibp.xp_src.IBD<0> 0.24123f
+C545 LELO_TEMP_0.xbias.x1_ibp.xp_src.IBD<0> LELO_TEMP_0.xbias.x1_ibp.xp_src.VBD2 0.24123f
+C546 LELO_TEMP_0.xbias.x1_ibp.xp_src.IBD<0> VDPWR 0.73172f
+C547 LELO_TEMP_0.xbias.x1_ibp.xp_src.IBD<0> VGND 0.14298f
+C548 LELO_TEMP_0.xbias.x1_ibp.xp_src.IBD<0> a_2148_8828# 0.0145f
+C549 LELO_TEMP_0.xbias.x1_ibp.xp_src.IBD<0> a_2148_8988# 0.06014f
+C550 LELO_TEMP_0.xbias.x1_ibp.xp_src.IBD<0> a_2148_9468# 0.05425f
+C551 LELO_TEMP_0.xbias.x1_ibp.xp_src.IBD<0> a_2148_9628# 0.01029f
+C552 LELO_TEMP_0.xbias.x1_ibp.xp_src.IBD<2> LELO_TEMP_0.xbias.x1_ibp.xp_src.IBD<1> 0.24123f
+C553 LELO_TEMP_0.xbias.x1_ibp.xp_src.IBD<1> VDPWR 0.73109f
+C554 LELO_TEMP_0.xbias.x1_ibp.xp_src.IBD<1> VGND 0.14298f
+C555 LELO_TEMP_0.xbias.x1_ibp.xp_src.IBD<1> a_2148_10268# 0.05425f
+C556 LELO_TEMP_0.xbias.x1_ibp.xp_src.IBD<1> a_2148_10428# 0.01029f
+C557 LELO_TEMP_0.xbias.x1_ibp.xp_src.IBD<1> a_2148_9628# 0.0145f
+C558 LELO_TEMP_0.xbias.x1_ibp.xp_src.IBD<1> a_2148_9788# 0.06014f
+C559 LELO_TEMP_0.xbias.x1_ibp.xp_src.IBD<3> LELO_TEMP_0.xbias.x1_ibp.xp_src.IBD<2> 0.24123f
+C560 LELO_TEMP_0.xbias.x1_ibp.xp_src.IBD<2> VDPWR 0.73109f
+C561 LELO_TEMP_0.xbias.x1_ibp.xp_src.IBD<2> VGND 0.14298f
+C562 LELO_TEMP_0.xbias.x1_ibp.xp_src.IBD<2> a_2148_10428# 0.0145f
+C563 LELO_TEMP_0.xbias.x1_ibp.xp_src.IBD<2> a_2148_10588# 0.06014f
+C564 LELO_TEMP_0.xbias.x1_ibp.xp_src.IBD<2> a_2148_11068# 0.05425f
+C565 LELO_TEMP_0.xbias.x1_ibp.xp_src.IBD<2> a_2148_11228# 0.01029f
+C566 LELO_TEMP_0.xbias.x1_ibp.xp_src.VBD1 LELO_TEMP_0.xbias.x1_ibp.xp_src.IBD<3> 0.24123f
+C567 LELO_TEMP_0.xbias.x1_ibp.xp_src.IBD<3> VDPWR 0.73109f
+C568 LELO_TEMP_0.xbias.x1_ibp.xp_src.IBD<3> VGND 0.14298f
+C569 LELO_TEMP_0.xbias.x1_ibp.xp_src.IBD<3> a_2148_11228# 0.0145f
+C570 LELO_TEMP_0.xbias.x1_ibp.xp_src.IBD<3> a_2148_11388# 0.06014f
+C571 LELO_TEMP_0.xbias.x1_ibp.xp_src.IBD<3> a_2148_11868# 0.05425f
+C572 LELO_TEMP_0.xbias.x1_ibp.xp_src.IBD<3> a_2148_12028# 0.01029f
+C573 LELO_TEMP_0.xbias.x1_ibp.xp_src.VBD1 VDPWR 4.33356f
+C574 LELO_TEMP_0.xbias.x1_ibp.xp_src.VBD1 VGND 0.41373f
+C575 LELO_TEMP_0.xbias.x1_ibp.xp_src.VBD1 a_2148_12028# 0.0145f
+C576 LELO_TEMP_0.xbias.x1_ibp.xp_src.VBD1 a_2148_12188# 0.06014f
+C577 LELO_TEMP_0.xbias.x1_ibp.xp_src.VBD1 a_2148_12668# 0.07858f
+C578 LELO_TEMP_0.xbias.x1_ibp.xp_src.VBD1 a_2148_12828# 0.04464f
+C579 LELO_TEMP_0.xbias.x1_ibp.xp_src.VBD1 a_2148_12988# 0.07681f
+C580 LELO_TEMP_0.xbias.x1_ibp.xp_src.VBD1 a_2148_13468# 0.07576f
+C581 LELO_TEMP_0.xbias.x1_ibp.xp_src.VBD1 a_2148_13628# 0.04274f
+C582 LELO_TEMP_0.xbias.x1_ibp.xp_src.VBD1 a_2148_13788# 0.07549f
+C583 LELO_TEMP_0.xbias.x1_ibp.xp_src.VBD1 a_2148_14268# 0.0749f
+C584 LELO_TEMP_0.xbias.x1_ibp.xp_src.VBD1 a_2148_14428# 0.04205f
+C585 LELO_TEMP_0.xbias.x1_ibp.xp_src.VBD1 a_2148_14588# 0.07492f
+C586 LELO_TEMP_0.xbias.x1_ibp.xp_src.VBD1 a_2148_15068# 0.0749f
+C587 LELO_TEMP_0.xbias.x1_ibp.xp_src.VBD1 a_2148_15228# 0.04205f
+C588 LELO_TEMP_0.xbias.x1_ibp.xp_src.VBD1 a_2148_15388# 0.07492f
+C589 LELO_TEMP_0.xbias.x1_ibp.xp_src.VBD1 a_2148_15868# 0.0749f
+C590 LELO_TEMP_0.xbias.x1_ibp.xp_src.VBD1 a_2148_16028# 0.04205f
+C591 LELO_TEMP_0.xbias.x1_ibp.xp_src.VBD1 a_2148_16188# 0.07492f
+C592 LELO_TEMP_0.xbias.x1_ibp.xp_src.VBD1 a_2148_16668# 0.0749f
+C593 LELO_TEMP_0.xbias.x1_ibp.xp_src.VBD1 a_2148_16828# 0.04205f
+C594 LELO_TEMP_0.xbias.x1_ibp.xp_src.VBD1 a_2148_16988# 0.07492f
+C595 LELO_TEMP_0.xbias.x1_ibp.xp_src.VBD1 a_2148_17468# 0.0749f
+C596 LELO_TEMP_0.xbias.x1_ibp.xp_src.VBD1 a_2148_17628# 0.04205f
+C597 LELO_TEMP_0.xbias.x1_ibp.xp_src.VBD1 a_2148_17788# 0.07492f
+C598 LELO_TEMP_0.xbias.x1_ibp.xp_src.VBD1 a_2148_18268# 0.04921f
+C599 LELO_TEMP_0.xbias.x1_ibp.xp_src.VBD1 a_548_12828# 0.03843f
+C600 LELO_TEMP_0.xbias.x1_ibp.xp_src.VBD1 a_548_13628# 0.03373f
+C601 LELO_TEMP_0.xbias.x1_ibp.xp_src.VBD1 a_548_14428# 0.03235f
+C602 LELO_TEMP_0.xbias.x1_ibp.xp_src.VBD1 a_548_15228# 0.03235f
+C603 LELO_TEMP_0.xbias.x1_ibp.xp_src.VBD1 a_548_16028# 0.03235f
+C604 LELO_TEMP_0.xbias.x1_ibp.xp_src.VBD1 a_548_16828# 0.03235f
+C605 LELO_TEMP_0.xbias.x1_ibp.xp_src.VBD1 a_548_17628# 0.03235f
+C606 LELO_TEMP_0.xbias.x1_ibp.xr_lad.VR1 LELO_TEMP_0.xbias.x1_ibp.xp_src.VBD2 0.29916f
+C607 LELO_TEMP_0.xbias.x1_ibp.xp_src.VBD2 VDPWR 0.85281f
+C608 LELO_TEMP_0.xbias.x1_ibp.xp_src.VBD2 VGND 0.33888f
+C609 LELO_TEMP_0.xbias.x1_ibp.xp_src.VBD2 a_2148_8028# 0.0145f
+C610 LELO_TEMP_0.xbias.x1_ibp.xp_src.VBD2 a_2148_8188# 0.06014f
+C611 LELO_TEMP_0.xbias.x1_ibp.xp_src.VBD2 a_2148_8668# 0.05425f
+C612 LELO_TEMP_0.xbias.x1_ibp.xp_src.VBD2 a_2148_8828# 0.01029f
+C613 LELO_TEMP_0.xbias.x1_ibp.xp_su.xsu2.S VDPWR 2.2652f
+C614 LELO_TEMP_0.xbias.x1_ibp.xp_su.xsu2.S VGND 0.21043f
+C615 LELO_TEMP_0.xbias.x1_ibp.xp_su.xsu2.S a_3812_16828# 0.06853f
+C616 LELO_TEMP_0.xbias.x1_ibp.xp_su.xsu2.S a_3812_17628# 0.1393f
+C617 a_3812_18428# LELO_TEMP_0.xbias.x1_ibp.xp_su.xsu2.S 0.03469f
+C618 LELO_TEMP_0.xbias.x1_ibp.xr_lad.VR1 LELO_TEMP_0.xbias.x1_ibp.xr_lad.VD2 3.00676f
+C619 LELO_TEMP_0.xbias.x1_ibp.xr_lad.VD2 LELO_TEMP_0.xbias.x1_ibp.xr_lad.xd3<0>.N 0.33747f
+C620 LELO_TEMP_0.xbias.x1_ibp.xr_lad.VD2 LELO_TEMP_0.xbias.x1_ibp.xr_lad.xd3<1>.N 0.08888f
+C621 LELO_TEMP_0.xbias.x1_ibp.xr_lad.VD2 LELO_TEMP_0.xbias.x1_ibp.xr_lad.xd3<2>.N 0.08865f
+C622 LELO_TEMP_0.xbias.x1_ibp.xr_lad.VD2 LELO_TEMP_0.xbias.x1_ibp.xr_lad.xd3<3>.N 0.08865f
+C623 LELO_TEMP_0.xbias.x1_ibp.xr_lad.xd3<4>.N LELO_TEMP_0.xbias.x1_ibp.xr_lad.VD2 0.08976f
+C624 LELO_TEMP_0.xbias.x1_ibp.xr_lad.VD2 VDPWR 0.08748f
+C625 LELO_TEMP_0.xbias.x1_ibp.xr_lad.VD2 VGND 25.9677f
+C626 LELO_TEMP_0.xbias.x1_ibp.xr_lad.VD2 a_5422_1068# 0.05609f
+C627 LELO_TEMP_0.xbias.x1_ibp.xr_lad.VD2 a_5422_1868# 0.07051f
+C628 LELO_TEMP_0.xbias.x1_ibp.xr_lad.VR1 LELO_TEMP_0.xbias.x1_ibp.xr_lad.xd3<4>.N 0.26687f
+C629 LELO_TEMP_0.xbias.x1_ibp.xr_lad.VR1 VDPWR 9.0396f
+C630 LELO_TEMP_0.xbias.x1_ibp.xr_lad.VR1 VGND 12.3605f
+C631 LELO_TEMP_0.xbias.x1_ibp.xr_lad.VR1 a_13252_16488# 0.07331f
+C632 LELO_TEMP_0.xbias.x1_ibp.xr_lad.VR1 a_13252_17288# 0.15865f
+C633 LELO_TEMP_0.xbias.x1_ibp.xr_lad.VR1 a_13252_18088# 0.15198f
+C634 LELO_TEMP_0.xbias.x1_ibp.xr_lad.VR1 a_13252_18888# 0.15198f
+C635 LELO_TEMP_0.xbias.x1_ibp.xr_lad.VR1 a_13252_19688# 0.15198f
+C636 a_13252_20488# LELO_TEMP_0.xbias.x1_ibp.xr_lad.VR1 0.06717f
+C637 LELO_TEMP_0.xbias.x1_ibp.xr_lad.VR1 a_2148_8028# 0.02197f
+C638 LELO_TEMP_0.xbias.x1_ibp.xr_lad.VR1 a_2148_8188# 0.02602f
+C639 LELO_TEMP_0.xbias.x1_ibp.xr_lad.VR1 a_5422_1068# 0.07012f
+C640 LELO_TEMP_0.xbias.x1_ibp.xr_lad.VR1 a_5422_1868# 0.08414f
+C641 LELO_TEMP_0.xbias.x1_ibp.xr_lad.xd3<1>.N LELO_TEMP_0.xbias.x1_ibp.xr_lad.xd3<0>.N 0.24178f
+C642 LELO_TEMP_0.xbias.x1_ibp.xr_lad.xd3<0>.N VGND 0.748f
+C643 LELO_TEMP_0.xbias.x1_ibp.xr_lad.xd3<2>.N LELO_TEMP_0.xbias.x1_ibp.xr_lad.xd3<1>.N 0.24178f
+C644 LELO_TEMP_0.xbias.x1_ibp.xr_lad.xd3<1>.N VGND 0.74775f
+C645 LELO_TEMP_0.xbias.x1_ibp.xr_lad.xd3<3>.N LELO_TEMP_0.xbias.x1_ibp.xr_lad.xd3<2>.N 0.24178f
+C646 LELO_TEMP_0.xbias.x1_ibp.xr_lad.xd3<2>.N VGND 0.74775f
+C647 LELO_TEMP_0.xbias.x1_ibp.xr_lad.xd3<4>.N LELO_TEMP_0.xbias.x1_ibp.xr_lad.xd3<3>.N 0.24178f
+C648 LELO_TEMP_0.xbias.x1_ibp.xr_lad.xd3<3>.N VGND 0.74775f
+C649 LELO_TEMP_0.xbias.x1_ibp.xr_lad.xd3<4>.N VGND 0.74775f
+C650 LELO_TEMP_0.xccmp.RST_A LELO_TEMP_0.xccmp.RST_B 0.60198f
+C651 LELO_TEMP_0.xccmp.x3_ccmp.xcmp.x1_cmp.xn_mirr_bias.VBP2 LELO_TEMP_0.xccmp.RST_A 0.12359f
+C652 LELO_TEMP_0.xccmp.x3_ccmp.xcmp.x1_cmp.xn_mirr_load.VBN1 LELO_TEMP_0.xccmp.RST_A 0.12204f
+C653 LELO_TEMP_0.xccmp.x3_ccmp.xcmp.x1_cmp.xn_mirr_load.VO1 LELO_TEMP_0.xccmp.RST_A 0.14367f
+C654 LELO_TEMP_0.xccmp.RST_A LELO_TEMP_0.xccmp.x3_ccmp.xcmp.x1_cmp.xp_diff.VS 0.01243f
+C655 LELO_TEMP_0.xccmp.RST_A LELO_TEMP_0.xdig.x1.MN0.S 0.10824f
+C656 LELO_TEMP_0.xccmp.RST_A LELO_TEMP_0.xdig.x4.B 0.18038f
+C657 LELO_TEMP_0.xccmp.RST_A LELO_TEMP_0.xdig.x4.MP1.S 0.05367f
+C658 LELO_TEMP_0.xccmp.RST_A LELO_TEMP_0.xdig.x7.Y 0.45945f
+C659 LELO_TEMP_0.xccmp.RST_A VDPWR 3.46465f
+C660 LELO_TEMP_0.xccmp.RST_A VGND 10.5839f
+C661 LELO_TEMP_0.xccmp.RST_A a_22700_15248# 0.06759f
+C662 a_22700_16048# LELO_TEMP_0.xccmp.RST_A 0.07033f
+C663 LELO_TEMP_0.xccmp.RST_A a_29258_2854# 0.06521f
+C664 LELO_TEMP_0.xccmp.RST_A a_30098_2854# 0.06002f
+C665 LELO_TEMP_0.xccmp.RST_A a_30098_3334# 0.01772f
+C666 LELO_TEMP_0.xccmp.RST_A uo_out<0> 0.04689f
+C667 LELO_TEMP_0.xccmp.x2_ccmp.xcmp.x1_cmp.xn_mirr_bias.VBP2 LELO_TEMP_0.xccmp.RST_B 0.03418f
+C668 LELO_TEMP_0.xccmp.RST_B LELO_TEMP_0.xccmp.x2_ccmp.xcmp.x1_cmp.xn_mirr_load.VBN1 0.12204f
+C669 LELO_TEMP_0.xccmp.RST_B LELO_TEMP_0.xccmp.x2_ccmp.xcmp.x1_cmp.xn_mirr_load.VO1 0.14367f
+C670 LELO_TEMP_0.xccmp.RST_B LELO_TEMP_0.xdig.x1.MN0.S 0.09721f
+C671 LELO_TEMP_0.xccmp.RST_B LELO_TEMP_0.xdig.x3.MP1.S 0.0751f
+C672 LELO_TEMP_0.xccmp.RST_B LELO_TEMP_0.xdig.x4.B 1.05695f
+C673 LELO_TEMP_0.xccmp.RST_B LELO_TEMP_0.xdig.x4.MP1.S 0.01009f
+C674 LELO_TEMP_0.xccmp.RST_B LELO_TEMP_0.xdig.x5.MN0.S 0.38927f
+C675 LELO_TEMP_0.xccmp.RST_B LELO_TEMP_0.xdig.x7.Y 0.48606f
+C676 LELO_TEMP_0.xccmp.RST_B VDPWR 6.35441f
+C677 LELO_TEMP_0.xccmp.RST_B VGND 11.5583f
+C678 LELO_TEMP_0.xccmp.RST_B a_22700_5368# 0.07033f
+C679 a_22700_6168# LELO_TEMP_0.xccmp.RST_B 0.06759f
+C680 LELO_TEMP_0.xccmp.RST_B a_29258_2854# 0.09288f
+C681 LELO_TEMP_0.xccmp.RST_B a_29258_3814# 0.09186f
+C682 LELO_TEMP_0.xccmp.RST_B a_30098_2854# 0.09882f
+C683 LELO_TEMP_0.xccmp.RST_B a_30098_294# 0.01326f
+C684 LELO_TEMP_0.xccmp.RST_B a_30098_3814# 0.07452f
+C685 LELO_TEMP_0.xccmp.RST_B ui_in<0> 0.17987f
+C686 LELO_TEMP_0.xccmp.RST_B uo_out<0> 0.27613f
+C687 LELO_TEMP_0.xccmp.x2_ccmp.xcmp.x1_cmp.xn_mirr_bias.VBP2 LELO_TEMP_0.xccmp.x2_ccmp.xcmp.x1_cmp.xp_diff.VS 1.37066f
+C688 LELO_TEMP_0.xccmp.x2_ccmp.xcmp.x1_cmp.xn_mirr_bias.VBP2 VDPWR 10.4873f
+C689 LELO_TEMP_0.xccmp.x2_ccmp.xcmp.x1_cmp.xn_mirr_bias.VBP2 VGND 2.82081f
+C690 LELO_TEMP_0.xccmp.x2_ccmp.xcmp.x1_cmp.xn_mirr_bias.VBP2 a_21100_3768# 0.03092f
+C691 LELO_TEMP_0.xccmp.x2_ccmp.xcmp.x1_cmp.xn_mirr_bias.VBP2 a_21100_4568# 0.03111f
+C692 LELO_TEMP_0.xccmp.x2_ccmp.xcmp.x1_cmp.xn_mirr_bias.VBP2 a_21100_5368# 0.03319f
+C693 a_21100_6168# LELO_TEMP_0.xccmp.x2_ccmp.xcmp.x1_cmp.xn_mirr_bias.VBP2 0.0237f
+C694 LELO_TEMP_0.xccmp.x2_ccmp.xcmp.x1_cmp.xn_mirr_bias.VBP2 a_24508_6968# 0.01188f
+C695 LELO_TEMP_0.xccmp.x2_ccmp.xcmp.x1_cmp.xn_mirr_bias.VBP2 a_26300_2968# 0.06717f
+C696 LELO_TEMP_0.xccmp.x2_ccmp.xcmp.x1_cmp.xn_mirr_bias.VBP2 a_26300_3768# 0.1576f
+C697 LELO_TEMP_0.xccmp.x2_ccmp.xcmp.x1_cmp.xn_mirr_bias.VBP2 a_26300_4568# 0.15142f
+C698 LELO_TEMP_0.xccmp.x2_ccmp.xcmp.x1_cmp.xn_mirr_bias.VBP2 a_26300_5368# 0.15149f
+C699 LELO_TEMP_0.xccmp.x2_ccmp.xcmp.x1_cmp.xn_mirr_bias.VBP2 a_26300_6168# 0.16473f
+C700 LELO_TEMP_0.xccmp.x2_ccmp.xcmp.x1_cmp.xn_mirr_bias.VBP2 a_26300_6968# 0.10809f
+C701 LELO_TEMP_0.xccmp.x2_ccmp.xcmp.x1_cmp.xn_mirr_load.VBN1 LELO_TEMP_0.xccmp.x2_ccmp.xcmp.x1_cmp.xn_mirr_load.VO1 0.53205f
+C702 LELO_TEMP_0.xccmp.x2_ccmp.xcmp.x1_cmp.xn_mirr_load.VBN1 LELO_TEMP_0.xccmp.x2_ccmp.xcmp.x1_cmp.xp_diff.VS 0.24921f
+C703 LELO_TEMP_0.xccmp.x2_ccmp.xcmp.x1_cmp.xn_mirr_load.VBN1 VDPWR 0.32836f
+C704 LELO_TEMP_0.xccmp.x2_ccmp.xcmp.x1_cmp.xn_mirr_load.VBN1 VGND 4.70032f
+C705 LELO_TEMP_0.xccmp.x2_ccmp.xcmp.x1_cmp.xn_mirr_load.VBN1 a_22700_2968# 0.06735f
+C706 LELO_TEMP_0.xccmp.x2_ccmp.xcmp.x1_cmp.xn_mirr_load.VBN1 a_22700_3768# 0.16296f
+C707 LELO_TEMP_0.xccmp.x2_ccmp.xcmp.x1_cmp.xn_mirr_load.VBN1 a_22700_4568# 0.10319f
+C708 LELO_TEMP_0.xccmp.x2_ccmp.xcmp.x1_cmp.xn_mirr_load.VO1 LELO_TEMP_0.xccmp.x2_ccmp.xcmp.x1_cmp.xp_diff.VS 0.21017f
+C709 LELO_TEMP_0.xccmp.x2_ccmp.xcmp.x1_cmp.xn_mirr_load.VO1 VDPWR 0.22717f
+C710 LELO_TEMP_0.xccmp.x2_ccmp.xcmp.x1_cmp.xn_mirr_load.VO1 VGND 1.69543f
+C711 LELO_TEMP_0.xccmp.x2_ccmp.xcmp.x1_cmp.xn_mirr_load.VO1 a_22700_2328# 0.07735f
+C712 LELO_TEMP_0.xccmp.x2_ccmp.xcmp.x1_cmp.xn_mirr_load.VO1 a_22700_2808# 0.08477f
+C713 LELO_TEMP_0.xccmp.x2_ccmp.xcmp.x1_cmp.xn_mirr_load.VO1 a_22700_2968# 0.01768f
+C714 LELO_TEMP_0.xccmp.x2_ccmp.xcmp.x1_cmp.xp_diff.VS VDPWR 2.77715f
+C715 LELO_TEMP_0.xccmp.x2_ccmp.xcmp.x1_cmp.xp_diff.VS VGND 0.06898f
+C716 LELO_TEMP_0.xccmp.x2_ccmp.xcmp.x1_cmp.xp_diff.VS a_24508_2968# 0.07589f
+C717 LELO_TEMP_0.xccmp.x2_ccmp.xcmp.x1_cmp.xp_diff.VS a_24508_3768# 0.1696f
+C718 LELO_TEMP_0.xccmp.x2_ccmp.xcmp.x1_cmp.xp_diff.VS a_24508_4568# 0.10113f
+C719 a_24508_5368# LELO_TEMP_0.xccmp.x2_ccmp.xcmp.x1_cmp.xp_diff.VS 0.02588f
+C720 LELO_TEMP_0.xccmp.x2_ccmp.xcmp.x1_cmp.xp_diff.VS a_26300_4568# 0.03188f
+C721 LELO_TEMP_0.xccmp.x2_ccmp.xcmp.x1_cmp.xp_diff.VS a_26300_5368# 0.03625f
+C722 LELO_TEMP_0.xccmp.x3_ccmp.xcmp.x1_cmp.xn_mirr_bias.VBP2 LELO_TEMP_0.xccmp.x3_ccmp.xcmp.x1_cmp.xp_diff.VS 1.37066f
+C723 LELO_TEMP_0.xccmp.x3_ccmp.xcmp.x1_cmp.xn_mirr_bias.VBP2 VDPWR 10.5817f
+C724 LELO_TEMP_0.xccmp.x3_ccmp.xcmp.x1_cmp.xn_mirr_bias.VBP2 VGND 2.98902f
+C725 LELO_TEMP_0.xccmp.x3_ccmp.xcmp.x1_cmp.xn_mirr_bias.VBP2 a_21100_15248# 0.0237f
+C726 LELO_TEMP_0.xccmp.x3_ccmp.xcmp.x1_cmp.xn_mirr_bias.VBP2 a_21100_16048# 0.03319f
+C727 LELO_TEMP_0.xccmp.x3_ccmp.xcmp.x1_cmp.xn_mirr_bias.VBP2 a_21100_16848# 0.03111f
+C728 LELO_TEMP_0.xccmp.x3_ccmp.xcmp.x1_cmp.xn_mirr_bias.VBP2 a_21100_17648# 0.03092f
+C729 LELO_TEMP_0.xccmp.x3_ccmp.xcmp.x1_cmp.xn_mirr_bias.VBP2 a_24508_14448# 0.01188f
+C730 LELO_TEMP_0.xccmp.x3_ccmp.xcmp.x1_cmp.xn_mirr_bias.VBP2 a_26300_14448# 0.10809f
+C731 LELO_TEMP_0.xccmp.x3_ccmp.xcmp.x1_cmp.xn_mirr_bias.VBP2 a_26300_15248# 0.16473f
+C732 LELO_TEMP_0.xccmp.x3_ccmp.xcmp.x1_cmp.xn_mirr_bias.VBP2 a_26300_16048# 0.15149f
+C733 LELO_TEMP_0.xccmp.x3_ccmp.xcmp.x1_cmp.xn_mirr_bias.VBP2 a_26300_16848# 0.15142f
+C734 LELO_TEMP_0.xccmp.x3_ccmp.xcmp.x1_cmp.xn_mirr_bias.VBP2 a_26300_17648# 0.1576f
+C735 LELO_TEMP_0.xccmp.x3_ccmp.xcmp.x1_cmp.xn_mirr_bias.VBP2 a_26300_18448# 0.06717f
+C736 LELO_TEMP_0.xccmp.x3_ccmp.xcmp.x1_cmp.xn_mirr_load.VO1 LELO_TEMP_0.xccmp.x3_ccmp.xcmp.x1_cmp.xn_mirr_load.VBN1 0.53205f
+C737 LELO_TEMP_0.xccmp.x3_ccmp.xcmp.x1_cmp.xn_mirr_load.VBN1 LELO_TEMP_0.xccmp.x3_ccmp.xcmp.x1_cmp.xp_diff.VS 0.24921f
+C738 LELO_TEMP_0.xccmp.x3_ccmp.xcmp.x1_cmp.xn_mirr_load.VBN1 VDPWR 0.32836f
+C739 LELO_TEMP_0.xccmp.x3_ccmp.xcmp.x1_cmp.xn_mirr_load.VBN1 VGND 4.69667f
+C740 LELO_TEMP_0.xccmp.x3_ccmp.xcmp.x1_cmp.xn_mirr_load.VBN1 a_22700_16848# 0.10319f
+C741 LELO_TEMP_0.xccmp.x3_ccmp.xcmp.x1_cmp.xn_mirr_load.VBN1 a_22700_17648# 0.16296f
+C742 a_22700_18448# LELO_TEMP_0.xccmp.x3_ccmp.xcmp.x1_cmp.xn_mirr_load.VBN1 0.06735f
+C743 LELO_TEMP_0.xccmp.x3_ccmp.xcmp.x1_cmp.xn_mirr_load.VO1 LELO_TEMP_0.xccmp.x3_ccmp.xcmp.x1_cmp.xp_diff.VS 0.21017f
+C744 LELO_TEMP_0.xccmp.x3_ccmp.xcmp.x1_cmp.xn_mirr_load.VO1 VDPWR 0.22717f
+C745 LELO_TEMP_0.xccmp.x3_ccmp.xcmp.x1_cmp.xn_mirr_load.VO1 VGND 1.69543f
+C746 LELO_TEMP_0.xccmp.x3_ccmp.xcmp.x1_cmp.xn_mirr_load.VO1 a_22700_18448# 0.01768f
+C747 LELO_TEMP_0.xccmp.x3_ccmp.xcmp.x1_cmp.xn_mirr_load.VO1 a_22700_18608# 0.08477f
+C748 a_22700_19088# LELO_TEMP_0.xccmp.x3_ccmp.xcmp.x1_cmp.xn_mirr_load.VO1 0.07735f
+C749 LELO_TEMP_0.xccmp.x3_ccmp.xcmp.x1_cmp.xp_diff.VS VDPWR 2.77715f
+C750 LELO_TEMP_0.xccmp.x3_ccmp.xcmp.x1_cmp.xp_diff.VS VGND 0.06898f
+C751 LELO_TEMP_0.xccmp.x3_ccmp.xcmp.x1_cmp.xp_diff.VS a_24508_16048# 0.02588f
+C752 LELO_TEMP_0.xccmp.x3_ccmp.xcmp.x1_cmp.xp_diff.VS a_24508_16848# 0.10113f
+C753 LELO_TEMP_0.xccmp.x3_ccmp.xcmp.x1_cmp.xp_diff.VS a_24508_17648# 0.1696f
+C754 a_24508_18448# LELO_TEMP_0.xccmp.x3_ccmp.xcmp.x1_cmp.xp_diff.VS 0.07589f
+C755 LELO_TEMP_0.xccmp.x3_ccmp.xcmp.x1_cmp.xp_diff.VS a_26300_16048# 0.03625f
+C756 LELO_TEMP_0.xccmp.x3_ccmp.xcmp.x1_cmp.xp_diff.VS a_26300_16848# 0.03188f
+C757 LELO_TEMP_0.xdig.x4.B LELO_TEMP_0.xdig.x1.MN0.S 0.18819f
+C758 LELO_TEMP_0.xdig.x5.MN0.S LELO_TEMP_0.xdig.x1.MN0.S 0.01452f
+C759 LELO_TEMP_0.xdig.x1.MN0.S VDPWR 0.47773f
+C760 LELO_TEMP_0.xdig.x1.MN0.S VGND 0.71858f
+C761 LELO_TEMP_0.xdig.x1.MN0.S a_29258_3334# 0.02377f
+C762 a_29258_3814# LELO_TEMP_0.xdig.x1.MN0.S 0.06154f
+C763 LELO_TEMP_0.xdig.x1.MN0.S a_30098_3334# 0.01772f
+C764 a_30098_3814# LELO_TEMP_0.xdig.x1.MN0.S 0.0597f
+C765 LELO_TEMP_0.xdig.x3.MP1.S VDPWR 0.08902f
+C766 LELO_TEMP_0.xdig.x5.MN0.S LELO_TEMP_0.xdig.x4.B 0.19167f
+C767 LELO_TEMP_0.xdig.x4.B LELO_TEMP_0.xdig.x7.Y 0.02947f
+C768 LELO_TEMP_0.xdig.x4.B VDPWR 1.24639f
+C769 LELO_TEMP_0.xdig.x4.B VGND 1.4014f
+C770 LELO_TEMP_0.xdig.x4.B a_29258_3334# 0.08406f
+C771 a_29258_3814# LELO_TEMP_0.xdig.x4.B 0.02478f
+C772 LELO_TEMP_0.xdig.x4.B a_30098_3334# 0.08317f
+C773 a_30098_3814# LELO_TEMP_0.xdig.x4.B 0.03253f
+C774 LELO_TEMP_0.xdig.x4.B uo_out<0> 0.02837f
+C775 LELO_TEMP_0.xdig.x4.MP1.S VDPWR 0.10055f
+C776 LELO_TEMP_0.xdig.x5.MN0.S VDPWR 0.48157f
+C777 LELO_TEMP_0.xdig.x5.MN0.S VGND 0.6966f
+C778 LELO_TEMP_0.xdig.x5.MN0.S a_29258_3814# 0.02377f
+C779 a_29258_4294# LELO_TEMP_0.xdig.x5.MN0.S 0.06388f
+C780 LELO_TEMP_0.xdig.x5.MN0.S a_30098_3814# 0.01772f
+C781 a_30098_4294# LELO_TEMP_0.xdig.x5.MN0.S 0.0597f
+C782 LELO_TEMP_0.xdig.x5.MN0.S uo_out<0> 0.12216f
+C783 LELO_TEMP_0.xdig.x7.XA2.A LELO_TEMP_0.xdig.x7.XA1.MP1.S 0.05059f
+C784 LELO_TEMP_0.xdig.x7.XA1.MP1.S VDPWR 0.10451f
+C785 LELO_TEMP_0.xdig.x7.Y LELO_TEMP_0.xdig.x7.XA2.A 0.23305f
+C786 LELO_TEMP_0.xdig.x7.XA2.A VDPWR 0.52253f
+C787 LELO_TEMP_0.xdig.x7.XA2.A VGND 0.89992f
+C788 LELO_TEMP_0.xdig.x7.XA2.A a_29258_2054# 0.08887f
+C789 a_29258_2374# LELO_TEMP_0.xdig.x7.XA2.A 0.06202f
+C790 LELO_TEMP_0.xdig.x7.XA2.A a_30098_2054# 0.07954f
+C791 a_30098_2374# LELO_TEMP_0.xdig.x7.XA2.A 0.05912f
+C792 LELO_TEMP_0.xdig.x7.Y VDPWR 1.21463f
+C793 LELO_TEMP_0.xdig.x7.Y VGND 1.65871f
+C794 LELO_TEMP_0.xdig.x7.Y a_29258_2374# 0.11468f
+C795 LELO_TEMP_0.xdig.x7.Y a_30098_2054# 0.0102f
+C796 LELO_TEMP_0.xdig.x7.Y a_30098_2374# 0.10965f
+C797 VDPWR VGND 0.59839p
+C798 a_11652_15688# VDPWR 1.07491f
+C799 a_11652_16488# VDPWR 0.91712f
+C800 a_11652_17288# VDPWR 0.73863f
+C801 a_11652_18088# VDPWR 0.73856f
+C802 a_11652_18888# VDPWR 0.73856f
+C803 a_11652_19688# VDPWR 0.73867f
+C804 a_11652_20488# VDPWR 0.8923f
+C805 a_13252_15688# VDPWR 1.07117f
+C806 a_13252_16488# VDPWR 0.91321f
+C807 a_13252_17288# VDPWR 0.73463f
+C808 a_13252_18088# VDPWR 0.73456f
+C809 a_13252_18888# VDPWR 0.73456f
+C810 a_13252_19688# VDPWR 0.73467f
+C811 a_13252_20488# VDPWR 0.88787f
+C812 a_14852_15688# VDPWR 0.98664f
+C813 a_14852_16488# VDPWR 0.95167f
+C814 a_14852_17288# VDPWR 0.94842f
+C815 a_14852_18088# VDPWR 0.95161f
+C816 a_14852_18888# VDPWR 0.94842f
+C817 a_14852_19688# VDPWR 0.95166f
+C818 a_14852_20488# VDPWR 0.98514f
+C819 a_16644_15688# VDPWR 0.53074f
+C820 a_16644_15848# VDPWR 0.49434f
+C821 a_16644_16328# VDPWR 0.45713f
+C822 a_16644_16488# VDPWR 0.38892f
+C823 a_16644_16648# VDPWR 0.41095f
+C824 a_16644_17128# VDPWR 0.40765f
+C825 a_16644_17288# VDPWR 0.38197f
+C826 a_16644_17448# VDPWR 0.40839f
+C827 a_16644_17928# VDPWR 0.4076f
+C828 a_16644_18088# VDPWR 0.38195f
+C829 a_16644_18248# VDPWR 0.40837f
+C830 a_16644_18728# VDPWR 0.4076f
+C831 a_16644_18888# VDPWR 0.38195f
+C832 a_16644_19048# VDPWR 0.40839f
+C833 a_16644_19528# VDPWR 0.40764f
+C834 a_16644_19688# VDPWR 0.382f
+C835 a_16644_19848# VDPWR 0.40845f
+C836 a_16644_20328# VDPWR 0.41722f
+C837 a_16644_20488# VDPWR 0.52788f
+C838 a_2148_10268# VDPWR 0.40879f
+C839 a_2148_10428# VDPWR 0.38285f
+C840 a_2148_10588# VDPWR 0.40953f
+C841 a_2148_11068# VDPWR 0.40879f
+C842 a_2148_11228# VDPWR 0.38285f
+C843 a_2148_11388# VDPWR 0.40953f
+C844 a_2148_11868# VDPWR 0.40879f
+C845 a_2148_12028# VDPWR 0.38285f
+C846 a_2148_12188# VDPWR 0.40953f
+C847 a_2148_12668# VDPWR 0.40758f
+C848 a_2148_12828# VDPWR 0.38164f
+C849 a_2148_12988# VDPWR 0.40832f
+C850 a_2148_13468# VDPWR 0.40758f
+C851 a_2148_13628# VDPWR 0.38164f
+C852 a_2148_13788# VDPWR 0.40832f
+C853 a_2148_14268# VDPWR 0.40758f
+C854 a_2148_14428# VDPWR 0.38164f
+C855 a_2148_14588# VDPWR 0.40832f
+C856 a_2148_15068# VDPWR 0.40758f
+C857 a_2148_15228# VDPWR 0.38164f
+C858 a_2148_15388# VDPWR 0.40832f
+C859 a_2148_15868# VDPWR 0.40758f
+C860 a_2148_16028# VDPWR 0.38164f
+C861 a_2148_16188# VDPWR 0.40832f
+C862 a_2148_16668# VDPWR 0.40757f
+C863 a_2148_16828# VDPWR 0.38164f
+C864 a_2148_16988# VDPWR 0.40767f
+C865 a_2148_17468# VDPWR 0.40765f
+C866 a_2148_17628# VDPWR 0.38176f
+C867 a_2148_17788# VDPWR 0.40779f
+C868 a_2148_18268# VDPWR 0.41763f
+C869 a_2148_18428# VDPWR 0.52093f
+C870 a_2148_8028# VDPWR 0.52093f
+C871 a_2148_8188# VDPWR 0.41841f
+C872 a_2148_8668# VDPWR 0.40896f
+C873 a_2148_8828# VDPWR 0.38297f
+C874 a_2148_8988# VDPWR 0.40962f
+C875 a_2148_9468# VDPWR 0.40883f
+C876 a_2148_9628# VDPWR 0.38285f
+C877 a_2148_9788# VDPWR 0.40953f
+C878 a_24508_13648# VDPWR 0.93127f
+C879 a_24508_14448# VDPWR 0.97431f
+C880 a_24508_15248# VDPWR 0.97431f
+C881 a_24508_16048# VDPWR 0.97295f
+C882 a_24508_16848# VDPWR 0.76841f
+C883 a_24508_17648# VDPWR 0.61945f
+C884 a_24508_18448# VDPWR 0.74103f
+C885 a_24508_2968# VDPWR 0.74103f
+C886 a_24508_3768# VDPWR 0.61945f
+C887 a_24508_4568# VDPWR 0.76841f
+C888 a_24508_5368# VDPWR 0.97295f
+C889 a_24508_6168# VDPWR 0.97431f
+C890 a_24508_6968# VDPWR 0.97431f
+C891 a_24508_7768# VDPWR 0.93127f
+C892 a_26300_13648# VDPWR 0.51344f
+C893 a_26300_14448# VDPWR 0.45371f
+C894 a_26300_15248# VDPWR 0.45331f
+C895 a_26300_16048# VDPWR 0.45319f
+C896 a_26300_16848# VDPWR 0.45319f
+C897 a_26300_17648# VDPWR 0.45337f
+C898 a_26300_18448# VDPWR 0.50002f
+C899 a_26300_2968# VDPWR 0.50002f
+C900 a_26300_3768# VDPWR 0.45337f
+C901 a_26300_4568# VDPWR 0.45319f
+C902 a_26300_5368# VDPWR 0.45319f
+C903 a_26300_6168# VDPWR 0.45331f
+C904 a_26300_6968# VDPWR 0.45371f
+C905 a_26300_7768# VDPWR 0.51344f
+C906 a_30098_1254# VDPWR 0.38426f
+C907 a_30098_1574# VDPWR 0.40031f
+C908 a_30098_2054# VDPWR 0.31213f
+C909 a_30098_2374# VDPWR 0.31216f
+C910 a_30098_2854# VDPWR 0.31523f
+C911 a_30098_294# VDPWR 0.35757f
+C912 a_30098_3334# VDPWR 0.30226f
+C913 a_30098_3814# VDPWR 0.30511f
+C914 a_30098_4294# VDPWR 0.2896f
+C915 a_30098_614# VDPWR 0.39643f
+C916 a_30098_934# VDPWR 0.31133f
+C917 a_3812_10428# VDPWR 0.60404f
+C918 a_3812_11228# VDPWR 0.60404f
+C919 a_3812_12028# VDPWR 0.60404f
+C920 a_3812_12828# VDPWR 0.60404f
+C921 a_3812_13628# VDPWR 0.60404f
+C922 a_3812_14428# VDPWR 0.60404f
+C923 a_3812_15228# VDPWR 0.60404f
+C924 a_3812_16028# VDPWR 0.6036f
+C925 a_3812_16828# VDPWR 0.5247f
+C926 a_3812_17628# VDPWR 0.40588f
+C927 a_3812_18428# VDPWR 0.46562f
+C928 a_3812_8028# VDPWR 0.59517f
+C929 a_3812_8828# VDPWR 0.60404f
+C930 a_3812_9628# VDPWR 0.60404f
+C931 a_5348_10428# VDPWR 0.71655f
+C932 a_5348_11228# VDPWR 0.71655f
+C933 a_5348_12028# VDPWR 0.71655f
+C934 a_5348_12828# VDPWR 0.71655f
+C935 a_5348_13628# VDPWR 0.71655f
+C936 a_5348_14428# VDPWR 0.72921f
+C937 a_5348_15228# VDPWR 0.72923f
+C938 a_5348_16028# VDPWR 0.72971f
+C939 a_5348_16828# VDPWR 0.72971f
+C940 a_5348_17628# VDPWR 0.72927f
+C941 a_5348_18428# VDPWR 0.67679f
+C942 a_5348_8028# VDPWR 0.70183f
+C943 a_5348_8828# VDPWR 0.71655f
+C944 a_5348_9628# VDPWR 0.71655f
+C945 a_548_10428# VDPWR 0.56165f
+C946 a_548_11228# VDPWR 0.56165f
+C947 a_548_12028# VDPWR 0.56165f
+C948 a_548_12828# VDPWR 0.56154f
+C949 a_548_13628# VDPWR 0.56154f
+C950 a_548_14428# VDPWR 0.56154f
+C951 a_548_15228# VDPWR 0.56154f
+C952 a_548_16028# VDPWR 0.56154f
+C953 a_548_16828# VDPWR 0.56154f
+C954 a_548_17628# VDPWR 0.5616f
+C955 a_548_18428# VDPWR 0.60346f
+C956 a_548_8028# VDPWR 0.61689f
+C957 a_548_8828# VDPWR 0.5617f
+C958 a_548_9628# VDPWR 0.56165f
+C959 VDPWR ui_in<0> 0.83575f
+C960 VDPWR uio_out<6> 0.01292f
+C961 VDPWR uio_out<7> 0.01422f
+C962 VDPWR uo_out<0> 3.33343f
+C963 a_11652_15688# VGND 0.03798f $ **FLOATING
+C964 a_11652_20488# VGND 0.03798f $ **FLOATING
+C965 a_11844_10728# VGND 0.56273f $ **FLOATING
+C966 a_11844_11528# VGND 0.56273f $ **FLOATING
+C967 a_11844_12328# VGND 0.56289f $ **FLOATING
+C968 a_11844_13128# VGND 0.62799f $ **FLOATING
+C969 a_11844_8328# VGND 0.6491f $ **FLOATING
+C970 a_11844_9128# VGND 0.56341f $ **FLOATING
+C971 a_11844_9928# VGND 0.56273f $ **FLOATING
+C972 a_13252_15688# VGND 0.03591f $ **FLOATING
+C973 a_13252_20488# VGND 0.03591f $ **FLOATING
+C974 a_13444_10728# VGND 0.56178f $ **FLOATING
+C975 a_13444_11528# VGND 0.56178f $ **FLOATING
+C976 a_13444_12328# VGND 0.56194f $ **FLOATING
+C977 a_13444_13128# VGND 0.62704f $ **FLOATING
+C978 a_13444_8328# VGND 0.64815f $ **FLOATING
+C979 a_13444_9128# VGND 0.56246f $ **FLOATING
+C980 a_13444_9928# VGND 0.56178f $ **FLOATING
+C981 a_14852_15688# VGND 0.03591f $ **FLOATING
+C982 a_14852_20488# VGND 0.03591f $ **FLOATING
+C983 a_15044_10728# VGND 0.56283f $ **FLOATING
+C984 a_15044_11528# VGND 0.56273f $ **FLOATING
+C985 a_15044_12328# VGND 0.56278f $ **FLOATING
+C986 a_15044_13128# VGND 0.62799f $ **FLOATING
+C987 a_15044_8328# VGND 0.73124f $ **FLOATING
+C988 a_15044_9128# VGND 0.63482f $ **FLOATING
+C989 a_15044_9928# VGND 0.56339f $ **FLOATING
+C990 a_16644_15688# VGND 0.02455f $ **FLOATING
+C991 a_16644_20488# VGND 0.02455f $ **FLOATING
+C992 a_18692_8710# VGND 0.58231f
+C993 a_18692_9510# VGND 0.57203f
+C994 a_21100_13648# VGND 0.54227f $ **FLOATING
+C995 a_21100_14448# VGND 0.45502f $ **FLOATING
+C996 a_21100_15248# VGND 0.45461f $ **FLOATING
+C997 a_21100_16048# VGND 0.45449f $ **FLOATING
+C998 a_21100_16848# VGND 0.45449f $ **FLOATING
+C999 a_21100_17648# VGND 0.45455f $ **FLOATING
+C1000 a_21100_18448# VGND 0.52107f $ **FLOATING
+C1001 a_21100_2968# VGND 0.52114f $ **FLOATING
+C1002 a_21100_3768# VGND 0.45462f $ **FLOATING
+C1003 a_21100_4568# VGND 0.45456f $ **FLOATING
+C1004 a_21100_5368# VGND 0.45456f $ **FLOATING
+C1005 a_21100_6168# VGND 0.45468f $ **FLOATING
+C1006 a_21100_6968# VGND 0.45508f $ **FLOATING
+C1007 a_21100_7768# VGND 0.54232f $ **FLOATING
+C1008 a_2148_18428# VGND 0.02392f $ **FLOATING
+C1009 a_2148_8028# VGND 0.02392f $ **FLOATING
+C1010 a_22700_13648# VGND 0.63433f $ **FLOATING
+C1011 a_22700_1368# VGND 0.52318f $ **FLOATING
+C1012 a_22700_14448# VGND 0.52461f $ **FLOATING
+C1013 a_22700_15248# VGND 0.45395f $ **FLOATING
+C1014 a_22700_16048# VGND 0.45486f $ **FLOATING
+C1015 a_22700_16848# VGND 0.45392f $ **FLOATING
+C1016 a_22700_17648# VGND 0.45357f $ **FLOATING
+C1017 a_22700_18448# VGND 0.39455f $ **FLOATING
+C1018 a_22700_18608# VGND 0.41979f $ **FLOATING
+C1019 a_22700_19088# VGND 0.38635f $ **FLOATING
+C1020 a_22700_19248# VGND 0.40424f $ **FLOATING
+C1021 a_22700_20048# VGND 0.52188f $ **FLOATING
+C1022 a_22700_2168# VGND 0.40424f $ **FLOATING
+C1023 a_22700_2328# VGND 0.38635f $ **FLOATING
+C1024 a_22700_2808# VGND 0.41979f $ **FLOATING
+C1025 a_22700_2968# VGND 0.39455f $ **FLOATING
+C1026 a_22700_3768# VGND 0.45357f $ **FLOATING
+C1027 a_22700_4568# VGND 0.45392f $ **FLOATING
+C1028 a_22700_5368# VGND 0.45486f $ **FLOATING
+C1029 a_22700_6168# VGND 0.45395f $ **FLOATING
+C1030 a_22700_6968# VGND 0.52461f $ **FLOATING
+C1031 a_22700_7768# VGND 0.63433f $ **FLOATING
+C1032 a_24508_13648# VGND 0.04326f $ **FLOATING
+C1033 a_24508_18448# VGND 0.03181f $ **FLOATING
+C1034 a_24508_2968# VGND 0.03181f $ **FLOATING
+C1035 a_24508_7768# VGND 0.04326f $ **FLOATING
+C1036 a_26300_13648# VGND 0.02845f $ **FLOATING
+C1037 a_26300_18448# VGND 0.02084f $ **FLOATING
+C1038 a_26300_2968# VGND 0.02084f $ **FLOATING
+C1039 a_26300_7768# VGND 0.02845f $ **FLOATING
+C1040 a_29258_1254# VGND 0.37982f $ **FLOATING
+C1041 a_29258_1574# VGND 0.4071f $ **FLOATING
+C1042 a_29258_2054# VGND 0.33171f $ **FLOATING
+C1043 a_29258_2374# VGND 0.31269f $ **FLOATING
+C1044 a_29258_2854# VGND 0.33534f $ **FLOATING
+C1045 a_29258_294# VGND 0.4833f $ **FLOATING
+C1046 a_29258_3334# VGND 0.32262f $ **FLOATING
+C1047 a_29258_3814# VGND 0.3f $ **FLOATING
+C1048 a_29258_4294# VGND 0.34924f $ **FLOATING
+C1049 a_29258_614# VGND 0.4014f $ **FLOATING
+C1050 a_29258_934# VGND 0.31166f $ **FLOATING
+C1051 a_30098_294# VGND 0.12643f $ **FLOATING
+C1052 a_30098_4294# VGND 0.08079f $ **FLOATING
+C1053 a_3812_18428# VGND 0.01975f $ **FLOATING
+C1054 a_3812_8028# VGND 0.01975f $ **FLOATING
+C1055 a_5348_18428# VGND 0.02455f $ **FLOATING
+C1056 a_5348_8028# VGND 0.02455f $ **FLOATING
+C1057 a_5422_1068# VGND 0.58745f $ **FLOATING
+C1058 a_5422_1868# VGND 0.58068f $ **FLOATING
+C1059 a_548_18428# VGND 0.03723f $ **FLOATING
+C1060 a_548_8028# VGND 0.03676f $ **FLOATING
+C1061 a_9070_1450# VGND 0.58339f
+C1062 a_9070_2250# VGND 0.5608f
+C1063 a_9070_3050# VGND 0.5608f
+C1064 a_9070_3850# VGND 0.5608f
+C1065 a_9070_4650# VGND 0.5608f
+C1066 a_9070_5450# VGND 0.57203f
+C1067 clk VGND 0.03222f
+C1068 ena VGND 0.05973f
+C1069 m4_6134_22044# VGND 0.01451f $ **FLOATING
+C1070 m4_9998_22044# VGND 0.01451f $ **FLOATING
+C1071 rst_n VGND 0.03222f
+C1072 ui_in<0> VGND 11.7129f
+C1073 ui_in<1> VGND 0.03391f
+C1074 ui_in<2> VGND 0.03391f
+C1075 ui_in<3> VGND 0.03391f
+C1076 ui_in<4> VGND 0.03391f
+C1077 ui_in<5> VGND 0.03391f
+C1078 ui_in<6> VGND 0.03391f
+C1079 ui_in<7> VGND 0.03391f
+C1080 uio_in<0> VGND 0.03391f
+C1081 uio_in<1> VGND 0.03391f
+C1082 uio_in<2> VGND 0.03391f
+C1083 uio_in<3> VGND 0.03391f
+C1084 uio_in<4> VGND 0.03391f
+C1085 uio_in<5> VGND 0.03391f
+C1086 uio_in<6> VGND 0.03391f
+C1087 uio_in<7> VGND 0.0395f
+C1088 uio_oe<0> VGND 0.03187f
+C1089 uio_oe<1> VGND 0.03187f
+C1090 uio_oe<2> VGND 0.03187f
+C1091 uio_oe<3> VGND 0.03187f
+C1092 uio_oe<4> VGND 0.03187f
+C1093 uio_oe<5> VGND 0.03187f
+C1094 uio_oe<6> VGND 0.03187f
+C1095 uio_oe<7> VGND 0.05938f
+C1096 uio_out<0> VGND 0.03753f
+C1097 uio_out<1> VGND 0.03753f
+C1098 uio_out<2> VGND 0.03753f
+C1099 uio_out<3> VGND 0.03753f
+C1100 uio_out<4> VGND 0.03753f
+C1101 uio_out<5> VGND 0.03753f
+C1102 uio_out<6> VGND 0.03305f
+C1103 uio_out<7> VGND 0.03305f
+C1104 uo_out<0> VGND 12.4532f
+C1105 uo_out<1> VGND 0.03917f
+C1106 uo_out<2> VGND 0.03753f
+C1107 uo_out<3> VGND 0.03753f
+C1108 uo_out<4> VGND 0.03753f
+C1109 uo_out<5> VGND 0.03753f
+C1110 uo_out<6> VGND 0.03753f
+C1111 uo_out<7> VGND 0.03753f
+C1112 a_11652_16488# a_11652_15688# 0.01625f
+C1113 a_11652_17288# a_11652_16488# 0.01625f
+C1114 a_11652_18088# a_11652_17288# 0.01625f
+C1115 a_11652_18888# a_11652_18088# 0.01625f
+C1116 a_11652_19688# a_11652_18888# 0.01625f
+C1117 a_11652_20488# a_11652_19688# 0.01625f
+C1118 a_13252_16488# a_13252_15688# 0.01625f
+C1119 a_13252_17288# a_13252_16488# 0.01625f
+C1120 a_13252_18088# a_13252_17288# 0.01625f
+C1121 a_13252_18888# a_13252_18088# 0.01625f
+C1122 a_13252_19688# a_13252_18888# 0.01625f
+C1123 a_13252_20488# a_13252_19688# 0.01625f
+C1124 a_14852_16488# a_14852_15688# 0.01625f
+C1125 a_14852_17288# a_14852_16488# 0.01625f
+C1126 a_14852_18088# a_14852_17288# 0.01625f
+C1127 a_14852_18888# a_14852_18088# 0.01625f
+C1128 a_14852_19688# a_14852_18888# 0.01625f
+C1129 a_14852_20488# a_14852_19688# 0.01625f
+C1130 a_16644_15848# a_16644_15688# 0.11476f
+C1131 a_16644_16328# a_16644_15848# 0.01174f
+C1132 a_16644_16488# a_16644_16328# 0.11476f
+C1133 a_16644_16648# a_16644_16488# 0.11476f
+C1134 a_16644_17128# a_16644_16648# 0.01174f
+C1135 a_16644_17288# a_16644_17128# 0.11476f
+C1136 a_16644_17448# a_16644_17288# 0.11476f
+C1137 a_16644_17928# a_16644_17448# 0.01174f
+C1138 a_16644_18088# a_16644_17928# 0.11476f
+C1139 a_16644_18248# a_16644_18088# 0.11476f
+C1140 a_16644_18728# a_16644_18248# 0.01174f
+C1141 a_16644_18888# a_16644_18728# 0.11476f
+C1142 a_16644_19048# a_16644_18888# 0.11476f
+C1143 a_16644_19528# a_16644_19048# 0.01174f
+C1144 a_16644_19688# a_16644_19528# 0.11476f
+C1145 a_16644_19848# a_16644_19688# 0.11476f
+C1146 a_16644_20328# a_16644_19848# 0.01174f
+C1147 a_16644_20488# a_16644_20328# 0.11476f
+C1148 a_18692_9510# a_18692_8710# 0.04441f
+C1149 a_2148_10428# a_2148_10268# 0.11476f
+C1150 a_2148_10268# a_2148_9788# 0.01174f
+C1151 a_2148_10588# a_2148_10428# 0.11476f
+C1152 a_2148_11068# a_2148_10588# 0.01174f
+C1153 a_2148_11228# a_2148_11068# 0.11476f
+C1154 a_2148_11388# a_2148_11228# 0.11476f
+C1155 a_2148_11868# a_2148_11388# 0.01174f
+C1156 a_2148_12028# a_2148_11868# 0.11476f
+C1157 a_2148_12188# a_2148_12028# 0.11476f
+C1158 a_2148_12668# a_2148_12188# 0.01174f
+C1159 a_2148_12828# a_2148_12668# 0.11476f
+C1160 a_2148_12988# a_2148_12828# 0.11476f
+C1161 a_2148_13468# a_2148_12988# 0.01174f
+C1162 a_2148_13628# a_2148_13468# 0.11476f
+C1163 a_2148_13788# a_2148_13628# 0.11476f
+C1164 a_2148_14268# a_2148_13788# 0.01174f
+C1165 a_2148_14428# a_2148_14268# 0.11476f
+C1166 a_2148_14588# a_2148_14428# 0.11476f
+C1167 a_2148_15068# a_2148_14588# 0.01174f
+C1168 a_2148_15228# a_2148_15068# 0.11476f
+C1169 a_2148_15388# a_2148_15228# 0.11476f
+C1170 a_2148_15868# a_2148_15388# 0.01174f
+C1171 a_2148_16028# a_2148_15868# 0.11476f
+C1172 a_2148_16188# a_2148_16028# 0.11476f
+C1173 a_2148_16668# a_2148_16188# 0.01174f
+C1174 a_2148_16828# a_2148_16668# 0.11476f
+C1175 a_2148_16988# a_2148_16828# 0.11476f
+C1176 a_2148_17468# a_2148_16988# 0.01174f
+C1177 a_2148_17628# a_2148_17468# 0.11476f
+C1178 a_2148_17788# a_2148_17628# 0.11476f
+C1179 a_2148_18268# a_2148_17788# 0.01174f
+C1180 a_2148_18428# a_2148_18268# 0.11476f
+C1181 a_2148_8188# a_2148_8028# 0.11476f
+C1182 a_2148_8668# a_2148_8188# 0.01174f
+C1183 a_2148_8828# a_2148_8668# 0.11476f
+C1184 a_2148_8988# a_2148_8828# 0.11476f
+C1185 a_2148_9468# a_2148_8988# 0.01174f
+C1186 a_2148_9628# a_2148_9468# 0.11476f
+C1187 a_2148_9788# a_2148_9628# 0.11476f
+C1188 a_22700_18608# a_22700_18448# 0.0971f
+C1189 a_22700_19248# a_22700_19088# 0.0971f
+C1190 a_22700_2328# a_22700_2168# 0.0971f
+C1191 a_22700_2968# a_22700_2808# 0.0971f
+C1192 a_24508_14448# a_24508_13648# 0.01219f
+C1193 a_24508_15248# a_24508_14448# 0.01219f
+C1194 a_24508_16048# a_24508_15248# 0.01219f
+C1195 a_24508_16848# a_24508_16048# 0.01219f
+C1196 a_24508_17648# a_24508_16848# 0.01219f
+C1197 a_24508_18448# a_24508_17648# 0.01219f
+C1198 a_24508_3768# a_24508_2968# 0.01219f
+C1199 a_24508_4568# a_24508_3768# 0.01219f
+C1200 a_24508_5368# a_24508_4568# 0.01219f
+C1201 a_24508_6168# a_24508_5368# 0.01219f
+C1202 a_24508_6968# a_24508_6168# 0.01219f
+C1203 a_24508_7768# a_24508_6968# 0.01219f
+C1204 a_29258_1574# a_29258_1254# 0.01f
+C1205 a_29258_1254# a_29258_934# 0.01f
+C1206 a_29258_2374# a_29258_2054# 0.01f
+C1207 a_29258_614# a_29258_294# 0.01f
+C1208 a_29258_4294# uo_out<0> 0.03806f
+C1209 a_29258_934# a_29258_614# 0.01f
+C1210 a_29258_614# ui_in<0> 0.08841f
+C1211 a_29258_934# ui_in<0> 0.06503f
+C1212 a_30098_1574# a_30098_1254# 0.01f
+C1213 a_30098_1254# a_30098_934# 0.01f
+C1214 a_30098_2374# a_30098_2054# 0.01f
+C1215 a_30098_614# a_30098_294# 0.01f
+C1216 a_30098_4294# uo_out<0> 0.02437f
+C1217 a_30098_934# a_30098_614# 0.01f
+C1218 a_30098_614# ui_in<0> 0.06528f
+C1219 a_30098_934# ui_in<0> 0.06058f
+C1220 a_9070_2250# a_9070_1450# 0.04441f
+C1221 a_9070_3050# a_9070_2250# 0.04441f
+C1222 a_9070_3850# a_9070_3050# 0.04441f
+C1223 a_9070_4650# a_9070_3850# 0.04441f
+C1224 a_9070_5450# a_9070_4650# 0.04441f
+C1225 clk ena 0.03102f
+C1226 rst_n clk 0.03102f
+C1227 ui_in<0> clk 0.03241f
+C1228 ui_in<0> ena 0.03241f
+C1229 ui_in<0> rst_n 0.06344f
+C1230 ui_in<0> ui_in<1> 0.03102f
+C1231 ui_in<0> uo_out<0> 1.19115f
+C1232 ui_in<2> ui_in<1> 0.03102f
+C1233 ui_in<3> ui_in<2> 0.03102f
+C1234 ui_in<4> ui_in<3> 0.03102f
+C1235 ui_in<5> ui_in<4> 0.03102f
+C1236 ui_in<6> ui_in<5> 0.03102f
+C1237 ui_in<7> ui_in<6> 0.03102f
+C1238 uio_in<0> ui_in<7> 0.03102f
+C1239 uio_in<1> uio_in<0> 0.03102f
+C1240 uio_in<2> uio_in<1> 0.03102f
+C1241 uio_in<3> uio_in<2> 0.03102f
+C1242 uio_in<4> uio_in<3> 0.03102f
+C1243 uio_in<5> uio_in<4> 0.03102f
+C1244 uio_in<6> uio_in<5> 0.03102f
+C1245 uio_in<7> uio_in<6> 0.03102f
+C1246 uo_out<0> uio_in<7> 0.04086f
+C1247 uio_oe<1> uio_oe<0> 0.03102f
+C1248 uio_oe<0> uio_out<7> 0.03102f
+C1249 uio_oe<2> uio_oe<1> 0.03102f
+C1250 uio_oe<3> uio_oe<2> 0.03102f
+C1251 uio_oe<4> uio_oe<3> 0.03102f
+C1252 uio_oe<5> uio_oe<4> 0.03102f
+C1253 uio_oe<6> uio_oe<5> 0.03102f
+C1254 uio_oe<7> uio_oe<6> 0.03102f
+C1255 uio_out<1> uio_out<0> 0.03102f
+C1256 uio_out<0> uo_out<7> 0.03102f
+C1257 uio_out<2> uio_out<1> 0.03102f
+C1258 uio_out<3> uio_out<2> 0.03102f
+C1259 uio_out<4> uio_out<3> 0.03102f
+C1260 uio_out<5> uio_out<4> 0.03102f
+C1261 uio_out<6> uio_out<5> 0.03102f
+C1262 uio_out<7> uio_out<6> 0.03102f
+C1263 uo_out<0> uo_out<1> 0.03102f
+C1264 uo_out<2> uo_out<1> 0.03102f
+C1265 uo_out<3> uo_out<2> 0.03102f
+C1266 uo_out<4> uo_out<3> 0.03102f
+C1267 uo_out<5> uo_out<4> 0.03102f
+C1268 uo_out<6> uo_out<5> 0.03102f
+C1269 uo_out<7> uo_out<6> 0.03102f
+.ends
+

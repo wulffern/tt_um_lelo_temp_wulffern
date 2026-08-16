@@ -1,0 +1,289 @@
+
+Magic 8.3 revision 541 - Compiled on Fri Aug 15 10:24:53 CEST 2025.
+Starting magic under Tcl interpreter
+Using the terminal as the console.
+Using NULL graphics device.
+(Magic) SigWatchFile2: Invalid argument
+Processing system .magicrc file
+Sourcing design .magicrc for technology sky130A ...
+2 Magic internal units = 1 Lambda
+Input style sky130(): scaleFactor=2, multiplier=2
+The following types are not handled by extraction and will be treated as non-electrical types:
+    ubm 
+/opt/pdk/share/pdk/sky130A/libs.tech/magic/sky130A.tech: line 6356: section plot:
+	Unrecognized layer (type) name "reram"
+/opt/pdk/share/pdk/sky130A/libs.tech/magic/sky130A.tech: line 6357: section plot:
+	Unrecognized layer (type) name "reram"
+/opt/pdk/share/pdk/sky130A/libs.tech/magic/sky130A.tech: line 6359: section plot:
+	Unrecognized layer (type) name "reram"
+/opt/pdk/share/pdk/sky130A/libs.tech/magic/sky130A.tech: line 6370: section plot:
+	Unrecognized layer (type) name "reram"
+Scaled tech values by 2 / 1 to match internal grid scaling
+Loading sky130A Device Generator Menu ...
+Load AICEX tech setup...
+DRC style is now "drc(full)"
+Loading "ant/tt_um_lelo_temp_wulffern_ant.tcl" from command line.
+Cell tt_um_lelo_temp_wulffern read from path ../design/LELO_TEMP_SKY130A
+Processing timestamp mismatches.
+Cell sky130_fd_pr__diode_pw2nd_05v5_lc read from path ../design/LELO_TEMP_SKY130A
+Cell LELO_TEMP read from path ../design/LELO_TEMP_SKY130A
+Cell LELO_TEMP_DIG read from path ../design/LELO_TEMP_SKY130A
+Cell JNWTR_BFX1_CV read from path ../design/LELO_TEMP_SKY130A/../JNW_TR_SKY130A
+Scaled magic input cell JNWTR_BFX1_CV geometry by factor of 2
+Cell JNWTR_cut_M1M4_2x1 read from path ../design/LELO_TEMP_SKY130A/../JNW_TR_SKY130A
+Scaled magic input cell JNWTR_cut_M1M4_2x1 geometry by factor of 2
+Cell JNWTR_PCHDL read from path ../design/LELO_TEMP_SKY130A/../JNW_TR_SKY130A
+Scaled magic input cell JNWTR_PCHDL geometry by factor of 2
+Cell JNWTR_NCHDL read from path ../design/LELO_TEMP_SKY130A/../JNW_TR_SKY130A
+Scaled magic input cell JNWTR_NCHDL geometry by factor of 2
+Cell JNWTR_NRX1_CV read from path ../design/LELO_TEMP_SKY130A/../JNW_TR_SKY130A
+Scaled magic input cell JNWTR_NRX1_CV geometry by factor of 2
+Cell JNWTR_ORX1_CV read from path ../design/LELO_TEMP_SKY130A/../JNW_TR_SKY130A
+Scaled magic input cell JNWTR_ORX1_CV geometry by factor of 2
+Cell JNWTR_IVX1_CV read from path ../design/LELO_TEMP_SKY130A/../JNW_TR_SKY130A
+Scaled magic input cell JNWTR_IVX1_CV geometry by factor of 2
+Cell JNWTR_TAPCELLB_CV read from path ../design/LELO_TEMP_SKY130A/../JNW_TR_SKY130A
+Scaled magic input cell JNWTR_TAPCELLB_CV geometry by factor of 2
+Cell LELO_TEMP_CCMP read from path ../design/LELO_TEMP_SKY130A
+Cell LELOTEMP_CCMPR read from path ../design/LELO_TEMP_SKY130A/../LELO_TEMP_SKY130A
+Cell LELOTEMP_CCMPR_CMP read from path ../design/LELO_TEMP_SKY130A/../LELO_TEMP_SKY130A
+Cell LELOTEMP_CMPR read from path ../design/LELO_TEMP_SKY130A/../LELO_TEMP_SKY130A/../LELO_TEMP_SKY130A
+Cell LELOTEMP_CMPR_P_MIRR_TAIL read from path ../design/LELO_TEMP_SKY130A/../LELO_TEMP_SKY130A/../LELO_TEMP_SKY130A
+Cell REYATR_PCH_2CTAPTOP read from path ../design/LELO_TEMP_SKY130A/../LELO_TEMP_SKY130A/../LELO_TEMP_SKY130A/../REY_ATR_SKY130A
+Cell REYATR_PCH_2CTAPBOT read from path ../design/LELO_TEMP_SKY130A/../LELO_TEMP_SKY130A/../LELO_TEMP_SKY130A/../REY_ATR_SKY130A
+Cell REYATR_PCH_2C5F0 read from path ../design/LELO_TEMP_SKY130A/../LELO_TEMP_SKY130A/../LELO_TEMP_SKY130A/../REY_ATR_SKY130A
+Cell REYATR_PCH_2C5F0D read from path ../design/LELO_TEMP_SKY130A/../LELO_TEMP_SKY130A/../LELO_TEMP_SKY130A/../REY_ATR_SKY130A
+Cell LELOTEMP_CMPR_P_DIFF read from path ../design/LELO_TEMP_SKY130A/../LELO_TEMP_SKY130A/../LELO_TEMP_SKY130A
+Cell REYATR_PCH_8CTAPTOP read from path ../design/LELO_TEMP_SKY130A/../LELO_TEMP_SKY130A/../LELO_TEMP_SKY130A/../REY_ATR_SKY130A
+Cell REYATR_PCH_8CTAPBOT read from path ../design/LELO_TEMP_SKY130A/../LELO_TEMP_SKY130A/../LELO_TEMP_SKY130A/../REY_ATR_SKY130A
+Cell REYATR_LVT_PCH_8C5F0 read from path ../design/LELO_TEMP_SKY130A/../LELO_TEMP_SKY130A/../LELO_TEMP_SKY130A/../REY_ATR_SKY130A
+Cell REYATR_LVT_PCH_8C5F0D read from path ../design/LELO_TEMP_SKY130A/../LELO_TEMP_SKY130A/../LELO_TEMP_SKY130A/../REY_ATR_SKY130A
+Cell LELOTEMP_CMPR_N_MIRR_LOAD read from path ../design/LELO_TEMP_SKY130A/../LELO_TEMP_SKY130A/../LELO_TEMP_SKY130A
+Cell REYATR_NCH_2CTAPTOP read from path ../design/LELO_TEMP_SKY130A/../LELO_TEMP_SKY130A/../LELO_TEMP_SKY130A/../REY_ATR_SKY130A
+Cell REYATR_NCH_2CTAPBOT read from path ../design/LELO_TEMP_SKY130A/../LELO_TEMP_SKY130A/../LELO_TEMP_SKY130A/../REY_ATR_SKY130A
+Cell REYATR_NCH_2C5F0 read from path ../design/LELO_TEMP_SKY130A/../LELO_TEMP_SKY130A/../LELO_TEMP_SKY130A/../REY_ATR_SKY130A
+Cell REYATR_NCH_2C1F2 read from path ../design/LELO_TEMP_SKY130A/../LELO_TEMP_SKY130A/../LELO_TEMP_SKY130A/../REY_ATR_SKY130A
+Cell REYATR_NCH_2C5F0D read from path ../design/LELO_TEMP_SKY130A/../LELO_TEMP_SKY130A/../LELO_TEMP_SKY130A/../REY_ATR_SKY130A
+Cell LELOTEMP_CMPR_N_MIRR_BIAS read from path ../design/LELO_TEMP_SKY130A/../LELO_TEMP_SKY130A/../LELO_TEMP_SKY130A
+Cell LELOTEMP_CCMPR_CAPS read from path ../design/LELO_TEMP_SKY130A/../LELO_TEMP_SKY130A
+Cell JNWTR_CAPX1 read from path ../design/LELO_TEMP_SKY130A/../LELO_TEMP_SKY130A/../JNW_TR_SKY130A
+Scaled magic input cell JNWTR_CAPX1 geometry by factor of 2
+Cell LELO_TEMP_BIAS read from path ../design/LELO_TEMP_SKY130A
+Cell LELOTEMP_BIAS_IBP read from path ../design/LELO_TEMP_SKY130A/../LELO_TEMP_SKY130A
+Cell LELOTEMP_BIAS_IBP_R_LAD read from path ../design/LELO_TEMP_SKY130A/../LELO_TEMP_SKY130A
+File <../design/LELO_TEMP_SKY130A/../LELO_TEMP_SKY130A/../REY_ATR_SKY130A/REYATR_RES_36CTAPTOP.mag> is already locked by pid 4965.  Opening read-only.
+Cell REYATR_RES_36CTAPTOP read from path ../design/LELO_TEMP_SKY130A/../LELO_TEMP_SKY130A/../REY_ATR_SKY130A
+File <../design/LELO_TEMP_SKY130A/../LELO_TEMP_SKY130A/../REY_ATR_SKY130A/REYATR_RES_36CTAPBOT.mag> is already locked by pid 4965.  Opening read-only.
+Cell REYATR_RES_36CTAPBOT read from path ../design/LELO_TEMP_SKY130A/../LELO_TEMP_SKY130A/../REY_ATR_SKY130A
+File <../design/LELO_TEMP_SKY130A/../LELO_TEMP_SKY130A/../REY_ATR_SKY130A/REYATR_RES_36C2F0.mag> is already locked by pid 4965.  Opening read-only.
+Cell REYATR_RES_36C2F0 read from path ../design/LELO_TEMP_SKY130A/../LELO_TEMP_SKY130A/../REY_ATR_SKY130A
+Cell LELOTEMP_BIAS_IBP_P_SU read from path ../design/LELO_TEMP_SKY130A/../LELO_TEMP_SKY130A
+Cell LELOTEMP_BIAS_IBP_P_SRC read from path ../design/LELO_TEMP_SKY130A/../LELO_TEMP_SKY130A
+Cell REYATR_PCH_4CTAPTOP read from path ../design/LELO_TEMP_SKY130A/../LELO_TEMP_SKY130A/../REY_ATR_SKY130A
+Cell REYATR_PCH_4CTAPBOT read from path ../design/LELO_TEMP_SKY130A/../LELO_TEMP_SKY130A/../REY_ATR_SKY130A
+Cell REYATR_PCH_4C5F0 read from path ../design/LELO_TEMP_SKY130A/../LELO_TEMP_SKY130A/../REY_ATR_SKY130A
+Cell LELOTEMP_BIAS_IBP_P_CC read from path ../design/LELO_TEMP_SKY130A/../LELO_TEMP_SKY130A
+Cell REYATR_PCH_4C5F0D read from path ../design/LELO_TEMP_SKY130A/../LELO_TEMP_SKY130A/../REY_ATR_SKY130A
+Cell LELOTEMP_BIAS_IBP_P_CAS read from path ../design/LELO_TEMP_SKY130A/../LELO_TEMP_SKY130A
+Cell REYATR_PCH_4C1F2 read from path ../design/LELO_TEMP_SKY130A/../LELO_TEMP_SKY130A/../REY_ATR_SKY130A
+Cell LELOTEMP_BIAS_IBP_OTA read from path ../design/LELO_TEMP_SKY130A/../LELO_TEMP_SKY130A
+Cell LELOTEMP_OTAR read from path ../design/LELO_TEMP_SKY130A/../LELO_TEMP_SKY130A/../LELO_TEMP_SKY130A
+Cell LELOTEMP_OTAR_R_DEG read from path ../design/LELO_TEMP_SKY130A/../LELO_TEMP_SKY130A/../LELO_TEMP_SKY130A
+Cell LELOTEMP_OTAR_P_SW read from path ../design/LELO_TEMP_SKY130A/../LELO_TEMP_SKY130A/../LELO_TEMP_SKY130A
+Cell REYATR_PCH_4C1F2D read from path ../design/LELO_TEMP_SKY130A/../LELO_TEMP_SKY130A/../LELO_TEMP_SKY130A/../REY_ATR_SKY130A
+Cell LELOTEMP_OTAR_P_IN_B read from path ../design/LELO_TEMP_SKY130A/../LELO_TEMP_SKY130A/../LELO_TEMP_SKY130A
+File <../design/LELO_TEMP_SKY130A/../LELO_TEMP_SKY130A/../LELO_TEMP_SKY130A/../REY_ATR_SKY130A/REYATR_PCH_11CTAPTOP.mag> is already locked by pid 4965.  Opening read-only.
+Cell REYATR_PCH_11CTAPTOP read from path ../design/LELO_TEMP_SKY130A/../LELO_TEMP_SKY130A/../LELO_TEMP_SKY130A/../REY_ATR_SKY130A
+File <../design/LELO_TEMP_SKY130A/../LELO_TEMP_SKY130A/../LELO_TEMP_SKY130A/../REY_ATR_SKY130A/REYATR_PCH_11CTAPBOT.mag> is already locked by pid 4965.  Opening read-only.
+Cell REYATR_PCH_11CTAPBOT read from path ../design/LELO_TEMP_SKY130A/../LELO_TEMP_SKY130A/../LELO_TEMP_SKY130A/../REY_ATR_SKY130A
+Cell REYATR_LVT_PCH_11C5F0 read from path ../design/LELO_TEMP_SKY130A/../LELO_TEMP_SKY130A/../LELO_TEMP_SKY130A/../REY_ATR_SKY130A
+Cell LELOTEMP_OTAR_P_IN_A read from path ../design/LELO_TEMP_SKY130A/../LELO_TEMP_SKY130A/../LELO_TEMP_SKY130A
+Cell LELOTEMP_OTAR_P_BIAS read from path ../design/LELO_TEMP_SKY130A/../LELO_TEMP_SKY130A/../LELO_TEMP_SKY130A
+File <../design/LELO_TEMP_SKY130A/../LELO_TEMP_SKY130A/../LELO_TEMP_SKY130A/../REY_ATR_SKY130A/REYATR_PCH_11C5F0.mag> is already locked by pid 4965.  Opening read-only.
+Cell REYATR_PCH_11C5F0 read from path ../design/LELO_TEMP_SKY130A/../LELO_TEMP_SKY130A/../LELO_TEMP_SKY130A/../REY_ATR_SKY130A
+File <../design/LELO_TEMP_SKY130A/../LELO_TEMP_SKY130A/../LELO_TEMP_SKY130A/../REY_ATR_SKY130A/REYATR_PCH_11C5F0D.mag> is already locked by pid 4965.  Opening read-only.
+Cell REYATR_PCH_11C5F0D read from path ../design/LELO_TEMP_SKY130A/../LELO_TEMP_SKY130A/../LELO_TEMP_SKY130A/../REY_ATR_SKY130A
+Cell LELOTEMP_OTAR_N_MIRR read from path ../design/LELO_TEMP_SKY130A/../LELO_TEMP_SKY130A/../LELO_TEMP_SKY130A
+Cell REYATR_NCH_4CTAPTOP read from path ../design/LELO_TEMP_SKY130A/../LELO_TEMP_SKY130A/../LELO_TEMP_SKY130A/../REY_ATR_SKY130A
+Cell REYATR_NCH_4CTAPBOT read from path ../design/LELO_TEMP_SKY130A/../LELO_TEMP_SKY130A/../LELO_TEMP_SKY130A/../REY_ATR_SKY130A
+Cell REYATR_NCH_4C5F0 read from path ../design/LELO_TEMP_SKY130A/../LELO_TEMP_SKY130A/../LELO_TEMP_SKY130A/../REY_ATR_SKY130A
+Cell REYATR_NCH_4C5F0D read from path ../design/LELO_TEMP_SKY130A/../LELO_TEMP_SKY130A/../LELO_TEMP_SKY130A/../REY_ATR_SKY130A
+Cell LELOTEMP_OTAR_N_LOAD_B read from path ../design/LELO_TEMP_SKY130A/../LELO_TEMP_SKY130A/../LELO_TEMP_SKY130A
+Cell LELOTEMP_OTAR_N_LOAD_A read from path ../design/LELO_TEMP_SKY130A/../LELO_TEMP_SKY130A/../LELO_TEMP_SKY130A
+Cell LELOTEMP_BIAS_IBP_N_G read from path ../design/LELO_TEMP_SKY130A/../LELO_TEMP_SKY130A
+Cell LELOTEMP_BIAS_IBP_CAP_VCP read from path ../design/LELO_TEMP_SKY130A/../LELO_TEMP_SKY130A
+File <../design/LELO_TEMP_SKY130A/../LELO_TEMP_SKY130A/../REY_ATR_SKY130A/REYATR_CAPX1.mag> is already locked by pid 4965.  Opening read-only.
+Cell REYATR_CAPX1 read from path ../design/LELO_TEMP_SKY130A/../LELO_TEMP_SKY130A/../REY_ATR_SKY130A
+Cell LELOTEMP_BIAS_IBP_CAP_LPI_B read from path ../design/LELO_TEMP_SKY130A/../LELO_TEMP_SKY130A
+Cell LELOTEMP_BIAS_IBP_CAP_LPI_A read from path ../design/LELO_TEMP_SKY130A/../LELO_TEMP_SKY130A
+Cell LELOTEMP_BIAS_IBP_BIP read from path ../design/LELO_TEMP_SKY130A/../LELO_TEMP_SKY130A
+Cell LELOTEMP_BIPOLAR read from path ../design/LELO_TEMP_SKY130A/../LELO_TEMP_SKY130A/../LELO_TEMP_SKY130A
+Cell REYTR_ANTX1_CV read from path ../design/LELO_TEMP_SKY130A/../REY_TR_SKY130A
+"REYTR_ANTX1_CV" has a zero timestamp; it should be written out
+    to establish a correct timestamp.
+Timestamp mismatches found in these cells: REYTR_ANTX1_CV, LELOTEMP_BIPOLAR, LELOTEMP_BIAS_IBP_BIP, LELOTEMP_BIAS_IBP_CAP_LPI_A, LELOTEMP_BIAS_IBP_CAP_LPI_B, REYATR_CAPX1, LELOTEMP_BIAS_IBP_CAP_VCP, LELOTEMP_BIAS_IBP_N_G, LELOTEMP_OTAR_N_LOAD_A, LELOTEMP_OTAR_N_LOAD_B, REYATR_NCH_4C5F0D, REYATR_NCH_4C5F0, REYATR_NCH_4CTAPBOT, REYATR_NCH_4CTAPTOP, LELOTEMP_OTAR_N_MIRR, REYATR_PCH_11C5F0D, REYATR_PCH_11C5F0, LELOTEMP_OTAR_P_BIAS, LELOTEMP_OTAR_P_IN_A, REYATR_LVT_PCH_11C5F0, REYATR_PCH_11CTAPBOT, REYATR_PCH_11CTAPTOP, LELOTEMP_OTAR_P_IN_B, REYATR_PCH_4C1F2D, LELOTEMP_OTAR_P_SW, LELOTEMP_OTAR_R_DEG, LELOTEMP_OTAR, LELOTEMP_BIAS_IBP_OTA, REYATR_PCH_4C1F2, LELOTEMP_BIAS_IBP_P_CAS, REYATR_PCH_4C5F0D, LELOTEMP_BIAS_IBP_P_CC, REYATR_PCH_4C5F0, REYATR_PCH_4CTAPBOT, REYATR_PCH_4CTAPTOP, LELOTEMP_BIAS_IBP_P_SRC, LELOTEMP_BIAS_IBP_P_SU, REYATR_RES_36C2F0, REYATR_RES_36CTAPBOT, REYATR_RES_36CTAPTOP, LELOTEMP_BIAS_IBP_R_LAD, LELOTEMP_BIAS_IBP, LELO_TEMP_BIAS, JNWTR_CAPX1, LELOTEMP_CCMPR_CAPS, LELOTEMP_CMPR_N_MIRR_BIAS, REYATR_NCH_2C5F0D, REYATR_NCH_2C1F2, REYATR_NCH_2C5F0, REYATR_NCH_2CTAPBOT, REYATR_NCH_2CTAPTOP, LELOTEMP_CMPR_N_MIRR_LOAD, REYATR_LVT_PCH_8C5F0D, REYATR_LVT_PCH_8C5F0, REYATR_PCH_8CTAPBOT, REYATR_PCH_8CTAPTOP, LELOTEMP_CMPR_P_DIFF, REYATR_PCH_2C5F0D, REYATR_PCH_2C5F0, REYATR_PCH_2CTAPBOT, REYATR_PCH_2CTAPTOP, LELOTEMP_CMPR_P_MIRR_TAIL, LELOTEMP_CMPR, LELOTEMP_CCMPR_CMP, LELOTEMP_CCMPR, LELO_TEMP_CCMP, JNWTR_TAPCELLB_CV, JNWTR_IVX1_CV, JNWTR_ORX1_CV, JNWTR_NRX1_CV, JNWTR_NCHDL, JNWTR_PCHDL, JNWTR_cut_M1M4_2x1, JNWTR_BFX1_CV, LELO_TEMP_DIG, LELO_TEMP, sky130_fd_pr__diode_pw2nd_05v5_lc.
+Cell sky130_fd_pr__rf_pnp_05v5_W3p40L3p40 read from path /opt/pdk/share/pdk/sky130A/libs.ref/sky130_fd_pr/mag
+Processing timestamp mismatches.
+Timestamp mismatches found in these cells: sky130_fd_pr__rf_pnp_05v5_W3p40L3p40.
+Extracting REYTR_ANTX1_CV into ant/ext/REYTR_ANTX1_CV.ext:
+REYTR_ANTX1_CV: 1 warning
+Extracting REYATR_RES_36C2F0 into ant/ext/REYATR_RES_36C2F0.ext:
+REYATR_RES_36C2F0: 3 warnings
+Extracting REYATR_RES_36CTAPBOT into ant/ext/REYATR_RES_36CTAPBOT.ext:
+Extracting REYATR_RES_36CTAPTOP into ant/ext/REYATR_RES_36CTAPTOP.ext:
+Extracting LELOTEMP_BIAS_IBP_R_LAD into ant/ext/LELOTEMP_BIAS_IBP_R_LAD.ext:
+Extracting REYATR_PCH_2CTAPTOP into ant/ext/REYATR_PCH_2CTAPTOP.ext:
+Extracting REYATR_PCH_2CTAPBOT into ant/ext/REYATR_PCH_2CTAPBOT.ext:
+Extracting REYATR_PCH_2C5F0 into ant/ext/REYATR_PCH_2C5F0.ext:
+Extracting REYATR_PCH_2C5F0D into ant/ext/REYATR_PCH_2C5F0D.ext:
+Warning:  Ports "D" and "G" are electrically shorted.
+Extracting LELOTEMP_BIAS_IBP_P_SU into ant/ext/LELOTEMP_BIAS_IBP_P_SU.ext:
+Extracting REYATR_PCH_4CTAPBOT into ant/ext/REYATR_PCH_4CTAPBOT.ext:
+Extracting REYATR_PCH_4C5F0 into ant/ext/REYATR_PCH_4C5F0.ext:
+Extracting REYATR_PCH_4CTAPTOP into ant/ext/REYATR_PCH_4CTAPTOP.ext:
+Extracting LELOTEMP_BIAS_IBP_P_SRC into ant/ext/LELOTEMP_BIAS_IBP_P_SRC.ext:
+Extracting REYATR_PCH_4C5F0D into ant/ext/REYATR_PCH_4C5F0D.ext:
+Warning:  Ports "D" and "G" are electrically shorted.
+Extracting LELOTEMP_BIAS_IBP_P_CC into ant/ext/LELOTEMP_BIAS_IBP_P_CC.ext:
+Extracting REYATR_PCH_4C1F2 into ant/ext/REYATR_PCH_4C1F2.ext:
+Extracting LELOTEMP_BIAS_IBP_P_CAS into ant/ext/LELOTEMP_BIAS_IBP_P_CAS.ext:
+Extracting REYATR_NCH_4CTAPTOP into ant/ext/REYATR_NCH_4CTAPTOP.ext:
+Extracting REYATR_NCH_4CTAPBOT into ant/ext/REYATR_NCH_4CTAPBOT.ext:
+Extracting REYATR_NCH_4C5F0D into ant/ext/REYATR_NCH_4C5F0D.ext:
+Warning:  Ports "D" and "G" are electrically shorted.
+Extracting LELOTEMP_BIAS_IBP_N_G into ant/ext/LELOTEMP_BIAS_IBP_N_G.ext:
+Extracting REYATR_CAPX1 into ant/ext/REYATR_CAPX1.ext:
+Extracting LELOTEMP_BIAS_IBP_CAP_LPI_B into ant/ext/LELOTEMP_BIAS_IBP_CAP_LPI_B.ext:
+Extracting LELOTEMP_BIAS_IBP_CAP_LPI_A into ant/ext/LELOTEMP_BIAS_IBP_CAP_LPI_A.ext:
+Extracting sky130_fd_pr__rf_pnp_05v5_W3p40L3p40 into ant/ext/sky130_fd_pr__rf_pnp_05v5_W3p40L3p40.ext:
+Extracting LELOTEMP_BIPOLAR into ant/ext/LELOTEMP_BIPOLAR.ext:
+Extracting LELOTEMP_BIAS_IBP_BIP into ant/ext/LELOTEMP_BIAS_IBP_BIP.ext:
+Extracting REYATR_NCH_4C5F0 into ant/ext/REYATR_NCH_4C5F0.ext:
+Extracting LELOTEMP_OTAR_N_LOAD_A into ant/ext/LELOTEMP_OTAR_N_LOAD_A.ext:
+Extracting LELOTEMP_OTAR_N_LOAD_B into ant/ext/LELOTEMP_OTAR_N_LOAD_B.ext:
+Extracting LELOTEMP_OTAR_N_MIRR into ant/ext/LELOTEMP_OTAR_N_MIRR.ext:
+Extracting REYATR_PCH_11C5F0D into ant/ext/REYATR_PCH_11C5F0D.ext:
+Warning:  Ports "D" and "G" are electrically shorted.
+Extracting REYATR_PCH_11C5F0 into ant/ext/REYATR_PCH_11C5F0.ext:
+Extracting REYATR_PCH_11CTAPTOP into ant/ext/REYATR_PCH_11CTAPTOP.ext:
+Extracting REYATR_PCH_11CTAPBOT into ant/ext/REYATR_PCH_11CTAPBOT.ext:
+Extracting LELOTEMP_OTAR_P_BIAS into ant/ext/LELOTEMP_OTAR_P_BIAS.ext:
+Extracting REYATR_LVT_PCH_11C5F0 into ant/ext/REYATR_LVT_PCH_11C5F0.ext:
+Extracting LELOTEMP_OTAR_P_IN_A into ant/ext/LELOTEMP_OTAR_P_IN_A.ext:
+Extracting LELOTEMP_OTAR_P_IN_B into ant/ext/LELOTEMP_OTAR_P_IN_B.ext:
+Extracting REYATR_PCH_4C1F2D into ant/ext/REYATR_PCH_4C1F2D.ext:
+Warning:  Ports "D" and "G" are electrically shorted.
+Extracting LELOTEMP_OTAR_P_SW into ant/ext/LELOTEMP_OTAR_P_SW.ext:
+Extracting LELOTEMP_OTAR_R_DEG into ant/ext/LELOTEMP_OTAR_R_DEG.ext:
+Extracting LELOTEMP_OTAR into ant/ext/LELOTEMP_OTAR.ext:
+Extracting LELOTEMP_BIAS_IBP_OTA into ant/ext/LELOTEMP_BIAS_IBP_OTA.ext:
+Extracting LELOTEMP_BIAS_IBP_CAP_VCP into ant/ext/LELOTEMP_BIAS_IBP_CAP_VCP.ext:
+Extracting LELOTEMP_BIAS_IBP into ant/ext/LELOTEMP_BIAS_IBP.ext:
+Extracting LELO_TEMP_BIAS into ant/ext/LELO_TEMP_BIAS.ext:
+Extracting JNWTR_CAPX1 into ant/ext/JNWTR_CAPX1.ext:
+Extracting LELOTEMP_CCMPR_CAPS into ant/ext/LELOTEMP_CCMPR_CAPS.ext:
+Extracting REYATR_NCH_2CTAPTOP into ant/ext/REYATR_NCH_2CTAPTOP.ext:
+Extracting REYATR_NCH_2CTAPBOT into ant/ext/REYATR_NCH_2CTAPBOT.ext:
+Extracting REYATR_NCH_2C5F0 into ant/ext/REYATR_NCH_2C5F0.ext:
+Extracting REYATR_NCH_2C5F0D into ant/ext/REYATR_NCH_2C5F0D.ext:
+Warning:  Ports "D" and "G" are electrically shorted.
+Extracting LELOTEMP_CMPR_N_MIRR_BIAS into ant/ext/LELOTEMP_CMPR_N_MIRR_BIAS.ext:
+Extracting REYATR_NCH_2C1F2 into ant/ext/REYATR_NCH_2C1F2.ext:
+Extracting LELOTEMP_CMPR_N_MIRR_LOAD into ant/ext/LELOTEMP_CMPR_N_MIRR_LOAD.ext:
+Extracting REYATR_LVT_PCH_8C5F0D into ant/ext/REYATR_LVT_PCH_8C5F0D.ext:
+Warning:  Ports "D" and "G" are electrically shorted.
+Extracting REYATR_LVT_PCH_8C5F0 into ant/ext/REYATR_LVT_PCH_8C5F0.ext:
+Extracting REYATR_PCH_8CTAPBOT into ant/ext/REYATR_PCH_8CTAPBOT.ext:
+Extracting REYATR_PCH_8CTAPTOP into ant/ext/REYATR_PCH_8CTAPTOP.ext:
+Extracting LELOTEMP_CMPR_P_DIFF into ant/ext/LELOTEMP_CMPR_P_DIFF.ext:
+Extracting LELOTEMP_CMPR_P_MIRR_TAIL into ant/ext/LELOTEMP_CMPR_P_MIRR_TAIL.ext:
+Extracting LELOTEMP_CMPR into ant/ext/LELOTEMP_CMPR.ext:
+Extracting LELOTEMP_CCMPR_CMP into ant/ext/LELOTEMP_CCMPR_CMP.ext:
+Extracting LELOTEMP_CCMPR into ant/ext/LELOTEMP_CCMPR.ext:
+Extracting LELO_TEMP_CCMP into ant/ext/LELO_TEMP_CCMP.ext:
+Extracting JNWTR_cut_M1M4_2x1 into ant/ext/JNWTR_cut_M1M4_2x1.ext:
+Extracting JNWTR_PCHDL into ant/ext/JNWTR_PCHDL.ext:
+Extracting JNWTR_NCHDL into ant/ext/JNWTR_NCHDL.ext:
+Extracting JNWTR_TAPCELLB_CV into ant/ext/JNWTR_TAPCELLB_CV.ext:
+Extracting JNWTR_IVX1_CV into ant/ext/JNWTR_IVX1_CV.ext:
+Extracting JNWTR_NRX1_CV into ant/ext/JNWTR_NRX1_CV.ext:
+Extracting JNWTR_ORX1_CV into ant/ext/JNWTR_ORX1_CV.ext:
+Extracting JNWTR_BFX1_CV into ant/ext/JNWTR_BFX1_CV.ext:
+Extracting LELO_TEMP_DIG into ant/ext/LELO_TEMP_DIG.ext:
+Extracting LELO_TEMP into ant/ext/LELO_TEMP.ext:
+Extracting sky130_fd_pr__diode_pw2nd_05v5_lc into ant/ext/sky130_fd_pr__diode_pw2nd_05v5_lc.ext:
+sky130_fd_pr__diode_pw2nd_05v5_lc: 1 warning
+Extracting tt_um_lelo_temp_wulffern into ant/ext/tt_um_lelo_temp_wulffern.ext:
+Total of 5 warnings.
+Reading extract file.
+Warning:  Ports "D" and "G" are electrically shorted.
+Warning:  Ports "D" and "G" are electrically shorted.
+Warning:  Ports "D" and "G" are electrically shorted.
+Warning:  Ports "D" and "G" are electrically shorted.
+Warning:  Ports "D" and "G" are electrically shorted.
+Warning:  Ports "D" and "G" are electrically shorted.
+Warning:  Ports "D" and "G" are electrically shorted.
+Building flattened netlist.
+connect(1): no such node LELO_TEMP_0/xccmp/x3_ccmp/xcmp/x1_cmp/xn_mirr_bias/xn_mirr_bias2<1>/a_1504_n40#
+connect(2): no such node LELO_TEMP_0/xccmp/x3_ccmp/xcmp/x1_cmp/xn_mirr_bias/xn_mirr_bias2<1>/a_1504_n40#
+connect(1): no such node LELO_TEMP_0/xccmp/x3_ccmp/xcmp/x1_cmp/xn_mirr_bias/xn_mirr_bias2<2>/a_1504_n40#
+connect(2): no such node LELO_TEMP_0/xccmp/x3_ccmp/xcmp/x1_cmp/xn_mirr_bias/xn_mirr_bias2<2>/a_1504_n40#
+connect(1): no such node LELO_TEMP_0/xccmp/x3_ccmp/xcmp/x1_cmp/xn_mirr_load/xg1/a_1504_n40#
+connect(2): no such node LELO_TEMP_0/xccmp/x3_ccmp/xcmp/x1_cmp/xn_mirr_load/xg1/a_1504_n40#
+connect(1): no such node LELO_TEMP_0/xccmp/x3_ccmp/xcmp/x1_cmp/xn_mirr_load/xn_mirr_load1/a_1504_n40#
+connect(2): no such node LELO_TEMP_0/xccmp/x3_ccmp/xcmp/x1_cmp/xn_mirr_load/xn_mirr_load1/a_1504_n40#
+connect(1): no such node LELO_TEMP_0/xccmp/x3_ccmp/xcmp/x1_cmp/xn_mirr_load/xn_mirr_load0/a_1504_n40#
+connect(2): no such node LELO_TEMP_0/xccmp/x3_ccmp/xcmp/x1_cmp/xn_mirr_load/xn_mirr_load0/a_1504_n40#
+connect(1): no such node LELO_TEMP_0/xccmp/x3_ccmp/xcmp/x1_cmp/xn_mirr_load/xn_mirr_load2/a_1504_n40#
+connect(1): no such node LELO_TEMP_0/xccmp/x3_ccmp/xcmp/x1_cmp/xn_mirr_load/xn_mirr_load3/a_1504_n40#
+connect(1): no such node LELO_TEMP_0/xccmp/x3_ccmp/xcmp/x1_cmp/xn_mirr_load/xn_mirr_load5/a_1504_n40#
+connect(2): no such node LELO_TEMP_0/xccmp/x3_ccmp/xcmp/x1_cmp/xn_mirr_load/xn_mirr_load5/a_1504_n40#
+connect(1): no such node LELO_TEMP_0/xccmp/x3_ccmp/xcmp/x1_cmp/xn_mirr_bias/xn_mirr_bias3/a_1504_n40#
+connect(2): no such node LELO_TEMP_0/xccmp/x3_ccmp/xcmp/x1_cmp/xn_mirr_bias/xn_mirr_bias3/a_1504_n40#
+connect(1): no such node LELO_TEMP_0/xccmp/x2_ccmp/xcmp/x1_cmp/xn_mirr_bias/xn_mirr_bias2<1>/a_1504_n40#
+connect(2): no such node LELO_TEMP_0/xccmp/x2_ccmp/xcmp/x1_cmp/xn_mirr_bias/xn_mirr_bias2<1>/a_1504_n40#
+connect(1): no such node LELO_TEMP_0/xccmp/x2_ccmp/xcmp/x1_cmp/xn_mirr_bias/xn_mirr_bias2<2>/a_1504_n40#
+connect(2): no such node LELO_TEMP_0/xccmp/x2_ccmp/xcmp/x1_cmp/xn_mirr_bias/xn_mirr_bias2<2>/a_1504_n40#
+connect(1): no such node LELO_TEMP_0/xccmp/x2_ccmp/xcmp/x1_cmp/xn_mirr_load/xg1/a_1504_n40#
+connect(2): no such node LELO_TEMP_0/xccmp/x2_ccmp/xcmp/x1_cmp/xn_mirr_load/xg1/a_1504_n40#
+connect(1): no such node LELO_TEMP_0/xccmp/x2_ccmp/xcmp/x1_cmp/xn_mirr_load/xn_mirr_load1/a_1504_n40#
+connect(2): no such node LELO_TEMP_0/xccmp/x2_ccmp/xcmp/x1_cmp/xn_mirr_load/xn_mirr_load1/a_1504_n40#
+connect(1): no such node LELO_TEMP_0/xccmp/x2_ccmp/xcmp/x1_cmp/xn_mirr_load/xn_mirr_load0/a_1504_n40#
+connect(2): no such node LELO_TEMP_0/xccmp/x2_ccmp/xcmp/x1_cmp/xn_mirr_load/xn_mirr_load0/a_1504_n40#
+connect(1): no such node LELO_TEMP_0/xccmp/x2_ccmp/xcmp/x1_cmp/xn_mirr_load/xn_mirr_load2/a_1504_n40#
+connect(1): no such node LELO_TEMP_0/xccmp/x2_ccmp/xcmp/x1_cmp/xn_mirr_load/xn_mirr_load3/a_1504_n40#
+connect(1): no such node LELO_TEMP_0/xccmp/x2_ccmp/xcmp/x1_cmp/xn_mirr_load/xn_mirr_load5/a_1504_n40#
+connect(2): no such node LELO_TEMP_0/xccmp/x2_ccmp/xcmp/x1_cmp/xn_mirr_load/xn_mirr_load5/a_1504_n40#
+connect(1): no such node LELO_TEMP_0/xccmp/x2_ccmp/xcmp/x1_cmp/xn_mirr_bias/xn_mirr_bias3/a_1504_n40#
+connect(2): no such node LELO_TEMP_0/xccmp/x2_ccmp/xcmp/x1_cmp/xn_mirr_bias/xn_mirr_bias3/a_1504_n40#
+connect(1): no such node LELO_TEMP_0/xbias/x1_ibp/xr_lad/xd3<0>/a_3104_n40#
+connect(2): no such node LELO_TEMP_0/xbias/x1_ibp/xr_lad/xd3<0>/a_3104_n40#
+connect(1): no such node LELO_TEMP_0/xbias/x1_ibp/xr_lad/xd3<3>/a_3104_n40#
+connect(1): no such node LELO_TEMP_0/xbias/x1_ibp/xr_lad/xd3<1>/a_3104_n40#
+connect(1): no such node LELO_TEMP_0/xbias/x1_ibp/xr_lad/xd3<2>/a_3104_n40#
+connect(2): no such node LELO_TEMP_0/xbias/x1_ibp/xr_lad/xd3<2>/a_3104_n40#
+connect(1): no such node LELO_TEMP_0/xbias/x1_ibp/xr_lad/xd3<4>/a_3104_n40#
+connect(2): no such node LELO_TEMP_0/xbias/x1_ibp/xr_lad/xd3<4>/a_3104_n40#
+connect(1): no such node LELO_TEMP_0/xbias/x1_ibp/xr_lad/xd3<5>/a_3104_n40#
+connect(1): no such node LELO_TEMP_0/xbias/x1_ibp/xota/xad6/xn_mirr/xnc0/a_1504_n40#
+connect(2): no such node LELO_TEMP_0/xbias/x1_ibp/xota/xad6/xn_mirr/xnc0/a_1504_n40#
+connect(1): no such node LELO_TEMP_0/xbias/x1_ibp/xota/xad6/xn_mirr/xnc1<0>/a_1504_n40#
+connect(2): no such node LELO_TEMP_0/xbias/x1_ibp/xota/xad6/xn_mirr/xnc1<0>/a_1504_n40#
+connect(1): no such node LELO_TEMP_0/xbias/x1_ibp/xota/xad6/xn_mirr/xnc1<1>/a_1504_n40#
+connect(2): no such node LELO_TEMP_0/xbias/x1_ibp/xota/xad6/xn_mirr/xnc1<1>/a_1504_n40#
+connect(1): no such node LELO_TEMP_0/xbias/x1_ibp/xota/xad6/xn_load_a/xnd1<2>/a_1504_n40#
+connect(2): no such node LELO_TEMP_0/xbias/x1_ibp/xota/xad6/xn_load_a/xnd1<2>/a_1504_n40#
+connect(1): no such node LELO_TEMP_0/xbias/x1_ibp/xota/xad6/xn_load_a/xnd1<3>/a_1504_n40#
+connect(2): no such node LELO_TEMP_0/xbias/x1_ibp/xota/xad6/xn_load_a/xnd1<3>/a_1504_n40#
+connect(1): no such node LELO_TEMP_0/xbias/x1_ibp/xota/xad6/xn_load_b/xnd2<2>/a_1504_n40#
+connect(2): no such node LELO_TEMP_0/xbias/x1_ibp/xota/xad6/xn_load_b/xnd2<2>/a_1504_n40#
+connect(1): no such node LELO_TEMP_0/xbias/x1_ibp/xota/xad6/xn_load_b/xnd2<3>/a_1504_n40#
+connect(2): no such node LELO_TEMP_0/xbias/x1_ibp/xota/xad6/xn_load_b/xnd2<3>/a_1504_n40#
+connect(1): no such node LELO_TEMP_0/xbias/x1_ibp/xota/xad6/xr_deg/xd2<1>/a_3104_n40#
+connect(1): no such node LELO_TEMP_0/xbias/x1_ibp/xota/xad6/xr_deg/xd2<0>/a_3104_n40#
+connect(1): no such node LELO_TEMP_0/xbias/x1_ibp/xota/xad6/xn_load_a/xns1/a_1504_n40#
+connect(2): no such node LELO_TEMP_0/xbias/x1_ibp/xota/xad6/xn_load_a/xns1/a_1504_n40#
+connect(1): no such node LELO_TEMP_0/xbias/x1_ibp/xota/xad6/xn_load_b/xnd2<0>/a_1504_n40#
+connect(2): no such node LELO_TEMP_0/xbias/x1_ibp/xota/xad6/xn_load_b/xnd2<0>/a_1504_n40#
+Running antenna checks.
+antennacheck finished.

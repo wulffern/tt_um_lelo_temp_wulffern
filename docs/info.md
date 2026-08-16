@@ -89,15 +89,14 @@ of the curve needs to be compensated for. See the python model for details.
 
 # How to test
 
-Power the tile (VDPWR = 1.8 V), then drive PWRUP_ANA (ui[0]) high to
+Power the tile, then drive PWRUP_ANA (ui[0]) high to
 power the analog core up. The temperature-dependent oscillator output
 appears on OSC_TEMP (uo[0]); measure its frequency with a counter or a
-logic analyzer. The frequency tracks temperature -- sweep the ambient
+logic analyzer. The frequency tracks temperaturw. Aweep the ambient
 and record frequency versus temperature to calibrate. Drive PWRUP_ANA
 low and the core powers down to leakage.
 
-No external hardware is required beyond something that can measure a
-digital frequency.
+No external hardware is required beyond something that can measure frequency.
 
 # Signal interface
 
@@ -119,59 +118,42 @@ digital frequency.
 
 # Simulation graphs
 
-Typical temperature error of the sensor is low, but I've calibrated the second
-order correction for typical conditions.   
+All result figures show both views: **Sch** is the schematic netlist,
+**Lay** the parasitic extraction of the finished layout. In the error
+figures the left column is one-point calibration, the right column
+two-point; the dashed red lines are the industrial spec (-40 to 125 C,
+±15 C / ±10 C), the dotted box the commercial spec (0 to 70 C,
+±10 C / ±5 C), and each panel prints its worst positive and negative
+error.
 
-Over mismatch and extreme test condition (ETC) the temperature error increase. 
+The oscillator frequency itself shifts down about 20 % from Sch to Lay
+under the extracted parasitics -- the calibration absorbs most of it,
+which is the point of calibrating:
 
+![](tran_transfer.png)
 
-![](tran_Sch_typical.png)
+<sub> Figure 4: Oscillator frequency versus temperature, typical</sub>
 
-<sub> Figure 4: Typical simulation results of the oscillator</sub>
+Typical temperature error of the sensor is low, but I've calibrated the
+second order correction for typical *schematic* conditions, so the Lay
+one-point error carries the residual curvature the calibration no
+longer matches:
 
+![](tran_err_typical.png)
 
-![](tran_Sch_mc.png)
+<sub> Figure 5: Temperature error, typical</sub>
 
-<sub> Figure 5: Mismatch simulation of the oscillator</sub>
+Over the extreme test condition corners (ETC) and mismatch the
+temperature error increases:
 
+![](tran_err_etc.png)
 
+<sub> Figure 6: Temperature error, extreme test conditions (PVT)</sub>
 
-![](tran_Sch_etc.png)
+![](tran_err_mc.png)
 
-<sub> Figure 6: Extreme test conditions (PVT) simulation of oscillator </sub>
+<sub> Figure 7: Temperature error, mismatch (10 samples)</sub>
 
+The full result tables with spec checking are in
+[sim/LELO_TEMP/README.md](sim/LELO_TEMP/README.md).
 
-# Block level simulations
-
-The top level testbench measures the sensor as a whole, which makes it hard
-to say *which* block moved when a number changes. Two blocks are therefore
-also simulated on their own, with the bias block replaced by ideal 1 uA
-sources, so their contribution can be attributed directly.
-
-| Testbench | Block | Measures |
-|:---|:---|:---|
-| [sim/LELOTEMP_CMP](sim/LELOTEMP_CMP/README.md) | Comparator | Trip point, input referred offset, gain (`dc`); propagation delay at the real input slope (`tran`) |
-| [sim/LELOTEMP_CCMP](sim/LELOTEMP_CCMP/README.md) | Comparator + integrating caps | Half period, effective capacitance, reset residue (`tran`) |
-
-`LELOTEMP_CCMP` is the timing element of the relaxation oscillator: the 1 uA
-bias charges five MIM caps, and the comparator trips when the ramp passes VC.
-Its `t_half` is one half period of `OSC_TEMP_1V8`.
-
-The comparator delay is worth watching because it adds to *every* half period,
-so it is a direct period error rather than a second order effect. Both
-testbenches measure it independently and agree.
-
-Extraction costs roughly a factor two in that delay, and the effects compound:
-
-| | Sch | Lay |
-|:---|---:|---:|
-| `LELOTEMP_CMP` propagation delay | 4.51 ns | 11.17 ns |
-| `LELOTEMP_CCMP` effective capacitance | 285 fF | 316 fF |
-| `LELOTEMP_CCMP` half period | 217.8 ns | 247.9 ns |
-
-The parasitics add about 11% to the integrating capacitance and roughly double
-the comparator delay, which together account for the 14% longer half period --
-and for the extracted temperature error being about twice the schematic one.
-
-Run them with `make report` in either directory; `VIEW=Lay` switches to the
-extracted netlist.
